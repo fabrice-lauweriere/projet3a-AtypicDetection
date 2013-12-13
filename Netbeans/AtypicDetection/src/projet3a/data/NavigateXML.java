@@ -72,4 +72,16 @@ public class NavigateXML {
         }
         return out;
     }
+
+    public static String getCategory(String site) {
+        throw new UnsupportedOperationException("Not supported yet.");
+    }
+
+    public static int getCategoryIndex(String category) {
+        throw new UnsupportedOperationException("Not supported yet.");
+    }
+
+    public static int getNbOfCategories() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
 }

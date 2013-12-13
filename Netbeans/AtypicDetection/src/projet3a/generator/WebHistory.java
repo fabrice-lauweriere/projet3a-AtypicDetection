@@ -34,6 +34,10 @@ public class WebHistory {
         return this.size;
     }
 
+    public HashMap<String, Integer> getHistory() {
+        return history;
+    }
+
     public String toString() {
         String out = "";
         Set set = history.keySet();

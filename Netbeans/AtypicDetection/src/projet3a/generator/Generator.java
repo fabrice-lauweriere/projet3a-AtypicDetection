@@ -4,7 +4,11 @@
  */
 package projet3a.generator;
 
+import java.util.HashMap;
+import java.util.Iterator;
 import java.util.Scanner;
+import java.util.Set;
+import projet3a.data.NavigateXML;
 
 public class Generator {
 
@@ -12,6 +16,7 @@ public class Generator {
     private int historyMinDepth, historyMaxDepth;
     private int minRoot, maxRoot;
     private GroupTest groupTest;
+    private int[][] algoInput;
 
     public Generator() {
         System.out.println("========== BEGIN GENERATOR ==========");
@@ -84,13 +89,16 @@ public class Generator {
         }
     }
 
-    @Override
-    public String toString() {
-        return "Generator{" + "groupTestSize=" + groupTestSize + ", historyMinDepth=" + historyMinDepth + ", historyMaxDepth=" + historyMaxDepth + '}';
-    }
-
     public GroupTest getGroupTest() {
         return groupTest;
+    }
+
+    public int[][] getAlgoInput() {
+        return algoInput;
+    }
+
+    public void setAlgoInput(int[][] algoInput) {
+        this.algoInput = algoInput;
     }
 
     public void generate() {
@@ -99,6 +107,41 @@ public class Generator {
         } catch (Exception e) {
             System.out.println("Error during the group test generation.");
             e.printStackTrace();
+        }
+    }
+
+    public void sort() {
+        int[][] out = new int[this.getGroupTest().getSize()][NavigateXML.getNbOfCategories()];
+        try {
+            for (int i = 0; i < this.getGroupTest().getSize(); i++) {
+                HashMap<String, Integer> map = this.getGroupTest().getIndividual(i).getHistory().getHistory();
+                Set keySet = map.keySet();
+                Iterator iterator = keySet.iterator();
+                while (iterator.hasNext()) {
+                    String site = String.valueOf(iterator.next());
+                    String category = NavigateXML.getCategory(site);
+                    out[i][NavigateXML.getCategoryIndex(category)] += map.get(site);
+                }
+            }
+        } catch (Exception e) {
+            System.out.println("Sorting failed. WARNING : genrate() function must be called before sorting.");
+        }
+        this.setAlgoInput(out);
+    }
+
+    public void printAlgoInput() {
+        try {
+            String out = "";
+            for(int i=0; i<this.getGroupTest().getSize(); i++){
+                out += "Individual "+(i+1)+" :";
+                for(int c=0; c<NavigateXML.getNbOfCategories(); c++){
+                    out +=" "+this.algoInput[i][c];
+                }
+                out += "\n";
+            }
+            System.out.println(out);
+        } catch (Exception e) {
+            System.out.println("WARNING : generate() and sort() methods must be called first.");
         }
     }
 
