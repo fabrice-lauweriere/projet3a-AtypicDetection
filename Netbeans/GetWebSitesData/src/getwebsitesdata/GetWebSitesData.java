@@ -23,7 +23,8 @@ public class GetWebSitesData {
     public static void main(String[] args) {
         //getWebSites();
         //getAllParents();
-        System.out.println(getHTML("http://www.alexa.com/siteinfo/google.com"));
+        //System.out.println(getHTML("http://www.alexa.com/siteinfo/google.com"));
+        getCategories();
     }
 
     public static void getWebSites() {
@@ -47,7 +48,7 @@ public class GetWebSitesData {
                     site.addContent(name);
                 }
             }
-            
+
             save(document, "src/getwebsitesdata/data.xml");
         } catch (Exception e) {
             System.out.println("Error I/O XML file (function getWebSites)");
@@ -121,6 +122,34 @@ public class GetWebSitesData {
             //avec en argument le nom du fichier pour effectuer la sérialisation.
             sortie.output(doc, new FileOutputStream(fichier));
         } catch (java.io.IOException e) {
+        }
+    }
+
+    public static void getCategories() {
+        try {
+            SAXBuilder sxb = new SAXBuilder();
+            document = sxb.build(new File("src/getwebsitesdata/data.xml"));
+            Element racine = document.getRootElement();
+            List allSites = racine.getChildren("site");
+            Iterator iterator = allSites.iterator();
+            while (iterator.hasNext()) {
+                Element site = (Element) iterator.next();
+                String html = getHTML("http://www.alexa.com/siteinfo/" + site.getChildText("name"));
+                String regex = "<tbody>";
+                String categoriesHTMLpart = html.split(regex)[6];
+                regex = "</a>";
+                String[] categories = categoriesHTMLpart.split(regex);
+                for (int i = 0; i < categories.length - 1; i++) {
+                    regex = ">";
+                    String[] cat = categories[i].split(regex);
+                    String theCategory = cat[cat.length - 1];
+                    Element categ = new Element("category");
+                    categ.setText(theCategory);
+                    site.addContent(categ);
+                }
+            }
+        } catch (Exception e) {
+            System.out.println("ERROR during categories retrieval operation");
         }
     }
 }
