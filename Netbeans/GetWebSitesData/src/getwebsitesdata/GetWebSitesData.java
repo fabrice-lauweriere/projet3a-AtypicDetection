@@ -23,7 +23,6 @@ public class GetWebSitesData {
     public static void main(String[] args) {
         //getWebSites();
         //getAllParents();
-        //System.out.println(getHTML("http://www.alexa.com/siteinfo/google.com"));
         getCategories();
     }
 
@@ -135,16 +134,12 @@ public class GetWebSitesData {
             while (iterator.hasNext()) {
                 Element site = (Element) iterator.next();
                 String html = getHTML("http://www.alexa.com/siteinfo/" + site.getChildText("name"));
-                String regex = "<tbody>";
-                String categoriesHTMLpart = html.split(regex)[6];
-                regex = "</a>";
-                String[] categories = categoriesHTMLpart.split(regex);
+                String categoriesHTMLpart = html.split("<tbody>")[6];
+                String[] categories = categoriesHTMLpart.split("</a>");
                 for (int i = 0; i < categories.length - 1; i++) {
-                    regex = ">";
-                    String[] cat = categories[i].split(regex);
-                    String theCategory = cat[cat.length - 1];
+                    String[] cat = categories[i].split(">");
                     Element categ = new Element("category");
-                    categ.setText(theCategory);
+                    categ.setText(cat[cat.length - 1]);
                     site.addContent(categ);
                 }
             }
