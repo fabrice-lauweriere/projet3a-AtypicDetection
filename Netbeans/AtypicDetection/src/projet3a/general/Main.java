@@ -14,7 +14,7 @@ public class Main {
         generator = new Generator();
         generator.generate();
         System.out.println(generator.getGroupTest().getIndividual(0).getHistory().toString());
-        generator.sort();
+        //generator.sort();
     }
     
 }
