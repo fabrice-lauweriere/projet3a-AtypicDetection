@@ -132,7 +132,8 @@ public class GetWebSitesData {
                 Element site = (Element) iterator.next();
                 String html = getHTML("http://www.alexa.com/siteinfo/" + site.getChildText("name"));
                 String categoriesHTMLpart = html.split("<tbody>")[6];
-                String[] categories = categoriesHTMLpart.split("</a>");
+                String englishCategories = categoriesHTMLpart.split("</tr>")[0];
+                String[] categories = englishCategories.split("</a>");
                 for (int i = 0; i < categories.length - 1; i++) {
                     String[] cat = categories[i].split(">");
                     Element categ = new Element("category");
