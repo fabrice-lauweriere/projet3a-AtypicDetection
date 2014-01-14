@@ -118,6 +118,7 @@ public class Generator {
                 Set keySet = map.keySet();
                 Iterator iterator = keySet.iterator();
                 while (iterator.hasNext()) {
+                    
                     String site = String.valueOf(iterator.next());
                     String category = NavigateXML.getCategory(site);
                     out[i][NavigateXML.getCategoryIndex(category)] += map.get(site);
