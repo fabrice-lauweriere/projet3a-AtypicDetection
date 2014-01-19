@@ -17,6 +17,13 @@ and open the template in the editor.
     <parent prob="0.5">commentcamarche.net</parent>
     <parent prob="0.5">live.com</parent>
     <parent prob="0.5">twitter.com</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Informatique</category>
+    <category>Internet</category>
+    <category>Recherche</category>
+    <category>Moteurs de recherche</category>
+    <category>Google</category>
   </site>
   <site rank="2">
     <name>google.com</name>
@@ -30,6 +37,11 @@ and open the template in the editor.
     <parent prob="0.7">linkedin.com</parent>
     <parent prob="0.6">amazon.com</parent>
     <parent prob="0.4">live.com</parent>
+    <category>Computers</category>
+    <category>Internet</category>
+    <category>Searching</category>
+    <category>Search Engines</category>
+    <category>Google</category>
   </site>
   <site rank="3">
     <name>facebook.com</name>
@@ -43,6 +55,9 @@ and open the template in the editor.
     <parent prob="0.6">google.com.vn</parent>
     <parent prob="0.6">linkedin.com</parent>
     <parent prob="0.5">google.com.eg</parent>
+    <category>Society</category>
+    <category>Activism</category>
+    <category>We Are The 99 Percent</category>
   </site>
   <site rank="4">
     <name>youtube.com</name>
@@ -56,6 +71,11 @@ and open the template in the editor.
     <parent prob="0.8">wikipedia.org</parent>
     <parent prob="0.8">google.com.eg</parent>
     <parent prob="0.7">google.co.uk</parent>
+    <category>Computers</category>
+    <category>Internet</category>
+    <category>On the Web</category>
+    <category>Web Applications</category>
+    <category>Video Sharing</category>
   </site>
   <site rank="5">
     <name>wikipedia.org</name>
@@ -69,6 +89,7 @@ and open the template in the editor.
     <parent prob="1.8">google.com.tr</parent>
     <parent prob="1.7">youtube.com</parent>
     <parent prob="1.7">wikimedia.org</parent>
+    <category>Reference</category>
   </site>
   <site rank="6">
     <name>yahoo.com</name>
@@ -82,6 +103,10 @@ and open the template in the editor.
     <parent prob="0.6">live.com</parent>
     <parent prob="0.6">google.com.tw</parent>
     <parent prob="0.5">google.co.uk</parent>
+    <category>Computers</category>
+    <category>Internet</category>
+    <category>On the Web</category>
+    <category>Web Portals</category>
   </site>
   <site rank="7">
     <name>leboncoin.fr</name>
@@ -95,6 +120,14 @@ and open the template in the editor.
     <parent prob="1.4">amazon.fr</parent>
     <parent prob="1.3">orange.fr</parent>
     <parent prob="0.6">sfr.fr</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Régional</category>
+    <category>Europe</category>
+    <category>France</category>
+    <category>Commerce et économie</category>
+    <category>Produits et services de consommation</category>
+    <category>Petites annonces</category>
   </site>
   <site rank="8">
     <name>amazon.fr</name>
@@ -108,6 +141,11 @@ and open the template in the editor.
     <parent prob="1.3">sfr.fr</parent>
     <parent prob="1.1">yahoo.com</parent>
     <parent prob="0.8">fnac.com</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Boutiques en ligne</category>
+    <category>Publications</category>
+    <category>Livres</category>
   </site>
   <site rank="9">
     <name>orange.fr</name>
@@ -121,6 +159,15 @@ and open the template in the editor.
     <parent prob="1.2">amazon.fr</parent>
     <parent prob="1.2">cdiscount.com</parent>
     <parent prob="1.0">voila.fr</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Régional</category>
+    <category>Europe</category>
+    <category>France</category>
+    <category>Commerce et économie</category>
+    <category>Informatique</category>
+    <category>Internet</category>
+    <category>Fournisseurs d'accès</category>
   </site>
   <site rank="10">
     <name>live.com</name>
@@ -134,6 +181,10 @@ and open the template in the editor.
     <parent prob="1.0">google.es</parent>
     <parent prob="1.0">linkedin.com</parent>
     <parent prob="0.9">microsoft.com</parent>
+    <category>World</category>
+    <category>Vietnamese</category>
+    <category>Tin học</category>
+    <category>Internet</category>
   </site>
   <site rank="11">
     <name>free.fr</name>
@@ -147,6 +198,16 @@ and open the template in the editor.
     <parent prob="2.4">subscribe.free.fr</parent>
     <parent prob="1.5">facebook.com</parent>
     <parent prob="1.5">orange.fr</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Régional</category>
+    <category>Europe</category>
+    <category>France</category>
+    <category>Commerce et économie</category>
+    <category>Informatique</category>
+    <category>Internet</category>
+    <category>Fournisseurs d'accès</category>
+    <category>Free</category>
   </site>
   <site rank="12">
     <name>linkedin.com</name>
@@ -160,6 +221,11 @@ and open the template in the editor.
     <parent prob="1.2">youtube.com</parent>
     <parent prob="1.0">google.es</parent>
     <parent prob="0.8">salesforce.com</parent>
+    <category>Computers</category>
+    <category>Internet</category>
+    <category>On the Web</category>
+    <category>Online Communities</category>
+    <category>Social Networking</category>
   </site>
   <site rank="13">
     <name>ebay.fr</name>
@@ -173,6 +239,10 @@ and open the template in the editor.
     <parent prob="1.4">yahoo.com</parent>
     <parent prob="1.2">youtube.com</parent>
     <parent prob="1.1">ebay.co.uk</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Boutiques en ligne</category>
+    <category>Ventes aux enchères</category>
   </site>
   <site rank="14">
     <name>twitter.com</name>
@@ -186,6 +256,12 @@ and open the template in the editor.
     <parent prob="1.1">linkedin.com</parent>
     <parent prob="0.9">google.es</parent>
     <parent prob="0.8">live.com</parent>
+    <category>Computers</category>
+    <category>Internet</category>
+    <category>On the Web</category>
+    <category>Online Communities</category>
+    <category>Social Networking</category>
+    <category>Twitter</category>
   </site>
   <site rank="15">
     <name>commentcamarche.net</name>
@@ -199,6 +275,10 @@ and open the template in the editor.
     <parent prob="1.1">youtube.com</parent>
     <parent prob="0.8">yahoo.com</parent>
     <parent prob="0.8">01net.com</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Informatique</category>
+    <category>Formation</category>
   </site>
   <site rank="16">
     <name>lefigaro.fr</name>
@@ -212,6 +292,13 @@ and open the template in the editor.
     <parent prob="1.0">lequipe.fr</parent>
     <parent prob="0.9">twitter.com</parent>
     <parent prob="0.9">outbrain.com</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Régional</category>
+    <category>Europe</category>
+    <category>France</category>
+    <category>Actualité et médias</category>
+    <category>Journaux</category>
   </site>
   <site rank="17">
     <name>lemonde.fr</name>
@@ -225,6 +312,13 @@ and open the template in the editor.
     <parent prob="1.3">youtube.com</parent>
     <parent prob="1.1">twitter.com</parent>
     <parent prob="1.0">liberation.fr</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Régional</category>
+    <category>Europe</category>
+    <category>France</category>
+    <category>Actualité et médias</category>
+    <category>Journaux</category>
   </site>
   <site rank="18">
     <name>wordpress.com</name>
@@ -238,6 +332,13 @@ and open the template in the editor.
     <parent prob="1.2">blogger.com</parent>
     <parent prob="1.2">signup.wordpress.com</parent>
     <parent prob="0.9">youtube.com</parent>
+    <category>Computers</category>
+    <category>Internet</category>
+    <category>On the Web</category>
+    <category>Weblogs</category>
+    <category>Hosts</category>
+    <category>WordPress</category>
+    <category>Free</category>
   </site>
   <site rank="19">
     <name>tumblr.com</name>
@@ -264,6 +365,14 @@ and open the template in the editor.
     <parent prob="0.9">google.be</parent>
     <parent prob="0.7">yahoo.com</parent>
     <parent prob="0.7">t411.me</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Régional</category>
+    <category>Europe</category>
+    <category>France</category>
+    <category>Arts et culture</category>
+    <category>Cinéma</category>
+    <category>Actualité et médias</category>
   </site>
   <site rank="21">
     <name>sfr.fr</name>
@@ -277,6 +386,14 @@ and open the template in the editor.
     <parent prob="1.0">orange.fr</parent>
     <parent prob="1.0">live.com</parent>
     <parent prob="0.9">cdiscount.com</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Régional</category>
+    <category>Europe</category>
+    <category>France</category>
+    <category>Commerce et économie</category>
+    <category>Télécommunications</category>
+    <category>Téléphonie</category>
   </site>
   <site rank="22">
     <name>jeuxvideo.com</name>
@@ -290,6 +407,11 @@ and open the template in the editor.
     <parent prob="0.9">google.be</parent>
     <parent prob="0.8">gamekult.com</parent>
     <parent prob="0.8">wikipedia.org</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Jeux</category>
+    <category>Jeux vidéo</category>
+    <category>Actualités et avant-premières</category>
   </site>
   <site rank="23">
     <name>lequipe.fr</name>
@@ -303,6 +425,13 @@ and open the template in the editor.
     <parent prob="1.4">lefigaro.fr</parent>
     <parent prob="1.1">twitter.com</parent>
     <parent prob="0.8">wikipedia.org</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Régional</category>
+    <category>Europe</category>
+    <category>France</category>
+    <category>Actualité et médias</category>
+    <category>Journaux</category>
   </site>
   <site rank="24">
     <name>cdiscount.com</name>
@@ -316,6 +445,11 @@ and open the template in the editor.
     <parent prob="1.3">rueducommerce.fr</parent>
     <parent prob="1.2">live.com</parent>
     <parent prob="1.0">priceminister.com</parent>
+    <category>Regional</category>
+    <category>Europe</category>
+    <category>France</category>
+    <category>Business and Economy</category>
+    <category>Shopping</category>
   </site>
   <site rank="25">
     <name>adcash.com</name>
@@ -329,6 +463,13 @@ and open the template in the editor.
     <parent prob="1.1">onclickads.net</parent>
     <parent prob="1.1">sharelive.net</parent>
     <parent prob="1.0">kickass.to</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Informatique</category>
+    <category>Internet</category>
+    <category>Conception et développement</category>
+    <category>Promotion</category>
+    <category>Programmes d'affiliation</category>
   </site>
   <site rank="26">
     <name>pagesjaunes.fr</name>
@@ -342,6 +483,13 @@ and open the template in the editor.
     <parent prob="0.6">amazon.fr</parent>
     <parent prob="0.5">leboncoin.fr</parent>
     <parent prob="0.5">conduit.com</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Régional</category>
+    <category>Europe</category>
+    <category>France</category>
+    <category>Références</category>
+    <category>Guides et répertoires</category>
   </site>
   <site rank="27">
     <name>dailymotion.com</name>
@@ -355,6 +503,11 @@ and open the template in the editor.
     <parent prob="1.2">google.com.eg</parent>
     <parent prob="1.0">yahoo.com</parent>
     <parent prob="1.0">google.co.uk</parent>
+    <category>World</category>
+    <category>Vietnamese</category>
+    <category>Tin học</category>
+    <category>Internet</category>
+    <category>Trên web</category>
   </site>
   <site rank="28">
     <name>viadeo.com</name>
@@ -368,6 +521,11 @@ and open the template in the editor.
     <parent prob="1.2">google.dz</parent>
     <parent prob="0.9">youtube.com</parent>
     <parent prob="0.7">google.tn</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Société</category>
+    <category>Communautés virtuelles</category>
+    <category>Réseaux sociaux</category>
   </site>
   <site rank="29">
     <name>fnac.com</name>
@@ -381,6 +539,11 @@ and open the template in the editor.
     <parent prob="1.0">cdiscount.com</parent>
     <parent prob="0.8">ogone.com</parent>
     <parent prob="0.8">yahoo.com</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Boutiques en ligne</category>
+    <category>Publications</category>
+    <category>Livres</category>
   </site>
   <site rank="30">
     <name>ad6media.fr</name>
@@ -420,6 +583,12 @@ and open the template in the editor.
     <parent prob="0.6">lequipe.fr</parent>
     <parent prob="0.6">amazon.fr</parent>
     <parent prob="0.6">leboncoin.fr</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Actualité</category>
+    <category>Télévision</category>
+    <category>Magazines et e-zines</category>
+    <category>E-zines</category>
   </site>
   <site rank="33">
     <name>linternaute.com</name>
@@ -433,6 +602,13 @@ and open the template in the editor.
     <parent prob="1.1">wikipedia.org</parent>
     <parent prob="1.0">yahoo.com</parent>
     <parent prob="0.8">google.ch</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Régional</category>
+    <category>Europe</category>
+    <category>France</category>
+    <category>Actualité et médias</category>
+    <category>Magazines et e-zines</category>
   </site>
   <site rank="34">
     <name>over-blog.com</name>
@@ -446,6 +622,13 @@ and open the template in the editor.
     <parent prob="0.6">ad6media.fr</parent>
     <parent prob="0.5">ann.over-blog.com</parent>
     <parent prob="0.5">google.co.ma</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Informatique</category>
+    <category>Internet</category>
+    <category>Weblogs</category>
+    <category>Outils</category>
+    <category>Hébergement</category>
   </site>
   <site rank="35">
     <name>bing.com</name>
@@ -459,6 +642,11 @@ and open the template in the editor.
     <parent prob="0.7">wikipedia.org</parent>
     <parent prob="0.7">microsoft.com</parent>
     <parent prob="0.5">amazon.com</parent>
+    <category>Computers</category>
+    <category>Internet</category>
+    <category>Searching</category>
+    <category>Search Engines</category>
+    <category>Bing</category>
   </site>
   <site rank="36">
     <name>vente-privee.com</name>
@@ -485,6 +673,10 @@ and open the template in the editor.
     <parent prob="1.2">google.es</parent>
     <parent prob="1.0">google.ca</parent>
     <parent prob="1.0">google.com.tr</parent>
+    <category>Computers</category>
+    <category>Systems</category>
+    <category>Apple</category>
+    <category>Macintosh</category>
   </site>
   <site rank="38">
     <name>priceminister.com</name>
@@ -498,6 +690,10 @@ and open the template in the editor.
     <parent prob="1.2">yahoo.com</parent>
     <parent prob="1.2">live.com</parent>
     <parent prob="0.9">youtube.com</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Boutiques en ligne</category>
+    <category>Petites annonces</category>
   </site>
   <site rank="39">
     <name>ovh.com</name>
@@ -511,6 +707,13 @@ and open the template in the editor.
     <parent prob="1.3">ovh.co.uk</parent>
     <parent prob="1.2">ovhtelecom.fr</parent>
     <parent prob="1.0">google.tn</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Informatique</category>
+    <category>Internet</category>
+    <category>Conception et développement</category>
+    <category>Hébergement</category>
+    <category>Dédié</category>
   </site>
   <site rank="40">
     <name>msn.com</name>
@@ -524,6 +727,12 @@ and open the template in the editor.
     <parent prob="1.0">foxsports.com</parent>
     <parent prob="0.7">google.com.tr</parent>
     <parent prob="0.6">google.it</parent>
+    <category>Computers</category>
+    <category>Internet</category>
+    <category>Access Providers</category>
+    <category>Regional</category>
+    <category>North America</category>
+    <category>United States</category>
   </site>
   <site rank="41">
     <name>t.co</name>
@@ -550,6 +759,12 @@ and open the template in the editor.
     <parent prob="0.8">stumbleupon.com</parent>
     <parent prob="0.7">google.co.in</parent>
     <parent prob="0.6">instagram.com</parent>
+    <category>Computers</category>
+    <category>Internet</category>
+    <category>On the Web</category>
+    <category>Online Communities</category>
+    <category>Social Networking</category>
+    <category>Pinterest</category>
   </site>
   <site rank="43">
     <name>microsoft.com</name>
@@ -563,6 +778,9 @@ and open the template in the editor.
     <parent prob="1.6">google.com.tr</parent>
     <parent prob="1.6">yahoo.com</parent>
     <parent prob="1.5">bing.com</parent>
+    <category>Computers</category>
+    <category>Companies</category>
+    <category>Microsoft Corporation</category>
   </site>
   <site rank="44">
     <name>pole-emploi.fr</name>
@@ -576,6 +794,13 @@ and open the template in the editor.
     <parent prob="0.9">youtube.com</parent>
     <parent prob="0.9">amazon.fr</parent>
     <parent prob="0.7">conduit.com</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Régional</category>
+    <category>Europe</category>
+    <category>France</category>
+    <category>Commerce et économie</category>
+    <category>Emploi</category>
   </site>
   <site rank="45">
     <name>leparisien.fr</name>
@@ -589,6 +814,14 @@ and open the template in the editor.
     <parent prob="1.1">t.co</parent>
     <parent prob="1.1">fractualites.com</parent>
     <parent prob="1.1">20minutes.fr</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Régional</category>
+    <category>Europe</category>
+    <category>France</category>
+    <category>Actualité et médias</category>
+    <category>Journaux</category>
+    <category>Journaux régionaux</category>
   </site>
   <site rank="46">
     <name>nouvelobs.com</name>
@@ -615,6 +848,10 @@ and open the template in the editor.
     <parent prob="1.1">ebay.co.uk</parent>
     <parent prob="1.1">ebay.de</parent>
     <parent prob="0.8">youtube.com</parent>
+    <category>Business</category>
+    <category>Financial Services</category>
+    <category>Banking Services</category>
+    <category>Electronic Cash</category>
   </site>
   <site rank="48">
     <name>societe.com</name>
@@ -628,6 +865,14 @@ and open the template in the editor.
     <parent prob="0.5">infogreffe.fr</parent>
     <parent prob="0.4">yahoo.com</parent>
     <parent prob="0.4">verif.fr</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Régional</category>
+    <category>Europe</category>
+    <category>France</category>
+    <category>Commerce et économie</category>
+    <category>Ressources</category>
+    <category>Répertoires</category>
   </site>
   <site rank="49">
     <name>20minutes.fr</name>
@@ -641,6 +886,13 @@ and open the template in the editor.
     <parent prob="1.4">t.co</parent>
     <parent prob="1.3">youtube.com</parent>
     <parent prob="1.2">lemonde.fr</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Régional</category>
+    <category>Europe</category>
+    <category>France</category>
+    <category>Actualité et médias</category>
+    <category>Journaux</category>
   </site>
   <site rank="50">
     <name>advertstream.com</name>
@@ -667,6 +919,11 @@ and open the template in the editor.
     <parent prob="0.8">yahoo.com</parent>
     <parent prob="0.8">youtube.com</parent>
     <parent prob="0.7">wikipedia.org</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Informatique</category>
+    <category>Internet</category>
+    <category>Actualité et médias</category>
   </site>
   <site rank="52">
     <name>ovh.net</name>
@@ -693,6 +950,10 @@ and open the template in the editor.
     <parent prob="0.9">google.com.tr</parent>
     <parent prob="0.8">live.com</parent>
     <parent prob="0.7">google.co.uk</parent>
+    <category>Arts</category>
+    <category>Radio</category>
+    <category>Internet</category>
+    <category>Music</category>
   </site>
   <site rank="54">
     <name>voyages-sncf.com</name>
@@ -706,6 +967,10 @@ and open the template in the editor.
     <parent prob="0.8">covoiturage.fr</parent>
     <parent prob="0.7">kelbillet.com</parent>
     <parent prob="0.7">mappy.com</parent>
+    <category>Regional</category>
+    <category>Europe</category>
+    <category>France</category>
+    <category>Transportation</category>
   </site>
   <site rank="55">
     <name>lexpress.fr</name>
@@ -719,6 +984,13 @@ and open the template in the editor.
     <parent prob="1.3">lepoint.fr</parent>
     <parent prob="1.1">outbrain.com</parent>
     <parent prob="0.9">nouvelobs.com</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Régional</category>
+    <category>Europe</category>
+    <category>France</category>
+    <category>Actualité et médias</category>
+    <category>Magazines et e-zines</category>
   </site>
   <site rank="56">
     <name>tf1.fr</name>
@@ -732,6 +1004,14 @@ and open the template in the editor.
     <parent prob="0.9">lefigaro.fr</parent>
     <parent prob="0.8">lemonde.fr</parent>
     <parent prob="0.7">tv-replay.fr</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Régional</category>
+    <category>Europe</category>
+    <category>France</category>
+    <category>Actualité et médias</category>
+    <category>Télévision</category>
+    <category>Chaînes</category>
   </site>
   <site rank="57">
     <name>aufeminin.com</name>
@@ -745,6 +1025,12 @@ and open the template in the editor.
     <parent prob="1.2">google.be</parent>
     <parent prob="1.1">google.tn</parent>
     <parent prob="1.1">google.de</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Société</category>
+    <category>Personnes</category>
+    <category>Femmes</category>
+    <category>Répertoires</category>
   </site>
   <site rank="58">
     <name>instagram.com</name>
@@ -797,6 +1083,15 @@ and open the template in the editor.
     <parent prob="2.6">ca-pca.fr</parent>
     <parent prob="2.4">ca-anjou-maine.fr</parent>
     <parent prob="2.4">ca-aquitaine.fr</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Régional</category>
+    <category>Europe</category>
+    <category>France</category>
+    <category>Commerce et économie</category>
+    <category>Services financiers</category>
+    <category>Banques</category>
+    <category>Crédit Agricole</category>
   </site>
   <site rank="62">
     <name>stackoverflow.com</name>
@@ -810,6 +1105,10 @@ and open the template in the editor.
     <parent prob="1.3">php.net</parent>
     <parent prob="1.3">facebook.com</parent>
     <parent prob="1.3">w3schools.com</parent>
+    <category>Computers</category>
+    <category>Programming</category>
+    <category>Resources</category>
+    <category>Chats and Forums</category>
   </site>
   <site rank="63">
     <name>conduit.com</name>
@@ -823,6 +1122,13 @@ and open the template in the editor.
     <parent prob="0.6">twitter.com</parent>
     <parent prob="0.5">ask.com</parent>
     <parent prob="0.4">msn.com</parent>
+    <category>Computers</category>
+    <category>Software</category>
+    <category>Internet</category>
+    <category>Clients</category>
+    <category>Web</category>
+    <category>Browsers</category>
+    <category>Toolbars</category>
   </site>
   <site rank="64">
     <name>t411.me</name>
@@ -849,6 +1155,10 @@ and open the template in the editor.
     <parent prob="1.2">zanox.com</parent>
     <parent prob="1.1">ooshop.com</parent>
     <parent prob="0.9">fnac.com</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Boutiques en ligne</category>
+    <category>Informatique</category>
   </site>
   <site rank="66">
     <name>meteofrance.com</name>
@@ -875,6 +1185,8 @@ and open the template in the editor.
     <parent prob="0.6">amazon.co.uk</parent>
     <parent prob="0.6">google.co.uk</parent>
     <parent prob="0.6">twitter.com</parent>
+    <category>Shopping</category>
+    <category>Entertainment</category>
   </site>
   <site rank="68">
     <name>adobe.com</name>
@@ -888,6 +1200,9 @@ and open the template in the editor.
     <parent prob="1.4">google.co.uk</parent>
     <parent prob="0.9">google.com.tr</parent>
     <parent prob="0.8">google.es</parent>
+    <category>Computers</category>
+    <category>Multimedia</category>
+    <category>Software</category>
   </site>
   <site rank="69">
     <name>01net.com</name>
@@ -901,6 +1216,11 @@ and open the template in the editor.
     <parent prob="1.5">01men.com</parent>
     <parent prob="1.4">rmc.fr</parent>
     <parent prob="1.4">bfmtv.com</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Informatique</category>
+    <category>Actualité et médias</category>
+    <category>Publications</category>
   </site>
   <site rank="70">
     <name>reverso.net</name>
@@ -914,6 +1234,12 @@ and open the template in the editor.
     <parent prob="1.7">google.co.in</parent>
     <parent prob="1.5">google.it</parent>
     <parent prob="1.2">google.de</parent>
+    <category>Science</category>
+    <category>Social Sciences</category>
+    <category>Linguistics</category>
+    <category>Translation</category>
+    <category>Tools</category>
+    <category>Translation Engines</category>
   </site>
   <site rank="71">
     <name>youporn.com</name>
@@ -927,6 +1253,12 @@ and open the template in the editor.
     <parent prob="1.7">ypmate.com</parent>
     <parent prob="1.6">xvideos.com</parent>
     <parent prob="1.6">youtube.com</parent>
+    <category>Adult</category>
+    <category>Image Galleries</category>
+    <category>Video Clips</category>
+    <category>Hardcore</category>
+    <category>Short Clips</category>
+    <category>Free</category>
   </site>
   <site rank="72">
     <name>clubic.com</name>
@@ -940,6 +1272,11 @@ and open the template in the editor.
     <parent prob="1.2">google.tn</parent>
     <parent prob="1.1">pcinpact.com</parent>
     <parent prob="0.8">jeuxvideo.com</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Informatique</category>
+    <category>Actualité et médias</category>
+    <category>Actualités</category>
   </site>
   <site rank="73">
     <name>laposte.net</name>
@@ -953,6 +1290,12 @@ and open the template in the editor.
     <parent prob="1.0">amazon.fr</parent>
     <parent prob="1.0">live.com</parent>
     <parent prob="0.6">20minutes.fr</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Informatique</category>
+    <category>Internet</category>
+    <category>Courrier électronique</category>
+    <category>Gratuit</category>
   </site>
   <site rank="74">
     <name>livejasmin.com</name>
@@ -966,6 +1309,13 @@ and open the template in the editor.
     <parent prob="2.2">xtube.com</parent>
     <parent prob="2.1">youporn.com</parent>
     <parent prob="2.0">xxxbunker.com</parent>
+    <category>Adult</category>
+    <category>Computers</category>
+    <category>Internet</category>
+    <category>Chats and Forums</category>
+    <category>Video</category>
+    <category>Female</category>
+    <category>Pay by Time</category>
   </site>
   <site rank="75">
     <name>googleusercontent.com</name>
@@ -1005,6 +1355,13 @@ and open the template in the editor.
     <parent prob="1.6">twitter.com</parent>
     <parent prob="1.1">latribune.fr</parent>
     <parent prob="1.0">boursorama.com</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Régional</category>
+    <category>Europe</category>
+    <category>France</category>
+    <category>Actualité et médias</category>
+    <category>Journaux</category>
   </site>
   <site rank="78">
     <name>flickr.com</name>
@@ -1018,6 +1375,11 @@ and open the template in the editor.
     <parent prob="1.2">twitter.com</parent>
     <parent prob="1.2">google.co.uk</parent>
     <parent prob="1.1">google.es</parent>
+    <category>Computers</category>
+    <category>Internet</category>
+    <category>On the Web</category>
+    <category>Online Communities</category>
+    <category>Social Networking</category>
   </site>
   <site rank="79">
     <name>labanquepostale.fr</name>
@@ -1031,6 +1393,15 @@ and open the template in the editor.
     <parent prob="1.0">youtube.com</parent>
     <parent prob="0.9">caf.fr</parent>
     <parent prob="0.7">conduit.com</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Régional</category>
+    <category>Europe</category>
+    <category>France</category>
+    <category>Commerce et économie</category>
+    <category>Services financiers</category>
+    <category>Banques</category>
+    <category>La Banque Postale</category>
   </site>
   <site rank="80">
     <name>ask.com</name>
@@ -1044,6 +1415,8 @@ and open the template in the editor.
     <parent prob="0.4">live.com</parent>
     <parent prob="0.4">bing.com</parent>
     <parent prob="0.4">google.dz</parent>
+    <category>Kids and Teens</category>
+    <category>Directories</category>
   </site>
   <site rank="81">
     <name>pornhub.com</name>
@@ -1070,6 +1443,12 @@ and open the template in the editor.
     <parent prob="1.0">lemonde.fr</parent>
     <parent prob="1.0">live.com</parent>
     <parent prob="0.8">linkedin.com</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Commerce et économie</category>
+    <category>Investissements</category>
+    <category>Bourse</category>
+    <category>Courtage et sociétés</category>
   </site>
   <site rank="83">
     <name>canalblog.com</name>
@@ -1083,6 +1462,13 @@ and open the template in the editor.
     <parent prob="0.5">pinterest.com</parent>
     <parent prob="0.4">blogger.com</parent>
     <parent prob="0.4">live.com</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Informatique</category>
+    <category>Internet</category>
+    <category>Weblogs</category>
+    <category>Outils</category>
+    <category>Hébergement</category>
   </site>
   <site rank="84">
     <name>doctissimo.fr</name>
@@ -1096,6 +1482,10 @@ and open the template in the editor.
     <parent prob="1.4">google.tn</parent>
     <parent prob="1.3">google.be</parent>
     <parent prob="1.2">commentcamarche.net</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Santé</category>
+    <category>Informations</category>
   </site>
   <site rank="85">
     <name>liberation.fr</name>
@@ -1109,6 +1499,13 @@ and open the template in the editor.
     <parent prob="1.7">yahoo.com</parent>
     <parent prob="1.6">twitter.com</parent>
     <parent prob="1.2">nouvelobs.com</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Régional</category>
+    <category>Europe</category>
+    <category>France</category>
+    <category>Actualité et médias</category>
+    <category>Journaux</category>
   </site>
   <site rank="86">
     <name>outbrain.com</name>
@@ -1161,6 +1558,15 @@ and open the template in the editor.
     <parent prob="1.2">bnpparibas.com</parent>
     <parent prob="1.0">boursorama.com</parent>
     <parent prob="0.9">wlp-acs.com</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Régional</category>
+    <category>Europe</category>
+    <category>France</category>
+    <category>Commerce et économie</category>
+    <category>Services financiers</category>
+    <category>Banques</category>
+    <category>Banque BNP Paribas</category>
   </site>
   <site rank="90">
     <name>wordreference.com</name>
@@ -1174,6 +1580,10 @@ and open the template in the editor.
     <parent prob="1.7">wikipedia.org</parent>
     <parent prob="1.7">google.gr</parent>
     <parent prob="1.5">google.com.ar</parent>
+    <category>Reference</category>
+    <category>Dictionaries</category>
+    <category>World Languages</category>
+    <category>Multilingual</category>
   </site>
   <site rank="91">
     <name>caisse-epargne.fr</name>
@@ -1187,6 +1597,15 @@ and open the template in the editor.
     <parent prob="0.9">youtube.com</parent>
     <parent prob="0.9">leboncoin.fr</parent>
     <parent prob="0.8">ebay.fr</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Régional</category>
+    <category>Europe</category>
+    <category>France</category>
+    <category>Commerce et économie</category>
+    <category>Services financiers</category>
+    <category>Banques</category>
+    <category>Caisse d'Epargne</category>
   </site>
   <site rank="92">
     <name>seloger.com</name>
@@ -1200,6 +1619,14 @@ and open the template in the editor.
     <parent prob="1.2">logic-immo.com</parent>
     <parent prob="0.8">bellesdemeures.com</parent>
     <parent prob="0.8">youtube.com</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Régional</category>
+    <category>Europe</category>
+    <category>France</category>
+    <category>Commerce et économie</category>
+    <category>Immobilier</category>
+    <category>Petites annonces</category>
   </site>
   <site rank="93">
     <name>lepoint.fr</name>
@@ -1213,6 +1640,10 @@ and open the template in the editor.
     <parent prob="1.3">nouvelobs.com</parent>
     <parent prob="1.2">lexpress.fr</parent>
     <parent prob="1.2">t.co</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Actualité</category>
+    <category>Magazines et e-zines</category>
   </site>
   <site rank="94">
     <name>webrankinfo.com</name>
@@ -1226,6 +1657,14 @@ and open the template in the editor.
     <parent prob="0.6">google.ca</parent>
     <parent prob="0.5">ovh.com</parent>
     <parent prob="0.5">google.be</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Informatique</category>
+    <category>Internet</category>
+    <category>Conception et développement</category>
+    <category>Promotion</category>
+    <category>Référencement</category>
+    <category>Gratuit</category>
   </site>
   <site rank="95">
     <name>vube.com</name>
@@ -1265,6 +1704,13 @@ and open the template in the editor.
     <parent prob="1.1">stackoverflow.com</parent>
     <parent prob="0.9">google.com.vn</parent>
     <parent prob="0.8">google.fr</parent>
+    <category>Computers</category>
+    <category>Internet</category>
+    <category>On the Web</category>
+    <category>Weblogs</category>
+    <category>Tools</category>
+    <category>Publishers</category>
+    <category>WordPress</category>
   </site>
   <site rank="98">
     <name>prestashop.com</name>
@@ -1278,6 +1724,11 @@ and open the template in the editor.
     <parent prob="0.9">youtube.com</parent>
     <parent prob="0.8">google.com.tr</parent>
     <parent prob="0.8">google.de</parent>
+    <category>Computers</category>
+    <category>Software</category>
+    <category>Business</category>
+    <category>E-Commerce</category>
+    <category>Shopping Carts</category>
   </site>
   <site rank="99">
     <name>vimeo.com</name>
@@ -1291,6 +1742,11 @@ and open the template in the editor.
     <parent prob="1.2">google.de</parent>
     <parent prob="1.0">reddit.com</parent>
     <parent prob="0.9">yahoo.com</parent>
+    <category>Computers</category>
+    <category>Internet</category>
+    <category>On the Web</category>
+    <category>Web Applications</category>
+    <category>Video Sharing</category>
   </site>
   <site rank="100">
     <name>huffingtonpost.fr</name>
@@ -1304,6 +1760,13 @@ and open the template in the editor.
     <parent prob="1.4">youtube.com</parent>
     <parent prob="1.3">lefigaro.fr</parent>
     <parent prob="1.2">google.dz</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Régional</category>
+    <category>Europe</category>
+    <category>France</category>
+    <category>Actualité et médias</category>
+    <category>Magazines et e-zines</category>
   </site>
   <site rank="101">
     <name>voila.fr</name>
@@ -1317,6 +1780,12 @@ and open the template in the editor.
     <parent prob="1.3">leboncoin.fr</parent>
     <parent prob="1.1">linkedin.com</parent>
     <parent prob="0.6">viadeo.com</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Informatique</category>
+    <category>Internet</category>
+    <category>Recherche</category>
+    <category>Moteurs de recherche</category>
   </site>
   <site rank="102">
     <name>laredoute.fr</name>
@@ -1330,6 +1799,14 @@ and open the template in the editor.
     <parent prob="1.2">3suisses.fr</parent>
     <parent prob="1.1">orange.fr</parent>
     <parent prob="1.1">kelkoo.com</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Régional</category>
+    <category>Europe</category>
+    <category>France</category>
+    <category>Commerce et économie</category>
+    <category>Boutiques en ligne</category>
+    <category>Détaillants</category>
   </site>
   <site rank="103">
     <name>badoo.com</name>
@@ -1343,6 +1820,11 @@ and open the template in the editor.
     <parent prob="1.5">google.it</parent>
     <parent prob="1.3">google.fr</parent>
     <parent prob="0.7">tagged.com</parent>
+    <category>Computers</category>
+    <category>Internet</category>
+    <category>On the Web</category>
+    <category>Online Communities</category>
+    <category>Social Networking</category>
   </site>
   <site rank="104">
     <name>societegenerale.fr</name>
@@ -1356,6 +1838,15 @@ and open the template in the editor.
     <parent prob="0.9">youtube.com</parent>
     <parent prob="0.8">paypal.com</parent>
     <parent prob="0.7">amazon.fr</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Régional</category>
+    <category>Europe</category>
+    <category>France</category>
+    <category>Commerce et économie</category>
+    <category>Services financiers</category>
+    <category>Banques</category>
+    <category>Sociéte Générale</category>
   </site>
   <site rank="105">
     <name>canalplus.fr</name>
@@ -1369,6 +1860,14 @@ and open the template in the editor.
     <parent prob="1.1">lequipe.fr</parent>
     <parent prob="1.0">t.co</parent>
     <parent prob="0.9">google.ca</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Régional</category>
+    <category>Europe</category>
+    <category>France</category>
+    <category>Actualité et médias</category>
+    <category>Télévision</category>
+    <category>Chaînes</category>
   </site>
   <site rank="106">
     <name>caf.fr</name>
@@ -1382,6 +1881,13 @@ and open the template in the editor.
     <parent prob="1.1">youtube.com</parent>
     <parent prob="1.0">bing.com</parent>
     <parent prob="1.0">live.com</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Régional</category>
+    <category>Europe</category>
+    <category>France</category>
+    <category>Société</category>
+    <category>Protection sociale</category>
   </site>
   <site rank="107">
     <name>skyrock.com</name>
@@ -1395,6 +1901,11 @@ and open the template in the editor.
     <parent prob="0.9">livejournal.com</parent>
     <parent prob="0.6">tumblr.com</parent>
     <parent prob="0.6">twitter.com</parent>
+    <category>Computers</category>
+    <category>Internet</category>
+    <category>On the Web</category>
+    <category>Online Communities</category>
+    <category>Social Networking</category>
   </site>
   <site rank="108">
     <name>marmiton.org</name>
@@ -1408,6 +1919,11 @@ and open the template in the editor.
     <parent prob="1.1">journaldesfemmes.com</parent>
     <parent prob="1.0">yahoo.com</parent>
     <parent prob="0.7">youtube.com</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Maison</category>
+    <category>Cuisine</category>
+    <category>Recueils de recettes</category>
   </site>
   <site rank="109">
     <name>yeslibertin.com</name>
@@ -1434,6 +1950,10 @@ and open the template in the editor.
     <parent prob="1.7">youtube.com</parent>
     <parent prob="1.4">outbrain.com</parent>
     <parent prob="1.3">liberation.fr</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Actualité</category>
+    <category>Journaux</category>
   </site>
   <site rank="111">
     <name>wikimedia.org</name>
@@ -1460,6 +1980,15 @@ and open the template in the editor.
     <parent prob="1.0">creditmaritime.fr</parent>
     <parent prob="0.8">amazon.fr</parent>
     <parent prob="0.7">youtube.com</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Régional</category>
+    <category>Europe</category>
+    <category>France</category>
+    <category>Commerce et économie</category>
+    <category>Services financiers</category>
+    <category>Banques</category>
+    <category>Banque Populaire</category>
   </site>
   <site rank="113">
     <name>cpasbien.me</name>
@@ -1525,6 +2054,10 @@ and open the template in the editor.
     <parent prob="0.7">caf.fr</parent>
     <parent prob="0.7">yahoo.com</parent>
     <parent prob="0.6">wikipedia.org</parent>
+    <category>Regional</category>
+    <category>Europe</category>
+    <category>France</category>
+    <category>Government</category>
   </site>
   <site rank="118">
     <name>eurosport.fr</name>
@@ -1538,6 +2071,14 @@ and open the template in the editor.
     <parent prob="1.1">google.tn</parent>
     <parent prob="1.1">eurosport.com</parent>
     <parent prob="0.9">live.com</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Régional</category>
+    <category>Europe</category>
+    <category>France</category>
+    <category>Actualité et médias</category>
+    <category>Télévision</category>
+    <category>Chaînes</category>
   </site>
   <site rank="119">
     <name>themeforest.net</name>
@@ -1564,6 +2105,15 @@ and open the template in the editor.
     <parent prob="1.1">orange.fr</parent>
     <parent prob="0.9">sfr.fr</parent>
     <parent prob="0.8">bouyguestelecom-entreprises.fr</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Régional</category>
+    <category>Europe</category>
+    <category>France</category>
+    <category>Commerce et économie</category>
+    <category>Télécommunications</category>
+    <category>Téléphonie</category>
+    <category>Mobile</category>
   </site>
   <site rank="121">
     <name>developpez.net</name>
@@ -1577,6 +2127,11 @@ and open the template in the editor.
     <parent prob="1.3">google.dz</parent>
     <parent prob="1.0">google.ca</parent>
     <parent prob="1.0">microsoft.com</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Informatique</category>
+    <category>Programmation</category>
+    <category>Langages</category>
   </site>
   <site rank="122">
     <name>ratp.fr</name>
@@ -1590,6 +2145,13 @@ and open the template in the editor.
     <parent prob="0.6">aeroportsdeparis.fr</parent>
     <parent prob="0.6">live.com</parent>
     <parent prob="0.6">mappy.com</parent>
+    <category>Business</category>
+    <category>Transportation and Logistics</category>
+    <category>Urban Transport</category>
+    <category>Transit Systems</category>
+    <category>Subways</category>
+    <category>Cities</category>
+    <category>Paris</category>
   </site>
   <site rank="123">
     <name>dl-protect.com</name>
@@ -1616,6 +2178,11 @@ and open the template in the editor.
     <parent prob="0.9">google.be</parent>
     <parent prob="0.8">google.ca</parent>
     <parent prob="0.8">clubic.com</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Informatique</category>
+    <category>Plateformes</category>
+    <category>FAQ et aides</category>
   </site>
   <site rank="125">
     <name>lesnumeriques.com</name>
@@ -1629,6 +2196,11 @@ and open the template in the editor.
     <parent prob="1.1">youtube.com</parent>
     <parent prob="1.0">google.be</parent>
     <parent prob="1.0">clubic.com</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Maison</category>
+    <category>Informations pour les consommateurs</category>
+    <category>Electronique</category>
   </site>
   <site rank="126">
     <name>parisexe.com</name>
@@ -1655,6 +2227,11 @@ and open the template in the editor.
     <parent prob="1.2">yahoo.com</parent>
     <parent prob="1.0">rueducommerce.fr</parent>
     <parent prob="1.0">lesnumeriques.com</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Boutiques en ligne</category>
+    <category>Electronique</category>
+    <category>Audio et vidéo</category>
   </site>
   <site rank="128">
     <name>booking.com</name>
@@ -1668,6 +2245,10 @@ and open the template in the editor.
     <parent prob="1.5">google.co.uk</parent>
     <parent prob="1.3">agoda.com</parent>
     <parent prob="1.2">live.com</parent>
+    <category>Recreation</category>
+    <category>Travel</category>
+    <category>Lodging</category>
+    <category>Consolidators</category>
   </site>
   <site rank="129">
     <name>neobux.com</name>
@@ -1694,6 +2275,8 @@ and open the template in the editor.
     <parent prob="0.9">live.com</parent>
     <parent prob="0.8">craigslist.org</parent>
     <parent prob="0.7">google.co.in</parent>
+    <category>Shopping</category>
+    <category>Auctions</category>
   </site>
   <site rank="131">
     <name>1and1.fr</name>
@@ -1707,6 +2290,13 @@ and open the template in the editor.
     <parent prob="0.8">1and1.com</parent>
     <parent prob="0.5">twitter.com</parent>
     <parent prob="0.5">paypal.com</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Informatique</category>
+    <category>Internet</category>
+    <category>Conception et développement</category>
+    <category>Hébergement</category>
+    <category>Dédié</category>
   </site>
   <site rank="132">
     <name>alibaba.com</name>
@@ -1720,6 +2310,10 @@ and open the template in the editor.
     <parent prob="1.6">alipay.com</parent>
     <parent prob="1.5">facebook.com</parent>
     <parent prob="1.5">sina.com.cn</parent>
+    <category>Business</category>
+    <category>International Business and Trade</category>
+    <category>Import and Export</category>
+    <category>Portals</category>
   </site>
   <site rank="133">
     <name>deviantart.com</name>
@@ -1733,6 +2327,10 @@ and open the template in the editor.
     <parent prob="1.0">imgur.com</parent>
     <parent prob="1.0">google.de</parent>
     <parent prob="1.0">yahoo.com</parent>
+    <category>Arts</category>
+    <category>Visual Arts</category>
+    <category>Computer Graphics</category>
+    <category>Galleries</category>
   </site>
   <site rank="134">
     <name>gameforge.com</name>
@@ -1746,6 +2344,12 @@ and open the template in the editor.
     <parent prob="1.5">avazutracking.net</parent>
     <parent prob="0.9">yahoo.com</parent>
     <parent prob="0.8">mmotraffic.com</parent>
+    <category>World</category>
+    <category>Italiano</category>
+    <category>Giochi</category>
+    <category>Video Giochi</category>
+    <category>Giochi di Ruolo</category>
+    <category>Massive Multiplayer Online</category>
   </site>
   <site rank="135">
     <name>bfmtv.com</name>
@@ -1772,6 +2376,12 @@ and open the template in the editor.
     <parent prob="1.0">wikipedia.org</parent>
     <parent prob="0.7">sourtimes.org</parent>
     <parent prob="0.7">yahoo.com</parent>
+    <category>Computers</category>
+    <category>Internet</category>
+    <category>On the Web</category>
+    <category>Web Applications</category>
+    <category>Photo Sharing</category>
+    <category>Image Hosting</category>
   </site>
   <site rank="137">
     <name>adserverpub.com</name>
@@ -1798,6 +2408,9 @@ and open the template in the editor.
     <parent prob="1.8">google.com.tr</parent>
     <parent prob="1.4">google.ca</parent>
     <parent prob="1.2">kickass.to</parent>
+    <category>Arts</category>
+    <category>Movies</category>
+    <category>Databases</category>
   </site>
   <site rank="139">
     <name>zalando.fr</name>
@@ -1811,6 +2424,14 @@ and open the template in the editor.
     <parent prob="1.2">youtube.com</parent>
     <parent prob="1.0">laredoute.fr</parent>
     <parent prob="1.0">zalando-prive.fr</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Régional</category>
+    <category>Europe</category>
+    <category>France</category>
+    <category>Commerce et économie</category>
+    <category>Boutiques en ligne</category>
+    <category>Habillement</category>
   </site>
   <site rank="140">
     <name>redtube.com</name>
@@ -1837,6 +2458,12 @@ and open the template in the editor.
     <parent prob="1.2">live.com</parent>
     <parent prob="0.9">yahoo.com</parent>
     <parent prob="0.7">videdressing.com</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Régional</category>
+    <category>Europe</category>
+    <category>France</category>
+    <category>Etat et politique</category>
   </site>
   <site rank="142">
     <name>showroomprive.com</name>
@@ -1850,6 +2477,10 @@ and open the template in the editor.
     <parent prob="2.2">brandalley.fr</parent>
     <parent prob="1.5">orange.fr</parent>
     <parent prob="1.3">sogenactif.com</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Boutiques en ligne</category>
+    <category>Niche</category>
   </site>
   <site rank="143">
     <name>zimbra.free.fr</name>
@@ -1876,6 +2507,15 @@ and open the template in the editor.
     <parent prob="0.8">leboncoin.fr</parent>
     <parent prob="0.7">amazon.fr</parent>
     <parent prob="0.7">yahoo.com</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Régional</category>
+    <category>Europe</category>
+    <category>France</category>
+    <category>Commerce et économie</category>
+    <category>Boutiques en ligne</category>
+    <category>Maison et jardin</category>
+    <category>Bricolage</category>
   </site>
   <site rank="145">
     <name>blogspot.com</name>
@@ -1902,6 +2542,15 @@ and open the template in the editor.
     <parent prob="0.8">paypal.com</parent>
     <parent prob="0.7">amazon.fr</parent>
     <parent prob="0.7">lcl.com</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Régional</category>
+    <category>Europe</category>
+    <category>France</category>
+    <category>Commerce et économie</category>
+    <category>Services financiers</category>
+    <category>Banques</category>
+    <category>LCL - Le Crédit Lyonnais</category>
   </site>
   <site rank="147">
     <name>tripadvisor.fr</name>
@@ -1915,6 +2564,11 @@ and open the template in the editor.
     <parent prob="1.3">tripadvisor.com</parent>
     <parent prob="1.0">google.ch</parent>
     <parent prob="1.0">google.tn</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Loisirs</category>
+    <category>Voyage</category>
+    <category>Guides et répertoires</category>
   </site>
   <site rank="148">
     <name>indeed.fr</name>
@@ -1941,6 +2595,14 @@ and open the template in the editor.
     <parent prob="1.3">youtube.com</parent>
     <parent prob="1.3">hardware.fr</parent>
     <parent prob="1.2">rueducommerce.fr</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Régional</category>
+    <category>Europe</category>
+    <category>France</category>
+    <category>Commerce et économie</category>
+    <category>Boutiques en ligne</category>
+    <category>Informatique</category>
   </site>
   <site rank="150">
     <name>prizee.com</name>
@@ -1954,6 +2616,10 @@ and open the template in the editor.
     <parent prob="1.8">youtube.com</parent>
     <parent prob="1.4">eorezo.com</parent>
     <parent prob="1.2">ad6media.fr</parent>
+    <category>World</category>
+    <category>Italiano</category>
+    <category>Giochi</category>
+    <category>Internet</category>
   </site>
   <site rank="151">
     <name>carrefour.fr</name>
@@ -1980,6 +2646,12 @@ and open the template in the editor.
     <parent prob="0.9">orange.fr</parent>
     <parent prob="0.6">bing.com</parent>
     <parent prob="0.5">commentcamarche.net</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Société</category>
+    <category>Institutions et administrations</category>
+    <category>Finances</category>
+    <category>Fiscalité et douanes</category>
   </site>
   <site rank="153">
     <name>scoop.it</name>
@@ -2019,6 +2691,11 @@ and open the template in the editor.
     <parent prob="0.9">facebook.com</parent>
     <parent prob="0.7">cdiscount.com</parent>
     <parent prob="0.7">rueducommerce.fr</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Maison</category>
+    <category>Informations pour les consommateurs</category>
+    <category>Comparaisons de prix</category>
   </site>
   <site rank="156">
     <name>1fichier.com</name>
@@ -2045,6 +2722,9 @@ and open the template in the editor.
     <parent prob="1.6">yahoo.com</parent>
     <parent prob="1.3">google.ca</parent>
     <parent prob="1.0">ebay.de</parent>
+    <category>Shopping</category>
+    <category>General Merchandise</category>
+    <category>Major Retailers</category>
   </site>
   <site rank="158">
     <name>uploaded.net</name>
@@ -2058,6 +2738,12 @@ and open the template in the editor.
     <parent prob="1.0">turbobit.net</parent>
     <parent prob="0.9">youtube.com</parent>
     <parent prob="0.9">filestube.com</parent>
+    <category>Computers</category>
+    <category>Internet</category>
+    <category>On the Web</category>
+    <category>Web Applications</category>
+    <category>Storage</category>
+    <category>Free</category>
   </site>
   <site rank="159">
     <name>php.net</name>
@@ -2071,6 +2757,10 @@ and open the template in the editor.
     <parent prob="2.1">google.co.uk</parent>
     <parent prob="2.0">google.com.tr</parent>
     <parent prob="1.6">w3schools.com</parent>
+    <category>Computers</category>
+    <category>Programming</category>
+    <category>Languages</category>
+    <category>PHP</category>
   </site>
   <site rank="160">
     <name>fotolia.com</name>
@@ -2084,6 +2774,11 @@ and open the template in the editor.
     <parent prob="1.2">dreamstime.com</parent>
     <parent prob="1.1">google.it</parent>
     <parent prob="1.1">youtube.com</parent>
+    <category>Business</category>
+    <category>Arts and Entertainment</category>
+    <category>Photography</category>
+    <category>Stock</category>
+    <category>Royalty Free</category>
   </site>
   <site rank="161">
     <name>kickass.to</name>
@@ -2110,6 +2805,9 @@ and open the template in the editor.
     <parent prob="1.2">rueducommerce.fr</parent>
     <parent prob="1.1">clubic.com</parent>
     <parent prob="1.1">cpaonline.com</parent>
+    <category>Shopping</category>
+    <category>Consumer Electronics</category>
+    <category>P</category>
   </site>
   <site rank="163">
     <name>journaldesfemmes.com</name>
@@ -2162,6 +2860,13 @@ and open the template in the editor.
     <parent prob="1.1">google.com.tr</parent>
     <parent prob="1.0">youtube.com</parent>
     <parent prob="0.9">google.it</parent>
+    <category>World</category>
+    <category>Deutsch</category>
+    <category>Computer</category>
+    <category>Internet</category>
+    <category>Webdesign und -entwicklung</category>
+    <category>Promotion</category>
+    <category>Partnerprogramme</category>
   </site>
   <site rank="167">
     <name>meetic.fr</name>
@@ -2175,6 +2880,12 @@ and open the template in the editor.
     <parent prob="1.6">meeticaffinity.fr</parent>
     <parent prob="1.5">youtube.com</parent>
     <parent prob="1.4">orange.fr</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Société</category>
+    <category>Relations</category>
+    <category>Rencontres</category>
+    <category>Petites annonces</category>
   </site>
   <site rank="168">
     <name>slideshare.net</name>
@@ -2188,6 +2899,11 @@ and open the template in the editor.
     <parent prob="1.2">youtube.com</parent>
     <parent prob="1.1">google.co.uk</parent>
     <parent prob="1.0">twitter.com</parent>
+    <category>Computers</category>
+    <category>Internet</category>
+    <category>On the Web</category>
+    <category>Web Applications</category>
+    <category>Presentation Sharing</category>
   </site>
   <site rank="169">
     <name>aliexpress.com</name>
@@ -2227,6 +2943,14 @@ and open the template in the editor.
     <parent prob="2.1">facebook.com</parent>
     <parent prob="1.5">systweak.com</parent>
     <parent prob="1.3">advertstream.com</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Régional</category>
+    <category>Europe</category>
+    <category>France</category>
+    <category>Commerce et économie</category>
+    <category>Produits et services de consommation</category>
+    <category>Petites annonces</category>
   </site>
   <site rank="172">
     <name>europe1.fr</name>
@@ -2240,6 +2964,13 @@ and open the template in the editor.
     <parent prob="1.2">lefigaro.fr</parent>
     <parent prob="1.1">youtube.com</parent>
     <parent prob="1.0">sfr.fr</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Régional</category>
+    <category>Europe</category>
+    <category>France</category>
+    <category>Actualité et médias</category>
+    <category>Radio</category>
   </site>
   <site rank="173">
     <name>sourceforge.net</name>
@@ -2253,6 +2984,9 @@ and open the template in the editor.
     <parent prob="1.1">apachefriends.org</parent>
     <parent prob="1.0">7-zip.org</parent>
     <parent prob="0.9">google.de</parent>
+    <category>Computers</category>
+    <category>Open Source</category>
+    <category>Project Hosting</category>
   </site>
   <site rank="174">
     <name>groupon.fr</name>
@@ -2266,6 +3000,12 @@ and open the template in the editor.
     <parent prob="1.3">vente-privee.com</parent>
     <parent prob="1.0">sfr.fr</parent>
     <parent prob="0.9">google.pt</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Maison</category>
+    <category>Informations pour les consommateurs</category>
+    <category>Réductions et promotions</category>
+    <category>France</category>
   </site>
   <site rank="175">
     <name>ouest-france.fr</name>
@@ -2279,6 +3019,14 @@ and open the template in the editor.
     <parent prob="0.9">yahoo.com</parent>
     <parent prob="0.9">lefigaro.fr</parent>
     <parent prob="0.9">twitter.com</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Régional</category>
+    <category>Europe</category>
+    <category>France</category>
+    <category>Actualité et médias</category>
+    <category>Journaux</category>
+    <category>Journaux régionaux</category>
   </site>
   <site rank="176">
     <name>apec.fr</name>
@@ -2292,6 +3040,10 @@ and open the template in the editor.
     <parent prob="1.3">yahoo.com</parent>
     <parent prob="1.3">cadremploi.fr</parent>
     <parent prob="1.3">pole-emploi.fr</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Commerce et économie</category>
+    <category>Emploi</category>
   </site>
   <site rank="177">
     <name>xnxx.com</name>
@@ -2305,6 +3057,13 @@ and open the template in the editor.
     <parent prob="1.6">yahoo.com</parent>
     <parent prob="1.5">loading-delivery1.com</parent>
     <parent prob="1.3">google.fr</parent>
+    <category>Adult</category>
+    <category>Computers</category>
+    <category>Internet</category>
+    <category>Searching</category>
+    <category>Link Sites</category>
+    <category>Thumbnail Gallery Posts</category>
+    <category>Variety</category>
   </site>
   <site rank="178">
     <name>systweak.com</name>
@@ -2344,6 +3103,11 @@ and open the template in the editor.
     <parent prob="1.1">wikipedia.org</parent>
     <parent prob="0.9">google.com.vn</parent>
     <parent prob="0.7">google.co.in</parent>
+    <category>Arts</category>
+    <category>Television</category>
+    <category>Networks</category>
+    <category>Cable</category>
+    <category>BBC</category>
   </site>
   <site rank="181">
     <name>castorama.fr</name>
@@ -2357,6 +3121,15 @@ and open the template in the editor.
     <parent prob="0.7">yahoo.com</parent>
     <parent prob="0.7">google.dz</parent>
     <parent prob="0.6">linternaute.com</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Régional</category>
+    <category>Europe</category>
+    <category>France</category>
+    <category>Commerce et économie</category>
+    <category>Boutiques en ligne</category>
+    <category>Maison et jardin</category>
+    <category>Bricolage</category>
   </site>
   <site rank="182">
     <name>creditmutuel.fr</name>
@@ -2370,6 +3143,15 @@ and open the template in the editor.
     <parent prob="1.3">live.com</parent>
     <parent prob="1.3">boursorama.com</parent>
     <parent prob="1.1">cic.fr</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Régional</category>
+    <category>Europe</category>
+    <category>France</category>
+    <category>Commerce et économie</category>
+    <category>Services financiers</category>
+    <category>Banques</category>
+    <category>Crédit Mutuel</category>
   </site>
   <site rank="183">
     <name>purepeople.com</name>
@@ -2396,6 +3178,16 @@ and open the template in the editor.
     <parent prob="1.4">youtube.com</parent>
     <parent prob="0.9">yahoo.com</parent>
     <parent prob="0.8">autoscout24.fr</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Régional</category>
+    <category>Europe</category>
+    <category>France</category>
+    <category>Commerce et économie</category>
+    <category>Véhicules</category>
+    <category>Automobiles</category>
+    <category>Vente de véhicules</category>
+    <category>Petites annonces</category>
   </site>
   <site rank="185">
     <name>babylon.com</name>
@@ -2409,6 +3201,10 @@ and open the template in the editor.
     <parent prob="0.8">live.com</parent>
     <parent prob="0.7">google.co.in</parent>
     <parent prob="0.6">ask.com</parent>
+    <category>Computers</category>
+    <category>Software</category>
+    <category>Globalization</category>
+    <category>Computer Aided Translation</category>
   </site>
   <site rank="186">
     <name>adopteunmec.com</name>
@@ -2422,6 +3218,12 @@ and open the template in the editor.
     <parent prob="1.5">live.com</parent>
     <parent prob="0.9">wikipedia.org</parent>
     <parent prob="0.8">meetic.fr</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Société</category>
+    <category>Relations</category>
+    <category>Rencontres</category>
+    <category>Petites annonces</category>
   </site>
   <site rank="187">
     <name>boulanger.fr</name>
@@ -2461,6 +3263,9 @@ and open the template in the editor.
     <parent prob="0.9">voyages-sncf.com</parent>
     <parent prob="0.9">google.it</parent>
     <parent prob="0.7">amazon.fr</parent>
+    <category>Reference</category>
+    <category>Maps</category>
+    <category>Trip Routing</category>
   </site>
   <site rank="190">
     <name>footmercato.net</name>
@@ -2474,6 +3279,12 @@ and open the template in the editor.
     <parent prob="2.1">betclic.fr</parent>
     <parent prob="1.7">youtube.com</parent>
     <parent prob="1.4">eurosport.fr</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Sports</category>
+    <category>Balles et ballons</category>
+    <category>Football</category>
+    <category>Actualité et médias</category>
   </site>
   <site rank="191">
     <name>soundcloud.com</name>
@@ -2487,6 +3298,10 @@ and open the template in the editor.
     <parent prob="0.9">yahoo.com</parent>
     <parent prob="0.9">google.de</parent>
     <parent prob="0.8">google.co.in</parent>
+    <category>Computers</category>
+    <category>Internet</category>
+    <category>On the Web</category>
+    <category>Web Applications</category>
   </site>
   <site rank="192">
     <name>mozilla.org</name>
@@ -2500,6 +3315,10 @@ and open the template in the editor.
     <parent prob="1.1">ask.com</parent>
     <parent prob="1.0">google.de</parent>
     <parent prob="0.8">google.com.vn</parent>
+    <category>Computers</category>
+    <category>Open Source</category>
+    <category>Organizations</category>
+    <category>Mozilla</category>
   </site>
   <site rank="193">
     <name>e-monsite.com</name>
@@ -2513,6 +3332,13 @@ and open the template in the editor.
     <parent prob="0.9">google.tn</parent>
     <parent prob="0.9">manager.e-monsite.com/user/sites</parent>
     <parent prob="0.8">westernunion.fr</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Informatique</category>
+    <category>Internet</category>
+    <category>Conception et développement</category>
+    <category>Hébergement</category>
+    <category>Gratuit</category>
   </site>
   <site rank="194">
     <name>tomsguide.fr</name>
@@ -2539,6 +3365,14 @@ and open the template in the editor.
     <parent prob="0.7">twitter.com</parent>
     <parent prob="0.7">lemonde.fr</parent>
     <parent prob="0.7">linkedin.com</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Régional</category>
+    <category>Europe</category>
+    <category>France</category>
+    <category>Actualité et médias</category>
+    <category>Journaux</category>
+    <category>Journaux régionaux</category>
   </site>
   <site rank="196">
     <name>tukif.com</name>
@@ -2565,6 +3399,10 @@ and open the template in the editor.
     <parent prob="2.2">google.com.vn</parent>
     <parent prob="2.2">google.co.uk</parent>
     <parent prob="1.8">google.it</parent>
+    <category>Reference</category>
+    <category>Dictionaries</category>
+    <category>World Languages</category>
+    <category>Multilingual</category>
   </site>
   <site rank="198">
     <name>journaldugeek.com</name>
@@ -2578,6 +3416,11 @@ and open the template in the editor.
     <parent prob="1.3">feedly.com</parent>
     <parent prob="1.2">twitter.com</parent>
     <parent prob="1.0">frandroid.com</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Société</category>
+    <category>Cultures alternatives</category>
+    <category>Geeks</category>
   </site>
   <site rank="199">
     <name>ask.fm</name>
@@ -2630,6 +3473,12 @@ and open the template in the editor.
     <parent prob="1.0">t.co</parent>
     <parent prob="0.8">lexpress.fr</parent>
     <parent prob="0.8">ozap.com</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Actualité</category>
+    <category>Télévision</category>
+    <category>Magazines et e-zines</category>
+    <category>E-zines</category>
   </site>
   <site rank="203">
     <name>francetvinfo.fr</name>
@@ -2682,6 +3531,15 @@ and open the template in the editor.
     <parent prob="1.1">youtube.com</parent>
     <parent prob="1.0">decathlon.es</parent>
     <parent prob="1.0">amazon.fr</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Régional</category>
+    <category>Europe</category>
+    <category>France</category>
+    <category>Commerce et économie</category>
+    <category>Produits et services de consommation</category>
+    <category>Sports</category>
+    <category>Plein air</category>
   </site>
   <site rank="207">
     <name>tradedoubler.com</name>
@@ -2695,6 +3553,11 @@ and open the template in the editor.
     <parent prob="1.6">affili.net</parent>
     <parent prob="1.4">youtube.com</parent>
     <parent prob="1.4">google.fr</parent>
+    <category>Business</category>
+    <category>Opportunities</category>
+    <category>Online Opportunities</category>
+    <category>Affiliate Programs</category>
+    <category>Affiliate Networks</category>
   </site>
   <site rank="208">
     <name>rencontreshard.com</name>
@@ -2734,6 +3597,13 @@ and open the template in the editor.
     <parent prob="1.0">youtube.com</parent>
     <parent prob="1.0">google.ca</parent>
     <parent prob="0.9">bing.com</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Informatique</category>
+    <category>Internet</category>
+    <category>Weblogs</category>
+    <category>Outils</category>
+    <category>Hébergement</category>
   </site>
   <site rank="211">
     <name>hellocoton.fr</name>
@@ -2747,6 +3617,12 @@ and open the template in the editor.
     <parent prob="0.7">pinterest.com</parent>
     <parent prob="0.5">google.be</parent>
     <parent prob="0.5">instagram.com</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Société</category>
+    <category>Personnes</category>
+    <category>Femmes</category>
+    <category>Weblogs</category>
   </site>
   <site rank="212">
     <name>media.tumblr.com</name>
@@ -2812,6 +3688,11 @@ and open the template in the editor.
     <parent prob="1.1">google.ca</parent>
     <parent prob="0.9">indeed.fr</parent>
     <parent prob="0.9">w3schools.com</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Informatique</category>
+    <category>Formats de données</category>
+    <category>Feuilles de style</category>
   </site>
   <site rank="217">
     <name>adsl.free.fr</name>
@@ -2838,6 +3719,11 @@ and open the template in the editor.
     <parent prob="1.1">last-video.com</parent>
     <parent prob="1.0">jeuxvideo.com</parent>
     <parent prob="1.0">9gag.com</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Loisirs</category>
+    <category>Humour</category>
+    <category>Images et vidéos</category>
   </site>
   <site rank="219">
     <name>reddit.com</name>
@@ -2851,6 +3737,9 @@ and open the template in the editor.
     <parent prob="0.9">yahoo.com</parent>
     <parent prob="0.9">media.tumblr.com</parent>
     <parent prob="0.7">stumbleupon.com</parent>
+    <category>News</category>
+    <category>Headline Links</category>
+    <category>Collaborative</category>
   </site>
   <site rank="220">
     <name>imp.free.fr</name>
@@ -2877,6 +3766,14 @@ and open the template in the editor.
     <parent prob="0.8">lemonde.fr</parent>
     <parent prob="0.7">yahoo.com</parent>
     <parent prob="0.7">leboncoin.fr</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Régional</category>
+    <category>Europe</category>
+    <category>France</category>
+    <category>Actualité et médias</category>
+    <category>Journaux</category>
+    <category>Journaux régionaux</category>
   </site>
   <site rank="222">
     <name>3suisses.fr</name>
@@ -2890,6 +3787,14 @@ and open the template in the editor.
     <parent prob="1.0">orange.fr</parent>
     <parent prob="1.0">amazon.fr</parent>
     <parent prob="0.9">advertstream.com</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Régional</category>
+    <category>Europe</category>
+    <category>France</category>
+    <category>Commerce et économie</category>
+    <category>Boutiques en ligne</category>
+    <category>Détaillants</category>
   </site>
   <site rank="223">
     <name>dropbox.com</name>
@@ -2903,6 +3808,12 @@ and open the template in the editor.
     <parent prob="1.0">twitter.com</parent>
     <parent prob="0.8">google.co.in</parent>
     <parent prob="0.6">google.de</parent>
+    <category>Computers</category>
+    <category>Internet</category>
+    <category>On the Web</category>
+    <category>Web Applications</category>
+    <category>Storage</category>
+    <category>Free</category>
   </site>
   <site rank="224">
     <name>semrush.com</name>
@@ -2916,6 +3827,13 @@ and open the template in the editor.
     <parent prob="0.7">google.co.in</parent>
     <parent prob="0.7">youtube.com</parent>
     <parent prob="0.7">majesticseo.com</parent>
+    <category>World</category>
+    <category>Russian</category>
+    <category>Компьютеры</category>
+    <category>Интернет</category>
+    <category>Дизайн и разработка сайтов</category>
+    <category>Продвижение сайтов</category>
+    <category>Инструменты</category>
   </site>
   <site rank="225">
     <name>pcinpact.com</name>
@@ -2929,6 +3847,11 @@ and open the template in the editor.
     <parent prob="1.3">t.co</parent>
     <parent prob="1.0">lemonde.fr</parent>
     <parent prob="1.0">jeuxvideo.com</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Informatique</category>
+    <category>Actualité et médias</category>
+    <category>Actualités</category>
   </site>
   <site rank="226">
     <name>netvibes.com</name>
@@ -2942,6 +3865,13 @@ and open the template in the editor.
     <parent prob="0.8">linkedin.com</parent>
     <parent prob="0.7">google.de</parent>
     <parent prob="0.6">wikipedia.org</parent>
+    <category>Computers</category>
+    <category>Software</category>
+    <category>Internet</category>
+    <category>Clients</category>
+    <category>Web</category>
+    <category>Feed Readers</category>
+    <category>Web Based</category>
   </site>
   <site rank="227">
     <name>google.co.uk</name>
@@ -2955,6 +3885,11 @@ and open the template in the editor.
     <parent prob="1.1">amazon.co.uk</parent>
     <parent prob="1.0">twitter.com</parent>
     <parent prob="0.9">linkedin.com</parent>
+    <category>Regional</category>
+    <category>Europe</category>
+    <category>United Kingdom</category>
+    <category>Scotland</category>
+    <category>Arts and Entertainment</category>
   </site>
   <site rank="228">
     <name>forumactif.com</name>
@@ -2968,6 +3903,12 @@ and open the template in the editor.
     <parent prob="0.8">google.tn</parent>
     <parent prob="0.7">live.com</parent>
     <parent prob="0.7">bing.com</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Informatique</category>
+    <category>Internet</category>
+    <category>Forums de discussions</category>
+    <category>Hébergement</category>
   </site>
   <site rank="229">
     <name>cic.fr</name>
@@ -2981,6 +3922,15 @@ and open the template in the editor.
     <parent prob="1.1">paypal.com</parent>
     <parent prob="0.9">ask.com</parent>
     <parent prob="0.9">orange.fr</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Régional</category>
+    <category>Europe</category>
+    <category>France</category>
+    <category>Commerce et économie</category>
+    <category>Services financiers</category>
+    <category>Banques</category>
+    <category>CIC</category>
   </site>
   <site rank="230">
     <name>france3.fr</name>
@@ -2994,6 +3944,14 @@ and open the template in the editor.
     <parent prob="1.1">francetv.fr</parent>
     <parent prob="0.9">twitter.com</parent>
     <parent prob="0.9">yahoo.com</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Régional</category>
+    <category>Europe</category>
+    <category>France</category>
+    <category>Actualité et médias</category>
+    <category>Télévision</category>
+    <category>Chaînes</category>
   </site>
   <site rank="231">
     <name>topito.com</name>
@@ -3046,6 +4004,12 @@ and open the template in the editor.
     <parent prob="1.5">youtube.com</parent>
     <parent prob="1.2">wikipedia.org</parent>
     <parent prob="1.1">google.be</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Arts</category>
+    <category>Audiovisuel</category>
+    <category>Cinéma</category>
+    <category>Actualité et médias</category>
   </site>
   <site rank="235">
     <name>amoureux.com</name>
@@ -3085,6 +4049,11 @@ and open the template in the editor.
     <parent prob="1.3">adopteunmec.com</parent>
     <parent prob="1.1">orange.fr</parent>
     <parent prob="0.9">badoo.com</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Société</category>
+    <category>Communautés virtuelles</category>
+    <category>Réseaux sociaux</category>
   </site>
   <site rank="238">
     <name>materiel.net</name>
@@ -3098,6 +4067,14 @@ and open the template in the editor.
     <parent prob="1.4">hardware.fr</parent>
     <parent prob="1.4">youtube.com</parent>
     <parent prob="1.2">clubic.com</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Régional</category>
+    <category>Europe</category>
+    <category>France</category>
+    <category>Commerce et économie</category>
+    <category>Boutiques en ligne</category>
+    <category>Informatique</category>
   </site>
   <site rank="239">
     <name>pap.fr</name>
@@ -3111,6 +4088,14 @@ and open the template in the editor.
     <parent prob="1.6">live.com</parent>
     <parent prob="0.6">amazon.fr</parent>
     <parent prob="0.6">youtube.com</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Régional</category>
+    <category>Europe</category>
+    <category>France</category>
+    <category>Commerce et économie</category>
+    <category>Immobilier</category>
+    <category>Petites annonces</category>
   </site>
   <site rank="240">
     <name>telerama.fr</name>
@@ -3124,6 +4109,13 @@ and open the template in the editor.
     <parent prob="1.5">yahoo.com</parent>
     <parent prob="1.0">t.co</parent>
     <parent prob="1.0">youtube.com</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Régional</category>
+    <category>Europe</category>
+    <category>France</category>
+    <category>Actualité et médias</category>
+    <category>Magazines et e-zines</category>
   </site>
   <site rank="241">
     <name>frenchweb.fr</name>
@@ -3163,6 +4155,11 @@ and open the template in the editor.
     <parent prob="1.7">google.es</parent>
     <parent prob="1.5">yahoo.com</parent>
     <parent prob="1.4">google.co.in</parent>
+    <category>Computers</category>
+    <category>Software</category>
+    <category>Groupware</category>
+    <category>Wiki</category>
+    <category>Wiki Farms</category>
   </site>
   <site rank="244">
     <name>latribune.fr</name>
@@ -3176,6 +4173,13 @@ and open the template in the editor.
     <parent prob="2.0">linkedin.com</parent>
     <parent prob="1.5">t.co</parent>
     <parent prob="1.2">yahoo.com</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Régional</category>
+    <category>Europe</category>
+    <category>France</category>
+    <category>Actualité et médias</category>
+    <category>Journaux</category>
   </site>
   <site rank="245">
     <name>francetv.fr</name>
@@ -3228,6 +4232,11 @@ and open the template in the editor.
     <parent prob="1.4">jeuxvideo.fr</parent>
     <parent prob="1.1">google.dz</parent>
     <parent prob="0.9">jvn.com</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Jeux</category>
+    <category>Jeux vidéo</category>
+    <category>Actualités et avant-premières</category>
   </site>
   <site rank="249">
     <name>tube8.com</name>
@@ -3254,6 +4263,11 @@ and open the template in the editor.
     <parent prob="1.4">vg247.com</parent>
     <parent prob="1.2">feedly.com</parent>
     <parent prob="1.1">t.co</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Jeux</category>
+    <category>Jeux vidéo</category>
+    <category>Actualités et avant-premières</category>
   </site>
   <site rank="251">
     <name>atlantico.fr</name>
@@ -3267,6 +4281,13 @@ and open the template in the editor.
     <parent prob="1.6">twitter.com</parent>
     <parent prob="1.4">lemonde.fr</parent>
     <parent prob="1.3">youtube.com</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Régional</category>
+    <category>Europe</category>
+    <category>France</category>
+    <category>Actualité et médias</category>
+    <category>Magazines et e-zines</category>
   </site>
   <site rank="252">
     <name>korben.info</name>
@@ -3306,6 +4327,13 @@ and open the template in the editor.
     <parent prob="0.7">bp.blogspot.com</parent>
     <parent prob="0.6">google.com.vn</parent>
     <parent prob="0.5">alexa.com</parent>
+    <category>Computers</category>
+    <category>Internet</category>
+    <category>On the Web</category>
+    <category>Weblogs</category>
+    <category>Tools</category>
+    <category>Publishers</category>
+    <category>Blogger</category>
   </site>
   <site rank="255">
     <name>frandroid.com</name>
@@ -3319,6 +4347,14 @@ and open the template in the editor.
     <parent prob="1.4">xda-developers.com</parent>
     <parent prob="0.9">lesnumeriques.com</parent>
     <parent prob="0.9">clubic.com</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Informatique</category>
+    <category>Matériel</category>
+    <category>Systèmes</category>
+    <category>Ordinateurs de poche</category>
+    <category>Smartphones</category>
+    <category>Android</category>
   </site>
   <site rank="256">
     <name>fdj.fr</name>
@@ -3345,6 +4381,14 @@ and open the template in the editor.
     <parent prob="1.0">carrefour.fr</parent>
     <parent prob="0.9">affili.net</parent>
     <parent prob="0.8">leguide.com</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Régional</category>
+    <category>Europe</category>
+    <category>France</category>
+    <category>Commerce et économie</category>
+    <category>Produits et services de consommation</category>
+    <category>Commerce de détail</category>
   </site>
   <site rank="258">
     <name>delta-search.com</name>
@@ -3384,6 +4428,13 @@ and open the template in the editor.
     <parent prob="1.0">twitter.com</parent>
     <parent prob="0.9">20minutes.fr</parent>
     <parent prob="0.8">europe1.fr</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Régional</category>
+    <category>Europe</category>
+    <category>France</category>
+    <category>Actualité et médias</category>
+    <category>Radio</category>
   </site>
   <site rank="261">
     <name>torrentz.eu</name>
@@ -3410,6 +4461,8 @@ and open the template in the editor.
     <parent prob="1.2">amazon.de</parent>
     <parent prob="1.1">live.com</parent>
     <parent prob="0.8">bbc.co.uk</parent>
+    <category>Shopping</category>
+    <category>Entertainment</category>
   </site>
   <site rank="263">
     <name>futura-sciences.com</name>
@@ -3423,6 +4476,10 @@ and open the template in the editor.
     <parent prob="1.4">yahoo.com</parent>
     <parent prob="1.2">youtube.com</parent>
     <parent prob="1.1">google.be</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Sciences</category>
+    <category>Actualité et médias</category>
   </site>
   <site rank="264">
     <name>coqnu.com</name>
@@ -3449,6 +4506,11 @@ and open the template in the editor.
     <parent prob="1.8">journaldesfemmes.com</parent>
     <parent prob="1.7">google.ca</parent>
     <parent prob="1.2">google.tn</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Maison</category>
+    <category>Cuisine</category>
+    <category>Recueils de recettes</category>
   </site>
   <site rank="266">
     <name>bonplan1.com</name>
@@ -3501,6 +4563,13 @@ and open the template in the editor.
     <parent prob="1.0">ameli-sante.fr</parent>
     <parent prob="0.9">amazon.fr</parent>
     <parent prob="0.8">caf.fr</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Régional</category>
+    <category>Europe</category>
+    <category>France</category>
+    <category>Société</category>
+    <category>Protection sociale</category>
   </site>
   <site rank="270">
     <name>larousse.fr</name>
@@ -3514,6 +4583,10 @@ and open the template in the editor.
     <parent prob="1.8">linternaute.com</parent>
     <parent prob="1.6">google.tn</parent>
     <parent prob="1.5">reverso.net</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Références</category>
+    <category>Encyclopédies</category>
   </site>
   <site rank="271">
     <name>rapidgator.net</name>
@@ -3540,6 +4613,13 @@ and open the template in the editor.
     <parent prob="1.4">affili.net</parent>
     <parent prob="1.3">linkedin.com</parent>
     <parent prob="1.3">youtube.com</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Informatique</category>
+    <category>Internet</category>
+    <category>Conception et développement</category>
+    <category>Promotion</category>
+    <category>Programmes d'affiliation</category>
   </site>
   <site rank="273">
     <name>lachainemeteo.com</name>
@@ -3553,6 +4633,14 @@ and open the template in the editor.
     <parent prob="1.8">meteoconsult.fr</parent>
     <parent prob="1.3">tameteo.com</parent>
     <parent prob="1.3">ask.com</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Régional</category>
+    <category>Europe</category>
+    <category>France</category>
+    <category>Actualité et médias</category>
+    <category>Télévision</category>
+    <category>Chaînes</category>
   </site>
   <site rank="274">
     <name>spartoo.com</name>
@@ -3566,6 +4654,11 @@ and open the template in the editor.
     <parent prob="1.3">cdiscount.com</parent>
     <parent prob="1.0">youtube.com</parent>
     <parent prob="0.8">leboncoin.fr</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Boutiques en ligne</category>
+    <category>Habillement</category>
+    <category>Chaussures</category>
   </site>
   <site rank="275">
     <name>vk.com</name>
@@ -3579,6 +4672,11 @@ and open the template in the editor.
     <parent prob="2.2">odnoklassniki.ru</parent>
     <parent prob="1.0">twitter.com</parent>
     <parent prob="1.0">vk.me</parent>
+    <category>World</category>
+    <category>Russian</category>
+    <category>Общество</category>
+    <category>Отношения</category>
+    <category>Социальные сети</category>
   </site>
   <site rank="276">
     <name>mobifiesta.com</name>
@@ -3605,6 +4703,11 @@ and open the template in the editor.
     <parent prob="0.8">google.co.uk</parent>
     <parent prob="0.7">yahoo.com</parent>
     <parent prob="0.7">godaddy.com</parent>
+    <category>Computers</category>
+    <category>Internet</category>
+    <category>Domain Names</category>
+    <category>Registrars</category>
+    <category>G</category>
   </site>
   <site rank="278">
     <name>m6.fr</name>
@@ -3618,6 +4721,14 @@ and open the template in the editor.
     <parent prob="1.6">caradisiac.com</parent>
     <parent prob="1.4">yahoo.com</parent>
     <parent prob="1.2">autotitre.com</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Régional</category>
+    <category>Europe</category>
+    <category>France</category>
+    <category>Actualité et médias</category>
+    <category>Télévision</category>
+    <category>Chaînes</category>
   </site>
   <site rank="279">
     <name>clkmon.com</name>
@@ -3644,6 +4755,11 @@ and open the template in the editor.
     <parent prob="0.9">gala.fr</parent>
     <parent prob="0.8">twitter.com</parent>
     <parent prob="0.8">youtube.com</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Loisirs</category>
+    <category>Célébrités</category>
+    <category>Actualités et médias</category>
   </site>
   <site rank="281">
     <name>addthis.com</name>
@@ -3670,6 +4786,9 @@ and open the template in the editor.
     <parent prob="0.8">google.co.uk</parent>
     <parent prob="0.7">google.com.vn</parent>
     <parent prob="0.7">google.com.tr</parent>
+    <category>Computers</category>
+    <category>Open Source</category>
+    <category>Project Hosting</category>
   </site>
   <site rank="283">
     <name>pagesperso-orange.fr</name>
@@ -3696,6 +4815,9 @@ and open the template in the editor.
     <parent prob="1.0">youtube.com</parent>
     <parent prob="0.8">google.com.tr</parent>
     <parent prob="0.7">google.de</parent>
+    <category>Reference</category>
+    <category>Libraries</category>
+    <category>Digital</category>
   </site>
   <site rank="285">
     <name>oxatis.com</name>
@@ -3748,6 +4870,12 @@ and open the template in the editor.
     <parent prob="1.5">satrk.com</parent>
     <parent prob="1.4">slimspots.com</parent>
     <parent prob="1.2">ad4game.com</parent>
+    <category>World</category>
+    <category>Deutsch</category>
+    <category>Spiele</category>
+    <category>Computerspiele</category>
+    <category>Browserbasiert</category>
+    <category>Firmen</category>
   </site>
   <site rank="289">
     <name>monster.fr</name>
@@ -3761,6 +4889,10 @@ and open the template in the editor.
     <parent prob="1.9">yahoo.com</parent>
     <parent prob="1.9">live.com</parent>
     <parent prob="1.6">jobijoba.com</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Commerce et économie</category>
+    <category>Emploi</category>
   </site>
   <site rank="290">
     <name>papystreaming.com</name>
@@ -3787,6 +4919,11 @@ and open the template in the editor.
     <parent prob="1.6">outbrain.com</parent>
     <parent prob="1.4">feedsportal.com</parent>
     <parent prob="1.3">lefigaro.fr</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Commerce et économie</category>
+    <category>Ressources</category>
+    <category>Actualité et médias</category>
   </site>
   <site rank="292">
     <name>forum-auto.com</name>
@@ -3800,6 +4937,12 @@ and open the template in the editor.
     <parent prob="0.8">facebook.com</parent>
     <parent prob="0.7">auto-evasion.com</parent>
     <parent prob="0.7">google.tn</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Loisirs</category>
+    <category>Hobbies</category>
+    <category>Automobile</category>
+    <category>Discussions</category>
   </site>
   <site rank="293">
     <name>millenium.org</name>
@@ -3826,6 +4969,12 @@ and open the template in the editor.
     <parent prob="1.7">yahoo.com</parent>
     <parent prob="1.3">live.com</parent>
     <parent prob="0.9">bbc.co.uk</parent>
+    <category>Regional</category>
+    <category>Europe</category>
+    <category>United Kingdom</category>
+    <category>Business and Economy</category>
+    <category>Shopping</category>
+    <category>Auctions</category>
   </site>
   <site rank="295">
     <name>comprendrechoisir.com</name>
@@ -3852,6 +5001,9 @@ and open the template in the editor.
     <parent prob="0.7">google.co.in</parent>
     <parent prob="0.6">google.fr</parent>
     <parent prob="0.5">cloudfront.net</parent>
+    <category>Recreation</category>
+    <category>Humor</category>
+    <category>Visual</category>
   </site>
   <site rank="297">
     <name>w3schools.com</name>
@@ -3878,6 +5030,15 @@ and open the template in the editor.
     <parent prob="1.2">leboncoin.fr</parent>
     <parent prob="1.1">darty.com</parent>
     <parent prob="1.0">amazon.fr</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Régional</category>
+    <category>Europe</category>
+    <category>France</category>
+    <category>Commerce et économie</category>
+    <category>Boutiques en ligne</category>
+    <category>Maison et jardin</category>
+    <category>Electroménager</category>
   </site>
   <site rank="299">
     <name>betclic.fr</name>
@@ -3904,6 +5065,14 @@ and open the template in the editor.
     <parent prob="1.4">google.co.uk</parent>
     <parent prob="1.2">google.co.il</parent>
     <parent prob="1.1">users.wix.com</parent>
+    <category>World</category>
+    <category>Deutsch</category>
+    <category>Computer</category>
+    <category>Internet</category>
+    <category>Webdesign und -entwicklung</category>
+    <category>Webhosting</category>
+    <category>Kostenlos</category>
+    <category>Baukasten</category>
   </site>
   <site rank="301">
     <name>chaturbate.com</name>
@@ -3943,6 +5112,13 @@ and open the template in the editor.
     <parent prob="1.0">monster.fr</parent>
     <parent prob="0.9">youtube.com</parent>
     <parent prob="0.9">google.tn</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Régional</category>
+    <category>Europe</category>
+    <category>France</category>
+    <category>Enseignement et formation</category>
+    <category>Guides</category>
   </site>
   <site rank="304">
     <name>generation-nt.com</name>
@@ -3956,6 +5132,12 @@ and open the template in the editor.
     <parent prob="1.1">binnews.in</parent>
     <parent prob="1.0">yahoo.com</parent>
     <parent prob="0.9">google.ca</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Informatique</category>
+    <category>Formation</category>
+    <category>Systèmes d'exploitation</category>
+    <category>Windows</category>
   </site>
   <site rank="305">
     <name>monetize-me.com</name>
@@ -3995,6 +5177,13 @@ and open the template in the editor.
     <parent prob="0.7">google.ch</parent>
     <parent prob="0.7">facebook.com</parent>
     <parent prob="0.5">forums.wordpress.com</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Informatique</category>
+    <category>Internet</category>
+    <category>Weblogs</category>
+    <category>Outils</category>
+    <category>Wordpress</category>
   </site>
   <site rank="308">
     <name>ubuntu-fr.org</name>
@@ -4008,6 +5197,14 @@ and open the template in the editor.
     <parent prob="0.8">wikipedia.org</parent>
     <parent prob="0.8">askubuntu.com</parent>
     <parent prob="0.7">facebook.com</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Informatique</category>
+    <category>Logiciels</category>
+    <category>Systèmes d'exploitation</category>
+    <category>Linux</category>
+    <category>Distributions</category>
+    <category>Ubuntu</category>
   </site>
   <site rank="309">
     <name>battle.net</name>
@@ -4021,6 +5218,10 @@ and open the template in the editor.
     <parent prob="1.4">heroesofthestorm.com</parent>
     <parent prob="1.4">wowhead.com</parent>
     <parent prob="1.3">twitch.tv</parent>
+    <category>Games</category>
+    <category>Video Games</category>
+    <category>Multiplayer</category>
+    <category>Gaming Networks</category>
   </site>
   <site rank="310">
     <name>123rf.com</name>
@@ -4034,6 +5235,11 @@ and open the template in the editor.
     <parent prob="2.0">google.co.uk</parent>
     <parent prob="1.9">shutterstock.com</parent>
     <parent prob="1.7">google.com.tr</parent>
+    <category>Business</category>
+    <category>Arts and Entertainment</category>
+    <category>Photography</category>
+    <category>Stock</category>
+    <category>Royalty Free</category>
   </site>
   <site rank="311">
     <name>feedly.com</name>
@@ -4047,6 +5253,13 @@ and open the template in the editor.
     <parent prob="0.5">amazon.com</parent>
     <parent prob="0.5">google.co.uk</parent>
     <parent prob="0.5">pinterest.com</parent>
+    <category>Computers</category>
+    <category>Software</category>
+    <category>Internet</category>
+    <category>Clients</category>
+    <category>Web</category>
+    <category>Feed Readers</category>
+    <category>Web Based</category>
   </site>
   <site rank="312">
     <name>lavoixdunord.fr</name>
@@ -4060,6 +5273,14 @@ and open the template in the editor.
     <parent prob="0.7">wikipedia.org</parent>
     <parent prob="0.7">yahoo.com</parent>
     <parent prob="0.7">lefigaro.fr</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Régional</category>
+    <category>Europe</category>
+    <category>France</category>
+    <category>Actualité et médias</category>
+    <category>Journaux</category>
+    <category>Journaux régionaux</category>
   </site>
   <site rank="313">
     <name>zdnet.fr</name>
@@ -4073,6 +5294,11 @@ and open the template in the editor.
     <parent prob="1.0">linkedin.com</parent>
     <parent prob="1.0">twitter.com</parent>
     <parent prob="0.9">clubic.com</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Informatique</category>
+    <category>Internet</category>
+    <category>Portails</category>
   </site>
   <site rank="314">
     <name>presse-citron.net</name>
@@ -4086,6 +5312,12 @@ and open the template in the editor.
     <parent prob="1.2">youtube.com</parent>
     <parent prob="1.0">frenchweb.fr</parent>
     <parent prob="1.0">journaldugeek.com</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Informatique</category>
+    <category>Internet</category>
+    <category>Weblogs</category>
+    <category>Technologie</category>
   </site>
   <site rank="315">
     <name>france2.fr</name>
@@ -4099,6 +5331,14 @@ and open the template in the editor.
     <parent prob="1.0">google.es</parent>
     <parent prob="0.9">google.ca</parent>
     <parent prob="0.8">francetvinfo.fr</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Régional</category>
+    <category>Europe</category>
+    <category>France</category>
+    <category>Actualité et médias</category>
+    <category>Télévision</category>
+    <category>Chaînes</category>
   </site>
   <site rank="316">
     <name>yelp.fr</name>
@@ -4151,6 +5391,11 @@ and open the template in the editor.
     <parent prob="2.5">google.be</parent>
     <parent prob="1.5">journaldesfemmes.com</parent>
     <parent prob="1.2">yahoo.com</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Maison</category>
+    <category>Cuisine</category>
+    <category>Recueils de recettes</category>
   </site>
   <site rank="320">
     <name>macg.co</name>
@@ -4164,6 +5409,12 @@ and open the template in the editor.
     <parent prob="1.5">igen.fr</parent>
     <parent prob="1.4">ad6media.fr</parent>
     <parent prob="1.3">google.be</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Informatique</category>
+    <category>Logiciels</category>
+    <category>Systèmes d'exploitation</category>
+    <category>Mac OS</category>
   </site>
   <site rank="321">
     <name>viamichelin.fr</name>
@@ -4177,6 +5428,9 @@ and open the template in the editor.
     <parent prob="1.0">viamichelin.com</parent>
     <parent prob="0.8">amazon.fr</parent>
     <parent prob="0.8">michelin.fr</parent>
+    <category>Regional</category>
+    <category>Europe</category>
+    <category>Maps and Views</category>
   </site>
   <site rank="322">
     <name>adf.ly</name>
@@ -4203,6 +5457,11 @@ and open the template in the editor.
     <parent prob="1.0">amazon.fr</parent>
     <parent prob="1.0">orange.fr</parent>
     <parent prob="1.0">google.dz</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Boutiques en ligne</category>
+    <category>Habillement</category>
+    <category>Chaussures</category>
   </site>
   <site rank="324">
     <name>airfrance.fr</name>
@@ -4216,6 +5475,11 @@ and open the template in the editor.
     <parent prob="1.5">voyages-sncf.com</parent>
     <parent prob="1.5">yahoo.com</parent>
     <parent prob="0.9">flyingblue.com</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Loisirs</category>
+    <category>Voyage</category>
+    <category>Voyagistes</category>
   </site>
   <site rank="325">
     <name>publicidees.com</name>
@@ -4281,6 +5545,13 @@ and open the template in the editor.
     <parent prob="1.2">gmx.net</parent>
     <parent prob="0.8">google.es</parent>
     <parent prob="0.8">linkedin.com</parent>
+    <category>World</category>
+    <category>Deutsch</category>
+    <category>Computer</category>
+    <category>Internet</category>
+    <category>WWW</category>
+    <category>Web-Anwendungen</category>
+    <category>Organizer</category>
   </site>
   <site rank="330">
     <name>legifrance.gouv.fr</name>
@@ -4294,6 +5565,12 @@ and open the template in the editor.
     <parent prob="1.1">facebook.com</parent>
     <parent prob="0.7">developpement-durable.gouv.fr</parent>
     <parent prob="0.6">apce.com</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Sciences</category>
+    <category>Sciences humaines et sociales</category>
+    <category>Droit</category>
+    <category>Droit français</category>
   </site>
   <site rank="331">
     <name>amazonaws.com</name>
@@ -4320,6 +5597,11 @@ and open the template in the editor.
     <parent prob="1.4">twitter.com</parent>
     <parent prob="1.3">drudgereport.com</parent>
     <parent prob="0.9">google.ca</parent>
+    <category>Regional</category>
+    <category>Europe</category>
+    <category>United Kingdom</category>
+    <category>News and Media</category>
+    <category>Newspapers</category>
   </site>
   <site rank="333">
     <name>jeu.info</name>
@@ -4372,6 +5654,11 @@ and open the template in the editor.
     <parent prob="0.8">yahoo.com</parent>
     <parent prob="0.8">spiegel.de</parent>
     <parent prob="0.8">t.co</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Actualité</category>
+    <category>Télévision</category>
+    <category>Chaînes</category>
   </site>
   <site rank="337">
     <name>iminent.com</name>
@@ -4385,6 +5672,13 @@ and open the template in the editor.
     <parent prob="1.1">msn.com</parent>
     <parent prob="0.9">google.com.mx</parent>
     <parent prob="0.8">babylon.com</parent>
+    <category>Computers</category>
+    <category>Software</category>
+    <category>Internet</category>
+    <category>Clients</category>
+    <category>Chat</category>
+    <category>Instant Messaging</category>
+    <category>Add-on Software</category>
   </site>
   <site rank="338">
     <name>skype.com</name>
@@ -4398,6 +5692,10 @@ and open the template in the editor.
     <parent prob="1.2">google.co.uk</parent>
     <parent prob="1.1">google.com.tr</parent>
     <parent prob="1.1">google.com.vn</parent>
+    <category>Business</category>
+    <category>Telecommunications</category>
+    <category>Services</category>
+    <category>VoIP</category>
   </site>
   <site rank="339">
     <name>downparadise.ws</name>
@@ -4463,6 +5761,13 @@ and open the template in the editor.
     <parent prob="1.3">badoo.com</parent>
     <parent prob="1.3">leboncoin.fr</parent>
     <parent prob="1.3">orange.fr</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Adult</category>
+    <category>Société</category>
+    <category>Sexualité</category>
+    <category>Pratiques et activités</category>
+    <category>Echangisme</category>
   </site>
   <site rank="344">
     <name>paris.fr</name>
@@ -4476,6 +5781,13 @@ and open the template in the editor.
     <parent prob="0.6">youtube.com</parent>
     <parent prob="0.6">service-public.fr</parent>
     <parent prob="0.5">google.it</parent>
+    <category>Regional</category>
+    <category>Europe</category>
+    <category>France</category>
+    <category>Regions</category>
+    <category>Ile-de-France</category>
+    <category>Paris</category>
+    <category>Guides and Directories</category>
   </site>
   <site rank="345">
     <name>midilibre.fr</name>
@@ -4515,6 +5827,13 @@ and open the template in the editor.
     <parent prob="0.8">caf.fr</parent>
     <parent prob="0.8">live.com</parent>
     <parent prob="0.7">orange.fr</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Régional</category>
+    <category>Europe</category>
+    <category>France</category>
+    <category>Société</category>
+    <category>Protection sociale</category>
   </site>
   <site rank="348">
     <name>soonnight.com</name>
@@ -4541,6 +5860,11 @@ and open the template in the editor.
     <parent prob="0.9">list-manage.com</parent>
     <parent prob="0.9">google.co.in</parent>
     <parent prob="0.9">live.com</parent>
+    <category>Computers</category>
+    <category>Internet</category>
+    <category>E-mail</category>
+    <category>Marketing</category>
+    <category>Online Tools</category>
   </site>
   <site rank="350">
     <name>vistaprint.fr</name>
@@ -4554,6 +5878,10 @@ and open the template in the editor.
     <parent prob="1.3">yahoo.com</parent>
     <parent prob="1.0">google.dz</parent>
     <parent prob="0.7">ask.com</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Boutiques en ligne</category>
+    <category>Fournitures de bureau</category>
   </site>
   <site rank="351">
     <name>purevid.com</name>
@@ -4580,6 +5908,12 @@ and open the template in the editor.
     <parent prob="1.7">xvideos.com</parent>
     <parent prob="1.6">eroprofile.com</parent>
     <parent prob="1.3">cam4.com</parent>
+    <category>Adult</category>
+    <category>Computers</category>
+    <category>Internet</category>
+    <category>On the Web</category>
+    <category>Webcams</category>
+    <category>Members</category>
   </site>
   <site rank="353">
     <name>effiliation.com</name>
@@ -4593,6 +5927,13 @@ and open the template in the editor.
     <parent prob="1.1">tradedoubler.com</parent>
     <parent prob="0.9">yahoo.com</parent>
     <parent prob="0.7">google.co.uk</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Informatique</category>
+    <category>Internet</category>
+    <category>Conception et développement</category>
+    <category>Promotion</category>
+    <category>Programmes d'affiliation</category>
   </site>
   <site rank="354">
     <name>bizpowa.com</name>
@@ -4606,6 +5947,12 @@ and open the template in the editor.
     <parent prob="1.0">yahoo.com</parent>
     <parent prob="0.8">prelinker.com</parent>
     <parent prob="0.8">facebook.com</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Adult</category>
+    <category>Informatique</category>
+    <category>Internet</category>
+    <category>Ressources pour Webmasters</category>
   </site>
   <site rank="355">
     <name>demotivateur.fr</name>
@@ -4632,6 +5979,13 @@ and open the template in the editor.
     <parent prob="1.3">liberation.fr</parent>
     <parent prob="1.1">lefigaro.fr</parent>
     <parent prob="1.0">rue89.com</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Régional</category>
+    <category>Europe</category>
+    <category>France</category>
+    <category>Actualité et médias</category>
+    <category>Magazines et e-zines</category>
   </site>
   <site rank="357">
     <name>xlovecam.com</name>
@@ -4658,6 +6012,10 @@ and open the template in the editor.
     <parent prob="1.5">monster.fr</parent>
     <parent prob="1.5">facebook.com</parent>
     <parent prob="1.1">optioncarriere.com</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Commerce et économie</category>
+    <category>Emploi</category>
   </site>
   <site rank="359">
     <name>fnacspectacles.com</name>
@@ -4671,6 +6029,11 @@ and open the template in the editor.
     <parent prob="1.0">wlp-acs.com</parent>
     <parent prob="1.0">ticketnet.fr</parent>
     <parent prob="0.8">yahoo.com</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Boutiques en ligne</category>
+    <category>Loisirs</category>
+    <category>Billetterie</category>
   </site>
   <site rank="360">
     <name>dailygeekshow.com</name>
@@ -4710,6 +6073,12 @@ and open the template in the editor.
     <parent prob="1.3">king-jouet.com</parent>
     <parent prob="1.2">youtube.com</parent>
     <parent prob="1.0">carterus.fr</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Boutiques en ligne</category>
+    <category>Loisirs</category>
+    <category>Jeux et jouets</category>
+    <category>Enfants</category>
   </site>
   <site rank="363">
     <name>coco.fr</name>
@@ -4749,6 +6118,10 @@ and open the template in the editor.
     <parent prob="1.4">wikipedia.org</parent>
     <parent prob="1.2">google.com.tr</parent>
     <parent prob="1.2">google.ca</parent>
+    <category>Computers</category>
+    <category>Internet</category>
+    <category>On the Web</category>
+    <category>Web Applications</category>
   </site>
   <site rank="366">
     <name>radins.com</name>
@@ -4762,6 +6135,11 @@ and open the template in the editor.
     <parent prob="0.9">bons-de-reduction.com</parent>
     <parent prob="0.8">moins-depenser.com</parent>
     <parent prob="0.8">zanox.com</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Maison</category>
+    <category>Informations pour les consommateurs</category>
+    <category>Réductions et promotions</category>
   </site>
   <site rank="367">
     <name>unblog.fr</name>
@@ -4775,6 +6153,13 @@ and open the template in the editor.
     <parent prob="0.8">yahoo.com</parent>
     <parent prob="0.7">google.tn</parent>
     <parent prob="0.7">google.com.tr</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Informatique</category>
+    <category>Internet</category>
+    <category>Weblogs</category>
+    <category>Outils</category>
+    <category>Hébergement</category>
   </site>
   <site rank="368">
     <name>codecanyon.net</name>
@@ -4801,6 +6186,11 @@ and open the template in the editor.
     <parent prob="1.0">google.ca</parent>
     <parent prob="1.0">euroresidentes.com</parent>
     <parent prob="0.9">google.com.au</parent>
+    <category>Recreation</category>
+    <category>Travel</category>
+    <category>Preparation</category>
+    <category>Currencies</category>
+    <category>Exchange Rates</category>
   </site>
   <site rank="370">
     <name>bannersdontwork.com</name>
@@ -4866,6 +6256,11 @@ and open the template in the editor.
     <parent prob="1.4">genybet.fr</parent>
     <parent prob="1.3">zeturf.com</parent>
     <parent prob="1.3">turfoo.fr</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Sports</category>
+    <category>Equitation</category>
+    <category>Courses</category>
   </site>
   <site rank="375">
     <name>covoiturage.fr</name>
@@ -4879,6 +6274,13 @@ and open the template in the editor.
     <parent prob="1.5">kelbillet.com</parent>
     <parent prob="1.2">orange.fr</parent>
     <parent prob="1.1">leboncoin.fr</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Régional</category>
+    <category>Europe</category>
+    <category>France</category>
+    <category>Transports</category>
+    <category>Covoiturage</category>
   </site>
   <site rank="376">
     <name>maxifoot.fr</name>
@@ -4892,6 +6294,12 @@ and open the template in the editor.
     <parent prob="1.3">livefoot.fr</parent>
     <parent prob="1.1">football365.fr</parent>
     <parent prob="0.8">eurosport.fr</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Sports</category>
+    <category>Balles et ballons</category>
+    <category>Football</category>
+    <category>Actualité et médias</category>
   </site>
   <site rank="377">
     <name>kingeshop.com</name>
@@ -4905,6 +6313,12 @@ and open the template in the editor.
     <parent prob="1.8">orange.fr</parent>
     <parent prob="1.7">leboncoin.fr</parent>
     <parent prob="1.6">google.ca</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Informatique</category>
+    <category>Internet</category>
+    <category>Conception et développement</category>
+    <category>Conception de sites</category>
   </site>
   <site rank="378">
     <name>hootsuite.com</name>
@@ -4918,6 +6332,12 @@ and open the template in the editor.
     <parent prob="1.0">yahoo.com</parent>
     <parent prob="0.9">pinterest.com</parent>
     <parent prob="0.8">google.ca</parent>
+    <category>Computers</category>
+    <category>Internet</category>
+    <category>On the Web</category>
+    <category>Online Communities</category>
+    <category>Social Networking</category>
+    <category>Twitter</category>
   </site>
   <site rank="379">
     <name>lesinrocks.com</name>
@@ -4931,6 +6351,13 @@ and open the template in the editor.
     <parent prob="0.9">allocine.fr</parent>
     <parent prob="0.8">google.co.uk</parent>
     <parent prob="0.7">rue89.com</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Arts</category>
+    <category>Musique</category>
+    <category>Genres</category>
+    <category>Rock et Pop</category>
+    <category>Actualité et médias</category>
   </site>
   <site rank="380">
     <name>youjizz.com</name>
@@ -4970,6 +6397,14 @@ and open the template in the editor.
     <parent prob="1.5">facebook.com</parent>
     <parent prob="1.4">rueducommerce.fr</parent>
     <parent prob="1.3">fnac.com</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Régional</category>
+    <category>Europe</category>
+    <category>France</category>
+    <category>Commerce et économie</category>
+    <category>Boutiques en ligne</category>
+    <category>Informatique</category>
   </site>
   <site rank="383">
     <name>galerieslafayette.com</name>
@@ -4983,6 +6418,14 @@ and open the template in the editor.
     <parent prob="1.3">live.com</parent>
     <parent prob="1.3">moteur-shopping.com</parent>
     <parent prob="1.2">vente-privee.com</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Régional</category>
+    <category>Europe</category>
+    <category>France</category>
+    <category>Commerce et économie</category>
+    <category>Produits et services de consommation</category>
+    <category>Commerce de détail</category>
   </site>
   <site rank="384">
     <name>programme.tv</name>
@@ -5009,6 +6452,10 @@ and open the template in the editor.
     <parent prob="1.0">amazon.com</parent>
     <parent prob="0.9">bing.com</parent>
     <parent prob="0.8">linkedin.com</parent>
+    <category>Computers</category>
+    <category>Internet</category>
+    <category>On the Web</category>
+    <category>Web Portals</category>
   </site>
   <site rank="386">
     <name>aweber.com</name>
@@ -5022,6 +6469,12 @@ and open the template in the editor.
     <parent prob="0.7">getresponse.com</parent>
     <parent prob="0.7">google.co.uk</parent>
     <parent prob="0.6">gogvo.com</parent>
+    <category>Computers</category>
+    <category>Software</category>
+    <category>Internet</category>
+    <category>Servers</category>
+    <category>Mail</category>
+    <category>Autoresponder Services</category>
   </site>
   <site rank="387">
     <name>universfreebox.com</name>
@@ -5035,6 +6488,16 @@ and open the template in the editor.
     <parent prob="1.3">freezone.fr</parent>
     <parent prob="1.2">clubic.com</parent>
     <parent prob="1.1">adsl.free.fr</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Régional</category>
+    <category>Europe</category>
+    <category>France</category>
+    <category>Commerce et économie</category>
+    <category>Informatique</category>
+    <category>Internet</category>
+    <category>Fournisseurs d'accès</category>
+    <category>Free</category>
   </site>
   <site rank="388">
     <name>ranks.fr</name>
@@ -5048,6 +6511,12 @@ and open the template in the editor.
     <parent prob="0.6">seeurank.com</parent>
     <parent prob="0.5">abondance.com</parent>
     <parent prob="0.5">linkedin.com</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Informatique</category>
+    <category>Internet</category>
+    <category>Conception et développement</category>
+    <category>Outils en ligne</category>
   </site>
   <site rank="389">
     <name>stackexchange.com</name>
@@ -5074,6 +6543,11 @@ and open the template in the editor.
     <parent prob="0.7">facebook.com</parent>
     <parent prob="0.6">google.be</parent>
     <parent prob="0.6">amazon.fr</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Maison</category>
+    <category>Informations pour les consommateurs</category>
+    <category>Réductions et promotions</category>
   </site>
   <site rank="391">
     <name>idealo.fr</name>
@@ -5087,6 +6561,11 @@ and open the template in the editor.
     <parent prob="1.1">rueducommerce.fr</parent>
     <parent prob="1.1">google.ch</parent>
     <parent prob="1.0">redcoon.fr</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Maison</category>
+    <category>Informations pour les consommateurs</category>
+    <category>Comparaisons de prix</category>
   </site>
   <site rank="392">
     <name>bazarchic.com</name>
@@ -5165,6 +6644,11 @@ and open the template in the editor.
     <parent prob="1.3">pcinpact.com</parent>
     <parent prob="1.2">lemonde.fr</parent>
     <parent prob="0.8">feedly.com</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Informatique</category>
+    <category>Actualité et médias</category>
+    <category>Publications</category>
   </site>
   <site rank="398">
     <name>sofoot.com</name>
@@ -5178,6 +6662,12 @@ and open the template in the editor.
     <parent prob="1.4">lefigaro.fr</parent>
     <parent prob="1.4">footmercato.net</parent>
     <parent prob="1.3">eurosport.fr</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Sports</category>
+    <category>Balles et ballons</category>
+    <category>Football</category>
+    <category>Actualité et médias</category>
   </site>
   <site rank="399">
     <name>tuxboard.com</name>
@@ -5204,6 +6694,11 @@ and open the template in the editor.
     <parent prob="1.4">journaldunet.com</parent>
     <parent prob="1.0">indeed.fr</parent>
     <parent prob="0.7">netvibes.com</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Informatique</category>
+    <category>Internet</category>
+    <category>Recherche</category>
   </site>
   <site rank="401">
     <name>jimdo.com</name>
@@ -5230,6 +6725,15 @@ and open the template in the editor.
     <parent prob="0.7">mdsmatch.com</parent>
     <parent prob="0.5">numericable.tv</parent>
     <parent prob="0.5">sfr.fr</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Régional</category>
+    <category>Europe</category>
+    <category>France</category>
+    <category>Commerce et économie</category>
+    <category>Informatique</category>
+    <category>Internet</category>
+    <category>Fournisseurs d'accès</category>
   </site>
   <site rank="403">
     <name>igraal.com</name>
@@ -5295,6 +6799,11 @@ and open the template in the editor.
     <parent prob="0.9">cdiscount.com</parent>
     <parent prob="0.9">google.dz</parent>
     <parent prob="0.8">rueducommerce.fr</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Maison</category>
+    <category>Informations pour les consommateurs</category>
+    <category>Comparaisons de prix</category>
   </site>
   <site rank="408">
     <name>online.net</name>
@@ -5308,6 +6817,15 @@ and open the template in the editor.
     <parent prob="1.2">yahoo.com</parent>
     <parent prob="1.0">poneytelecom.eu</parent>
     <parent prob="0.9">google.es</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Informatique</category>
+    <category>Internet</category>
+    <category>Conception et développement</category>
+    <category>Hébergement</category>
+    <category>Mutualisé</category>
+    <category>Spécialisé</category>
+    <category>PHP</category>
   </site>
   <site rank="409">
     <name>buzzfeed.com</name>
@@ -5334,6 +6852,15 @@ and open the template in the editor.
     <parent prob="0.7">commentcamarche.net</parent>
     <parent prob="0.7">youtube.com</parent>
     <parent prob="0.7">google.ca</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Informatique</category>
+    <category>Programmation</category>
+    <category>Langages</category>
+    <category>PHP</category>
+    <category>Scripts</category>
+    <category>Gestion de contenu</category>
+    <category>Joomla</category>
   </site>
   <site rank="411">
     <name>domaintools.com</name>
@@ -5347,6 +6874,10 @@ and open the template in the editor.
     <parent prob="0.7">alexa.com</parent>
     <parent prob="0.7">google.co.uk</parent>
     <parent prob="0.7">flagfox.net</parent>
+    <category>Computers</category>
+    <category>Internet</category>
+    <category>Domain Names</category>
+    <category>Name Search</category>
   </site>
   <site rank="412">
     <name>sports.fr</name>
@@ -5373,6 +6904,11 @@ and open the template in the editor.
     <parent prob="1.2">google.com.au</parent>
     <parent prob="1.1">wikipedia.org</parent>
     <parent prob="1.0">bing.com</parent>
+    <category>Computers</category>
+    <category>Internet</category>
+    <category>Searching</category>
+    <category>Directories</category>
+    <category>About.com</category>
   </site>
   <site rank="414">
     <name>majesticseo.com</name>
@@ -5399,6 +6935,12 @@ and open the template in the editor.
     <parent prob="1.1">google.be</parent>
     <parent prob="1.1">ma-reduc.com</parent>
     <parent prob="1.0">toysrus.fr</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Boutiques en ligne</category>
+    <category>Loisirs</category>
+    <category>Jeux et jouets</category>
+    <category>Enfants</category>
   </site>
   <site rank="416">
     <name>w3.org</name>
@@ -5412,6 +6954,8 @@ and open the template in the editor.
     <parent prob="1.1">google.com.tr</parent>
     <parent prob="0.9">google.es</parent>
     <parent prob="0.8">google.fr</parent>
+    <category>Computers</category>
+    <category>Internet</category>
   </site>
   <site rank="417">
     <name>edf.com</name>
@@ -5477,6 +7021,12 @@ and open the template in the editor.
     <parent prob="1.3">lemonde.fr</parent>
     <parent prob="0.9">live.com</parent>
     <parent prob="0.8">youtube.com</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Société</category>
+    <category>Personnes</category>
+    <category>Femmes</category>
+    <category>Magazines et e-zines</category>
   </site>
   <site rank="422">
     <name>wetransfer.com</name>
@@ -5503,6 +7053,7 @@ and open the template in the editor.
     <parent prob="1.4">youtube.com</parent>
     <parent prob="1.4">t.co</parent>
     <parent prob="1.3">wikipedia.org</parent>
+    <category>News</category>
   </site>
   <site rank="424">
     <name>freefilmshd.com</name>
@@ -5529,6 +7080,11 @@ and open the template in the editor.
     <parent prob="1.3">google.co.uk</parent>
     <parent prob="1.2">google.com.tr</parent>
     <parent prob="1.2">yahoo.com</parent>
+    <category>Business</category>
+    <category>Arts and Entertainment</category>
+    <category>Photography</category>
+    <category>Stock</category>
+    <category>Royalty Free</category>
   </site>
   <site rank="426">
     <name>easyjet.com</name>
@@ -5542,6 +7098,12 @@ and open the template in the editor.
     <parent prob="2.4">google.de</parent>
     <parent prob="1.9">live.com</parent>
     <parent prob="1.6">bookryanair.com</parent>
+    <category>Recreation</category>
+    <category>Travel</category>
+    <category>Transportation</category>
+    <category>Air</category>
+    <category>Airlines</category>
+    <category>E</category>
   </site>
   <site rank="427">
     <name>pcastuces.com</name>
@@ -5555,6 +7117,11 @@ and open the template in the editor.
     <parent prob="1.4">facebook.com</parent>
     <parent prob="1.1">google.ca</parent>
     <parent prob="1.0">google.tn</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Informatique</category>
+    <category>Plateformes</category>
+    <category>FAQ et aides</category>
   </site>
   <site rank="428">
     <name>capital.fr</name>
@@ -5568,6 +7135,11 @@ and open the template in the editor.
     <parent prob="1.3">yahoo.com</parent>
     <parent prob="0.9">lesechos.fr</parent>
     <parent prob="0.7">wikipedia.org</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Commerce et économie</category>
+    <category>Ressources</category>
+    <category>Actualité et médias</category>
   </site>
   <site rank="429">
     <name>konbini.com</name>
@@ -5633,6 +7205,17 @@ and open the template in the editor.
     <parent prob="1.5">m6.fr</parent>
     <parent prob="1.0">youtube.com</parent>
     <parent prob="1.0">leboncoin.fr</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Régional</category>
+    <category>Europe</category>
+    <category>France</category>
+    <category>Commerce et économie</category>
+    <category>Véhicules</category>
+    <category>Automobiles</category>
+    <category>Vente de véhicules</category>
+    <category>Professionnels</category>
+    <category>Occasions</category>
   </site>
   <site rank="434">
     <name>maville.com</name>
@@ -5646,6 +7229,13 @@ and open the template in the editor.
     <parent prob="1.2">live.com</parent>
     <parent prob="0.8">orange.fr</parent>
     <parent prob="0.6">rue89.com</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Régional</category>
+    <category>Europe</category>
+    <category>France</category>
+    <category>Actualité et médias</category>
+    <category>Magazines et e-zines</category>
   </site>
   <site rank="435">
     <name>siteadvisor.com</name>
@@ -5659,6 +7249,11 @@ and open the template in the editor.
     <parent prob="0.4">livejasmin.com</parent>
     <parent prob="0.4">doublepimp.com</parent>
     <parent prob="0.4">salesresourcepartners.com</parent>
+    <category>Society</category>
+    <category>Crime</category>
+    <category>Theft</category>
+    <category>Identity Theft</category>
+    <category>Phishing</category>
   </site>
   <site rank="436">
     <name>fbcdn.net</name>
@@ -5685,6 +7280,10 @@ and open the template in the editor.
     <parent prob="1.3">20minutes.fr</parent>
     <parent prob="1.3">twitter.com</parent>
     <parent prob="1.0">outbrain.com</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Sports</category>
+    <category>Actualité et médias</category>
   </site>
   <site rank="438">
     <name>wifi.free.fr</name>
@@ -5737,6 +7336,10 @@ and open the template in the editor.
     <parent prob="1.4">google.dz</parent>
     <parent prob="1.0">laredoute.fr</parent>
     <parent prob="1.0">orange.fr</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Boutiques en ligne</category>
+    <category>Habillement</category>
   </site>
   <site rank="442">
     <name>imageshack.us</name>
@@ -5750,6 +7353,12 @@ and open the template in the editor.
     <parent prob="1.1">sourtimes.org</parent>
     <parent prob="1.0">imgur.com</parent>
     <parent prob="0.9">google.es</parent>
+    <category>Computers</category>
+    <category>Internet</category>
+    <category>On the Web</category>
+    <category>Web Applications</category>
+    <category>Photo Sharing</category>
+    <category>Image Hosting</category>
   </site>
   <site rank="443">
     <name>europa.eu</name>
@@ -5763,6 +7372,11 @@ and open the template in the editor.
     <parent prob="1.7">google.fr</parent>
     <parent prob="1.7">wikipedia.org</parent>
     <parent prob="0.9">google.ro</parent>
+    <category>Society</category>
+    <category>Government</category>
+    <category>Multilateral</category>
+    <category>Regional</category>
+    <category>European Union</category>
   </site>
   <site rank="444">
     <name>ledauphine.com</name>
@@ -5776,6 +7390,14 @@ and open the template in the editor.
     <parent prob="0.7">google.dz</parent>
     <parent prob="0.6">leprogres.fr</parent>
     <parent prob="0.6">yahoo.com</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Régional</category>
+    <category>Europe</category>
+    <category>France</category>
+    <category>Actualité et médias</category>
+    <category>Journaux</category>
+    <category>Journaux régionaux</category>
   </site>
   <site rank="445">
     <name>panzar.com</name>
@@ -5828,6 +7450,14 @@ and open the template in the editor.
     <parent prob="2.2">t.co</parent>
     <parent prob="2.0">monetize-me.com</parent>
     <parent prob="2.0">materiel.net</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Régional</category>
+    <category>Europe</category>
+    <category>France</category>
+    <category>Commerce et économie</category>
+    <category>Boutiques en ligne</category>
+    <category>Informatique</category>
   </site>
   <site rank="449">
     <name>jeux.fr</name>
@@ -5841,6 +7471,10 @@ and open the template in the editor.
     <parent prob="1.7">google.be</parent>
     <parent prob="1.6">google.tn</parent>
     <parent prob="1.5">ask.com</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Jeux</category>
+    <category>Jeux vidéo</category>
   </site>
   <site rank="450">
     <name>www-youmeets.com</name>
@@ -5867,6 +7501,12 @@ and open the template in the editor.
     <parent prob="1.1">google.de</parent>
     <parent prob="1.0">google.dz</parent>
     <parent prob="1.0">mondespersistants.com</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Jeux</category>
+    <category>Jeux vidéo</category>
+    <category>Jeux de rôle</category>
+    <category>Massivement multijoueurs</category>
   </site>
   <site rank="452">
     <name>melty.fr</name>
@@ -5880,6 +7520,10 @@ and open the template in the editor.
     <parent prob="1.1">google.ca</parent>
     <parent prob="0.9">twitter.com</parent>
     <parent prob="0.8">google.ci</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Enfants et ados</category>
+    <category>Ados</category>
   </site>
   <site rank="453">
     <name>femmeactuelle.fr</name>
@@ -5893,6 +7537,12 @@ and open the template in the editor.
     <parent prob="0.9">aufeminin.com</parent>
     <parent prob="0.9">youtube.com</parent>
     <parent prob="0.8">doctissimo.fr</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Société</category>
+    <category>Personnes</category>
+    <category>Femmes</category>
+    <category>Magazines et e-zines</category>
   </site>
   <site rank="454">
     <name>madmoizelle.com</name>
@@ -5906,6 +7556,12 @@ and open the template in the editor.
     <parent prob="1.0">huffingtonpost.fr</parent>
     <parent prob="0.6">live.com</parent>
     <parent prob="0.5">instagram.com</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Société</category>
+    <category>Personnes</category>
+    <category>Femmes</category>
+    <category>Magazines et e-zines</category>
   </site>
   <site rank="455">
     <name>binnews.in</name>
@@ -5958,6 +7614,9 @@ and open the template in the editor.
     <parent prob="1.4">google.co.uk</parent>
     <parent prob="1.4">yahoo.com</parent>
     <parent prob="1.4">google.it</parent>
+    <category>Business</category>
+    <category>Consumer Goods and Services</category>
+    <category>Electronics</category>
   </site>
   <site rank="459">
     <name>bonsplansvoyages.com</name>
@@ -5984,6 +7643,11 @@ and open the template in the editor.
     <parent prob="1.6">purepeople.com</parent>
     <parent prob="1.5">twitter.com</parent>
     <parent prob="1.4">outbrain.com</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Loisirs</category>
+    <category>Célébrités</category>
+    <category>Actualités et médias</category>
   </site>
   <site rank="461">
     <name>wat.tv</name>
@@ -6010,6 +7674,11 @@ and open the template in the editor.
     <parent prob="1.5">google.es</parent>
     <parent prob="1.3">twitch.tv</parent>
     <parent prob="1.3">google.de</parent>
+    <category>Kids and Teens</category>
+    <category>Games</category>
+    <category>Computer and Video</category>
+    <category>Action</category>
+    <category>League of Legends - Clash of Fates</category>
   </site>
   <site rank="463">
     <name>battlefield.com</name>
@@ -6036,6 +7705,13 @@ and open the template in the editor.
     <parent prob="1.0">belboon.com</parent>
     <parent prob="0.8">youtube.com</parent>
     <parent prob="0.7">netaffiliation.com</parent>
+    <category>World</category>
+    <category>Deutsch</category>
+    <category>Computer</category>
+    <category>Internet</category>
+    <category>Webdesign und -entwicklung</category>
+    <category>Promotion</category>
+    <category>Partnerprogramme</category>
   </site>
   <site rank="465">
     <name>chronopost.fr</name>
@@ -6049,6 +7725,13 @@ and open the template in the editor.
     <parent prob="1.3">orange.fr</parent>
     <parent prob="1.1">ogone.com</parent>
     <parent prob="1.1">183.com.cn</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Régional</category>
+    <category>Europe</category>
+    <category>France</category>
+    <category>Commerce et économie</category>
+    <category>Transport et logistique</category>
   </site>
   <site rank="466">
     <name>logic-immo.com</name>
@@ -6062,6 +7745,14 @@ and open the template in the editor.
     <parent prob="1.7">yahoo.com</parent>
     <parent prob="1.2">explorimmo.com</parent>
     <parent prob="1.0">pap.fr</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Régional</category>
+    <category>Europe</category>
+    <category>France</category>
+    <category>Commerce et économie</category>
+    <category>Immobilier</category>
+    <category>Portails</category>
   </site>
   <site rank="467">
     <name>jeuxactu.com</name>
@@ -6075,6 +7766,11 @@ and open the template in the editor.
     <parent prob="1.9">anonym.to</parent>
     <parent prob="1.4">gamekult.com</parent>
     <parent prob="1.1">google.ca</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Enfants et ados</category>
+    <category>Jeux</category>
+    <category>Jeux vidéo</category>
   </site>
   <site rank="468">
     <name>hp.com</name>
@@ -6088,6 +7784,9 @@ and open the template in the editor.
     <parent prob="1.6">google.es</parent>
     <parent prob="1.2">google.com.vn</parent>
     <parent prob="1.1">google.fr</parent>
+    <category>Computers</category>
+    <category>Hardware</category>
+    <category>Embedded</category>
   </site>
   <site rank="469">
     <name>baidu.com</name>
@@ -6101,6 +7800,12 @@ and open the template in the editor.
     <parent prob="1.6">google.com.hk</parent>
     <parent prob="1.5">360.cn</parent>
     <parent prob="1.4">soso.com</parent>
+    <category>World</category>
+    <category>Chinese Simplified CN</category>
+    <category>计算机</category>
+    <category>互联网络</category>
+    <category>搜寻</category>
+    <category>搜索引擎</category>
   </site>
   <site rank="470">
     <name>sncf.com</name>
@@ -6114,6 +7819,11 @@ and open the template in the editor.
     <parent prob="1.2">lequipe.fr</parent>
     <parent prob="1.1">tgv.com</parent>
     <parent prob="0.9">youtube.com</parent>
+    <category>Business</category>
+    <category>Transportation and Logistics</category>
+    <category>Rail</category>
+    <category>Operators</category>
+    <category>Europe</category>
   </site>
   <site rank="471">
     <name>insee.fr</name>
@@ -6127,6 +7837,12 @@ and open the template in the editor.
     <parent prob="0.7">google.de</parent>
     <parent prob="0.7">service-public.fr</parent>
     <parent prob="0.6">alexa.com</parent>
+    <category>Science</category>
+    <category>Social Sciences</category>
+    <category>Economics</category>
+    <category>Indicators and Statistics</category>
+    <category>Official Statistics</category>
+    <category>Europe</category>
   </site>
   <site rank="472">
     <name>koramgame.com</name>
@@ -6166,6 +7882,12 @@ and open the template in the editor.
     <parent prob="1.0">google.tn</parent>
     <parent prob="0.8">google.ca</parent>
     <parent prob="0.5">google.be</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Société</category>
+    <category>Personnes</category>
+    <category>Hommes</category>
+    <category>Magazines et e-zines</category>
   </site>
   <site rank="475">
     <name>sephora.com</name>
@@ -6179,6 +7901,10 @@ and open the template in the editor.
     <parent prob="1.1">live.com</parent>
     <parent prob="1.1">pinterest.com</parent>
     <parent prob="0.9">sephoralove.com</parent>
+    <category>Shopping</category>
+    <category>Health</category>
+    <category>Beauty</category>
+    <category>Cosmetics</category>
   </site>
   <site rank="476">
     <name>qtrax.com</name>
@@ -6257,6 +7983,9 @@ and open the template in the editor.
     <parent prob="1.0">bing.com</parent>
     <parent prob="1.0">amazon.com</parent>
     <parent prob="0.8">softonic.com</parent>
+    <category>Computers</category>
+    <category>Internet</category>
+    <category>Resources</category>
   </site>
   <site rank="482">
     <name>routard.com</name>
@@ -6270,6 +7999,11 @@ and open the template in the editor.
     <parent prob="1.3">google.be</parent>
     <parent prob="1.0">yahoo.com</parent>
     <parent prob="0.9">linternaute.com</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Loisirs</category>
+    <category>Voyage</category>
+    <category>Guides et répertoires</category>
   </site>
   <site rank="483">
     <name>ups.com</name>
@@ -6283,6 +8017,10 @@ and open the template in the editor.
     <parent prob="1.2">google.de</parent>
     <parent prob="1.1">usps.com</parent>
     <parent prob="0.9">google.co.uk</parent>
+    <category>Business</category>
+    <category>Transportation and Logistics</category>
+    <category>Couriers and Messengers</category>
+    <category>International and Overnight</category>
   </site>
   <site rank="484">
     <name>b-and-you.fr</name>
@@ -6309,6 +8047,12 @@ and open the template in the editor.
     <parent prob="1.1">jeuxvideo.com</parent>
     <parent prob="1.0">google.dz</parent>
     <parent prob="0.9">google.tn</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Informatique</category>
+    <category>Images</category>
+    <category>Web</category>
+    <category>Hébergement</category>
   </site>
   <site rank="486">
     <name>cougarmessenger.com</name>
@@ -6348,6 +8092,12 @@ and open the template in the editor.
     <parent prob="0.8">yahoo.com</parent>
     <parent prob="0.7">4shared.com</parent>
     <parent prob="0.7">google.com.eg</parent>
+    <category>Computers</category>
+    <category>Internet</category>
+    <category>On the Web</category>
+    <category>Web Applications</category>
+    <category>Storage</category>
+    <category>Free</category>
   </site>
   <site rank="489">
     <name>qone8.com</name>
@@ -6374,6 +8124,11 @@ and open the template in the editor.
     <parent prob="1.3">orange.fr</parent>
     <parent prob="1.2">live.com</parent>
     <parent prob="0.7">amazon.fr</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Commerce et économie</category>
+    <category>Produits et services de consommation</category>
+    <category>Commerce de détail</category>
   </site>
   <site rank="491">
     <name>full-stream.net</name>
@@ -6400,6 +8155,10 @@ and open the template in the editor.
     <parent prob="1.2">pinterest.com</parent>
     <parent prob="0.9">hellocoton.fr</parent>
     <parent prob="0.7">outbrain.com</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Maison</category>
+    <category>Actualité et médias</category>
   </site>
   <site rank="493">
     <name>frenchtorrentdb.com</name>
@@ -6426,6 +8185,11 @@ and open the template in the editor.
     <parent prob="1.4">youtube.com</parent>
     <parent prob="1.4">yahoo.com</parent>
     <parent prob="1.0">twitter.com</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Loisirs</category>
+    <category>Humour</category>
+    <category>Bêtisiers</category>
   </site>
   <site rank="495">
     <name>closermag.fr</name>
@@ -6439,6 +8203,11 @@ and open the template in the editor.
     <parent prob="1.2">public.fr</parent>
     <parent prob="1.0">youtube.com</parent>
     <parent prob="1.0">google.be</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Loisirs</category>
+    <category>Célébrités</category>
+    <category>Actualités et médias</category>
   </site>
   <site rank="496">
     <name>playtv.fr</name>
@@ -6465,6 +8234,11 @@ and open the template in the editor.
     <parent prob="1.2">radins.com</parent>
     <parent prob="1.0">facebook.com</parent>
     <parent prob="1.0">zanox.com</parent>
+    <category>World</category>
+    <category>Français</category>
+    <category>Maison</category>
+    <category>Informations pour les consommateurs</category>
+    <category>Réductions et promotions</category>
   </site>
   <site rank="498">
     <name>steampowered.com</name>
@@ -6478,6 +8252,9 @@ and open the template in the editor.
     <parent prob="1.4">google.de</parent>
     <parent prob="1.0">google.fr</parent>
     <parent prob="1.0">google.ca</parent>
+    <category>Games</category>
+    <category>Video Games</category>
+    <category>Downloads</category>
   </site>
   <site rank="499">
     <name>beeg.com</name>

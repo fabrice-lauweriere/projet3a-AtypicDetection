@@ -5,6 +5,7 @@
 package projet3a.data;
 
 import java.io.File;
+import java.util.ArrayList;
 import java.util.Iterator;
 import projet3a.generator.Site;
 import java.util.List;
@@ -25,14 +26,22 @@ public class NavigateXML {
             out.setRank(rank);
             String[] parentsProba = new String[10];
             String[] parentsName = new String[10];
+            ArrayList<String> categories = new ArrayList<String>();
             List par = theSite.getChildren("parent");
+            List cat = theSite.getChildren("category");
             for (int i = 0; i < 10; i++) {
                 Element el = (Element) par.get(i);
                 parentsProba[i] = el.getAttributeValue("prob");
                 parentsName[i] = el.getText();
             }
+            Iterator itCat = cat.iterator();
+            while (itCat.hasNext()) {
+                Element c = (Element) itCat.next();
+                categories.add(c.getText());
+            }
             out.setProbabilities(parentsProba);
             out.setParents(parentsName);
+            out.setCategories(categories);
         } catch (Exception e) {
             System.out.println("ERROR opening data.xml");
         }
@@ -40,7 +49,7 @@ public class NavigateXML {
     }
 
     public static Site getSiteByName(String n) {
-        Site out = new Site(0, n, null, null);
+        Site out = new Site(0, n, null, null, null);
         try {
             SAXBuilder sxb = new SAXBuilder();
             Document document = sxb.build(new File("src/projet3a/data/data.xml"));
@@ -54,14 +63,22 @@ public class NavigateXML {
                     out.setName(n);
                     String[] parentsProba = new String[10];
                     String[] parentsName = new String[10];
+                    ArrayList<String> categories = new ArrayList<String>();
                     List par = el.getChildren("parent");
+                    List cat = el.getChildren("category");
                     for (int i = 0; i < 10; i++) {
                         Element p = (Element) par.get(i);
                         parentsProba[i] = p.getAttributeValue("prob");
                         parentsName[i] = p.getText();
                     }
+                    Iterator itCat = cat.iterator();
+                    while (itCat.hasNext()) {
+                        Element c = (Element) itCat.next();
+                        categories.add(c.getText());
+                    }
                     out.setProbabilities(parentsProba);
                     out.setParents(parentsName);
+                    out.setCategories(categories);
                     break;
                 }
             }
@@ -73,15 +90,54 @@ public class NavigateXML {
         return out;
     }
 
-    public static String getCategory(String site) {
-        throw new UnsupportedOperationException("Not supported yet.");
+    public static ArrayList<String> getCategories(String site) {
+        ArrayList<String> list = new ArrayList<String>();
+        if(getSiteByName(site).getRank() != 0){
+            list = getSiteByName(site).getCategories();
+        }
+        return list;
     }
 
     public static int getCategoryIndex(String category) {
-        throw new UnsupportedOperationException("Not supported yet.");
+        ArrayList<String> allCategories = getAllCategories();
+        return allCategories.indexOf(category);
+    }
+    
+    public static ArrayList<String> getAllCategories(){
+        ArrayList<String> allCategories = new ArrayList<String>();
+        try {
+            SAXBuilder sxb = new SAXBuilder();
+            Document document = sxb.build(new File("src/projet3a/data/data.xml"));
+            Element racine = document.getRootElement();
+            List site = racine.getChildren("site");
+            Iterator it = site.iterator();
+            while (it.hasNext()) {
+                Element theSite = (Element)it.next();
+                List cat = theSite.getChildren("category");
+                Iterator itCat = cat.iterator();
+                while(itCat.hasNext()){
+                    Element c = (Element)itCat.next();
+                    if(!allCategories.contains(c.getText())){
+                        allCategories.add(c.getText());
+                    }
+                }
+            }
+        } catch (Exception e) {
+            System.out.println("=== ERROR while retrieving the list of all categories ===");
+            e.printStackTrace();
+        }
+        return allCategories;
     }
 
     public static int getNbOfCategories() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        return getAllCategories().size();
     }
+
+    //====================== MAIN FOR TESTING =======================
+    public static void main(String[] args) {
+     int size = getNbOfCategories();
+     System.out.println(size);
+     System.out.println(getCategoryIndex("World"));
+     
+     }
 }

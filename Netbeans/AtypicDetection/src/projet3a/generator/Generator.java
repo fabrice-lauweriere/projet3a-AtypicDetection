@@ -4,6 +4,7 @@
  */
 package projet3a.generator;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Scanner;
@@ -118,14 +119,20 @@ public class Generator {
                 Set keySet = map.keySet();
                 Iterator iterator = keySet.iterator();
                 while (iterator.hasNext()) {
-                    
+
                     String site = String.valueOf(iterator.next());
-                    String category = NavigateXML.getCategory(site);
-                    out[i][NavigateXML.getCategoryIndex(category)] += map.get(site);
+                    System.out.println("LE SITE ++++ ===== " + site);
+                    ArrayList<String> categories = NavigateXML.getCategories(site);
+                    if (!categories.isEmpty()) {
+                        for (String s : categories) {
+                            out[i][NavigateXML.getCategoryIndex(s)] += map.get(site);
+                        }
+                    }
                 }
             }
         } catch (Exception e) {
             System.out.println("Sorting failed. WARNING : genrate() function must be called before sorting.");
+            e.printStackTrace();
         }
         this.setAlgoInput(out);
     }
@@ -133,10 +140,10 @@ public class Generator {
     public void printAlgoInput() {
         try {
             String out = "";
-            for(int i=0; i<this.getGroupTest().getSize(); i++){
-                out += "Individual "+(i+1)+" :";
-                for(int c=0; c<NavigateXML.getNbOfCategories(); c++){
-                    out +=" "+this.algoInput[i][c];
+            for (int i = 0; i < this.getGroupTest().getSize(); i++) {
+                out += "Individual " + (i + 1) + " :";
+                for (int c = 0; c < NavigateXML.getNbOfCategories(); c++) {
+                    out += " " + this.algoInput[i][c];
                 }
                 out += "\n";
             }
