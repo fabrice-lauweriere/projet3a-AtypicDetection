@@ -13,7 +13,7 @@ public class Main {
     public static void main(String[] args){
         generator = new Generator();
         generator.generate();
-        System.out.println(generator.getGroupTest().getIndividual(0).getHistory().toString());
+        generator.getGroupTest().getIndividual(0).getHistory().printHistory();
         generator.sort();
         generator.printAlgoInput();
     }

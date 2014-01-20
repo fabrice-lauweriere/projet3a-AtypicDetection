@@ -38,7 +38,7 @@ public class WebHistory {
         return history;
     }
 
-    public String toString() {
+    public void printHistory() {
         String out = "";
         Set set = history.keySet();
         Iterator it = set.iterator();
@@ -47,7 +47,7 @@ public class WebHistory {
             int value = history.get(s);
             out += s + " -> " + value + "\n";
         }
-        return out;
+        System.out.println(out);
     }
 
     public void addToHistory(String site) {

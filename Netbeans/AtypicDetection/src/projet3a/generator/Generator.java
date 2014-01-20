@@ -121,7 +121,6 @@ public class Generator {
                 while (iterator.hasNext()) {
 
                     String site = String.valueOf(iterator.next());
-                    System.out.println("LE SITE ++++ ===== " + site);
                     ArrayList<String> categories = NavigateXML.getCategories(site);
                     if (!categories.isEmpty()) {
                         for (String s : categories) {

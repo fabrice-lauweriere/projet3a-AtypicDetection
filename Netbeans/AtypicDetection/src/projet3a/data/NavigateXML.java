@@ -134,10 +134,10 @@ public class NavigateXML {
     }
 
     //====================== MAIN FOR TESTING =======================
-    public static void main(String[] args) {
-     int size = getNbOfCategories();
-     System.out.println(size);
-     System.out.println(getCategoryIndex("World"));
-     
-     }
+//    public static void main(String[] args) {
+//     int size = getNbOfCategories();
+//     System.out.println(size);
+//     System.out.println(getCategoryIndex("World"));
+//     
+//     }
 }
