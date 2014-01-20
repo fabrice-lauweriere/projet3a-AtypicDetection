@@ -132,6 +132,26 @@ public class NavigateXML {
     public static int getNbOfCategories() {
         return getAllCategories().size();
     }
+    
+    //========== for the marking system ================
+    
+    public static int[][] getMarkingSystem(int ref){
+        int[][] out = new int[NavigateXML.getNbOfCategories()][3];
+        try {
+            SAXBuilder sxb = new SAXBuilder();
+            Document document = sxb.build(new File("src/projet3a/data/markingSystem"+ref+".xml"));
+            Element racine = document.getRootElement();
+            List categories = racine.getChildren("category");
+            Iterator it = categories.iterator();
+            while (it.hasNext()) {
+                
+            }
+        } catch (Exception e) {
+            System.out.println("=== ERROR while retrieving the marking system ===");
+            e.printStackTrace();
+        }
+        return out;
+    }
 
     //====================== MAIN FOR TESTING =======================
 //    public static void main(String[] args) {
