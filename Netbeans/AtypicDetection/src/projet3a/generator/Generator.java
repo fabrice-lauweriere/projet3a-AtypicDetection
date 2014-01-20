@@ -17,7 +17,7 @@ public class Generator {
     private int historyMinDepth, historyMaxDepth;
     private int minRoot, maxRoot;
     private GroupTest groupTest;
-    private int[][] algoInput;
+    public static int[][] algoInput;
 
     public Generator() {
         System.out.println("========== BEGIN GENERATOR ==========");
