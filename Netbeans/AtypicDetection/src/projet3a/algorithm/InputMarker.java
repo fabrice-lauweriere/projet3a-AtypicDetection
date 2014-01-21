@@ -10,7 +10,8 @@ import projet3a.data.NavigateXML;
 public class InputMarker {
 
     private int nbOfCoeficients;
-    private int[][] coeficients;
+    public int[][] coeficients;
+    public int id;
 
     public InputMarker() {
         this.chooseMarker(this.readEntryMarker());
@@ -35,6 +36,7 @@ public class InputMarker {
     }
 
     public void chooseMarker(int ref) {
+        this.id = ref;
         this.coeficients = NavigateXML.getMarkingSystem(ref);
         this.nbOfCoeficients = this.coeficients[0].length;
     }

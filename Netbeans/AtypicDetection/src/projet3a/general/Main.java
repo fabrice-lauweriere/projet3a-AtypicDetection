@@ -9,7 +9,7 @@ import projet3a.algorithm.AlgoGenetic;
 import projet3a.generator.Generator;
 
 public class Main {
-    private static Generator generator;
+    public static Generator generator;
     private static AlgoGenetic algo;
     
     public static void main(String[] args){
@@ -21,6 +21,7 @@ public class Main {
         
         algo = new AlgoGenetic();
         algo.marker.printMarker();
+        algo.printInput();
 //        algo.runAlgo();
     }
     
