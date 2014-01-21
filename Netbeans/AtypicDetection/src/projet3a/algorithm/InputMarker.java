@@ -12,9 +12,8 @@ public class InputMarker {
     private int nbOfCoeficients;
     private int[][] coeficients;
 
-    public InputMarker(int nbOfCoef) {
-        this.nbOfCoeficients = nbOfCoef;
-        this.coeficients = new int[NavigateXML.getNbOfCategories()][this.nbOfCoeficients];
+    public InputMarker() {
+        this.chooseMarker(this.readEntryMarker());
     }
 
     public int readEntryMarker() {
@@ -31,12 +30,30 @@ public class InputMarker {
             }
         } catch (Exception e) {
              System.out.println("ERROR reading the marker choosing input");
-             e.printStackTrace();
+             return readEntryMarker();
         }
-        return -1;
     }
 
     public void chooseMarker(int ref) {
+        this.coeficients = NavigateXML.getMarkingSystem(ref);
+        this.nbOfCoeficients = this.coeficients[0].length;
+    }
+    
+    public void printMarker(){
+        String out = "";
+        String line = "";
+        System.out.println("number of coef = "+this.nbOfCoeficients);
         
+        for(int i=0; i<NavigateXML.getNbOfCategories(); i++){
+            line += "Category "+i+" : ";
+            for(int j=0; j<this.nbOfCoeficients; j++){
+                line += coeficients[i][j] + " | ";
+            }
+            line +="\n";
+            out += line;
+            line = "";
+        }
+        
+        System.out.println(out);
     }
 }

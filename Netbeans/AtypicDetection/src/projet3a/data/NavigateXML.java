@@ -92,7 +92,7 @@ public class NavigateXML {
 
     public static ArrayList<String> getCategories(String site) {
         ArrayList<String> list = new ArrayList<String>();
-        if(getSiteByName(site).getRank() != 0){
+        if (getSiteByName(site).getRank() != 0) {
             list = getSiteByName(site).getCategories();
         }
         return list;
@@ -102,8 +102,8 @@ public class NavigateXML {
         ArrayList<String> allCategories = getAllCategories();
         return allCategories.indexOf(category);
     }
-    
-    public static ArrayList<String> getAllCategories(){
+
+    public static ArrayList<String> getAllCategories() {
         ArrayList<String> allCategories = new ArrayList<String>();
         try {
             SAXBuilder sxb = new SAXBuilder();
@@ -112,12 +112,12 @@ public class NavigateXML {
             List site = racine.getChildren("site");
             Iterator it = site.iterator();
             while (it.hasNext()) {
-                Element theSite = (Element)it.next();
+                Element theSite = (Element) it.next();
                 List cat = theSite.getChildren("category");
                 Iterator itCat = cat.iterator();
-                while(itCat.hasNext()){
-                    Element c = (Element)itCat.next();
-                    if(!allCategories.contains(c.getText())){
+                while (itCat.hasNext()) {
+                    Element c = (Element) itCat.next();
+                    if (!allCategories.contains(c.getText())) {
                         allCategories.add(c.getText());
                     }
                 }
@@ -132,25 +132,35 @@ public class NavigateXML {
     public static int getNbOfCategories() {
         return getAllCategories().size();
     }
-    
+
     //========== for the marking system ================
-    
-    public static int[][] getMarkingSystem(int ref){
-        int[][] out = new int[NavigateXML.getNbOfCategories()][3];
+    public static int[][] getMarkingSystem(int ref) {
+
         try {
             SAXBuilder sxb = new SAXBuilder();
-            Document document = sxb.build(new File("src/projet3a/data/markingSystem"+ref+".xml"));
+            Document document = sxb.build(new File("src/projet3a/data/MarkingSystem" + ref + ".xml"));
             Element racine = document.getRootElement();
+            int nbOfCoef = Integer.parseInt(racine.getAttributeValue("nbOfCoef"));
+            int[][] out = new int[NavigateXML.getNbOfCategories()][nbOfCoef];
             List categories = racine.getChildren("category");
             Iterator it = categories.iterator();
+            int i = 0;
             while (it.hasNext()) {
-                
+                List attributes = ((Element) it.next()).getAttributes();
+                Iterator itAttributes = attributes.iterator();
+                int j = 0;
+                while(itAttributes.hasNext()){
+                    out[i][j] = ((Attribute) itAttributes.next()).getIntValue();
+                    j++;
+                }
+                i++;
             }
+            return out;
         } catch (Exception e) {
             System.out.println("=== ERROR while retrieving the marking system ===");
             e.printStackTrace();
         }
-        return out;
+        return null;
     }
 
     //====================== MAIN FOR TESTING =======================

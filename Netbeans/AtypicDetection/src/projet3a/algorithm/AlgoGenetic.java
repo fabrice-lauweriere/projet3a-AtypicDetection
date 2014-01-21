@@ -9,14 +9,18 @@ import projet3a.generator.Generator;
 
 public class AlgoGenetic {
     
+    private int[][] multioplicativeFactors;
+    public InputMarker marker;
     private int[][] input;
-    private InputMarker marker;
 
     public AlgoGenetic() {
-        this.input = Generator.algoInput;
-        marker = new InputMarker(3);
-        marker.chooseMarker(marker.readEntryMarker());
+        this.multioplicativeFactors = Generator.algoInput;
+        this.marker = new InputMarker();
+       // this.input
     }
     
+    public void runAlgo(){
+        
+    }
     
 }
