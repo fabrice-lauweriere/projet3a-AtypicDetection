@@ -20,8 +20,14 @@ public class Main {
         generator.printAlgoInput();
         
         algo = new AlgoGenetic();
-        algo.marker.printMarker();
-        algo.printInput();
+        
+        
+        
+        
+        
+        
+        //algo.marker.printMarker();
+        //algo.printInput();
 //        algo.runAlgo();
     }
     

@@ -11,16 +11,17 @@ import projet3a.generator.Generator;
 public class AlgoGenetic {
 
     private int[][] multiplicativeFactors;
-    public InputMarker marker;
-    private int[][] input;
+    //public InputMarker marker;
+    //private int[][] input;
 
     public AlgoGenetic() {
         this.multiplicativeFactors = Generator.algoInput;
-        this.marker = new InputMarker();
-        this.input = new int[Main.generator.getGroupTest().getSize()][NavigateXML.getNbOfCategories()];
-        this.computeMarking(this.marker.id);
+        //this.marker = new InputMarker();
+        //this.input = new int[Main.generator.getGroupTest().getSize()][NavigateXML.getNbOfCategories()];
+        //this.computeMarking(this.marker.id);
     }
 
+   /**
     public void computeMarking(int ref) {
         switch (ref) {
             case 1:
@@ -52,9 +53,10 @@ public class AlgoGenetic {
         }
         System.out.println(out);
     }
+    */
 
     public void runAlgo() {
-
+        
     }
 
 }
