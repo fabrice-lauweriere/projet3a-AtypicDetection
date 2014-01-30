@@ -136,20 +136,6 @@ public class Generator {
         this.setAlgoInput(out);
     }
 
-    public void printAlgoInput() {
-        try {
-            String out = "";
-            for (int i = 0; i < this.getGroupTest().getSize(); i++) {
-                out += "Individual " + (i + 1) + " :";
-                for (int c = 0; c < NavigateXML.getNbOfCategories(); c++) {
-                    out += " " + this.algoInput[i][c];
-                }
-                out += "\n";
-            }
-            System.out.println(out);
-        } catch (Exception e) {
-            System.out.println("WARNING : generate() and sort() methods must be called first.");
-        }
-    }
+    
 
 }

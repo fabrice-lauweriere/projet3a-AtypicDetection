@@ -17,9 +17,12 @@ public class Main {
         generator.generate();
         generator.getGroupTest().getIndividual(0).getHistory().printHistory();
         generator.sort();
-        generator.printAlgoInput();
         
         algo = new AlgoGenetic();
+        algo.printAlgoInput();
+        algo.addAtypicBehavior();
+        algo.printChanges();
+        algo.printAlgoInput();
         
         
         
