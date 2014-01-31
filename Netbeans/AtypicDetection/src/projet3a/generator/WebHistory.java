@@ -18,10 +18,10 @@ public class WebHistory {
     //CONSTRUCTOR
     public WebHistory(int minDepth, int maxDepth, int nbOfRoot) {
         for (int n = 0; n < nbOfRoot; n++) {
-            System.out.println("\n=== CREATING BROWSING HISTORY FOR ROOT " + (n + 1) + "/" + nbOfRoot + " ===");
+            //System.out.println("\n=== CREATING BROWSING HISTORY FOR ROOT " + (n + 1) + "/" + nbOfRoot + " ===");
             Site root = NavigateXML.getSiteByRank((int) (50 * Math.random()) + 1);
             addToHistory(root.getName());
-            System.out.println("ROOT = "+root.getName());
+            //System.out.println("ROOT = "+root.getName());
             int depth = minDepth + (int) ((maxDepth - minDepth) * Math.random());
             addParent(root, 0, depth);
         }
@@ -56,16 +56,16 @@ public class WebHistory {
 
     public void addParent(Site site, int level, int depth) {
         if (level == depth) {
-            System.out.println("arret level = " + level + "/" + depth);
+            //System.out.println("arret level = " + level + "/" + depth);
             return;
         } else if (site.getRank() == 0) {
             if (Math.random() > (level/depth)+0.2) {
                 int alea = (int) (20 * Math.random() + 1);
                 addToHistory(NavigateXML.getSiteByRank(alea).getName());
                 addParent(NavigateXML.getSiteByRank(alea), level + 1, depth);
-                System.out.println(" REPECHE PAR " + NavigateXML.getSiteByRank(alea).getName());
+                //System.out.println(" REPECHE PAR " + NavigateXML.getSiteByRank(alea).getName());
             } else {
-                System.out.println("arret level = " + level + "/" + depth);
+                //System.out.println("arret level = " + level + "/" + depth);
                 return;
             }
         } else {

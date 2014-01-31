@@ -15,18 +15,17 @@ public class Main {
     public static void main(String[] args){
         generator = new Generator();
         generator.generate();
-        generator.getGroupTest().getIndividual(0).getHistory().printHistory();
+        //generator.getGroupTest().getIndividual(0).getHistory().printHistory();
         generator.sort();
         
         algo = new AlgoGenetic();
         //algo.printAlgoInput();
         algo.createObservation();
         algo.addAtypicBehavior();
-        algo.printChanges();
+        algo.printChanges(false);
         //algo.printAlgoInput();
         
         algo.computeSelectionFunction();
-        algo.printResults();
         algo.sortSelection();
         algo.printResults();
         

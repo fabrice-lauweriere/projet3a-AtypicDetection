@@ -71,9 +71,9 @@ public class AlgoGenetic {
     public int readEntry() {
         try {
             Scanner in = new Scanner(System.in);
-            System.out.print("Choose a number of Atypic Individuals (1<=nb<=6) : ");
+            System.out.print("Choose a number of Atypic Individuals (1<=nb<=" + (int) (Main.generator.getGroupTest().getSize() / 2) + ") : ");
             int nb = in.nextInt();
-            if (nb > 0 && nb < 6) {
+            if (nb > 0 && nb <= (int) (Main.generator.getGroupTest().getSize() / 2)) {
                 return nb;
             } else {
                 System.out.println("ERROR : You must choose a number between 1 and 10 ");
@@ -92,7 +92,6 @@ public class AlgoGenetic {
 //                this.observation[i] += this.changedCategories.get(i);
 //            }
         }
-        printMatrix(this.observation);
     }
 
     public int[][] transpose(int[][] M) {
@@ -131,30 +130,27 @@ public class AlgoGenetic {
     public void computeSelectionFunction() {
         for (int i = 0; i < Math.pow(2, Main.generator.getGroupTest().getSize()); i++) {
             String bin = Integer.toBinaryString(i);
-            System.out.println(bin);
             int nb = 0;
             for (int j = 0; j < bin.length(); j++) {
                 nb += Integer.parseInt(String.valueOf(bin.charAt(j)));
             }
-            if (nb <= 5) {
+            if (nb <= (int) (Main.generator.getGroupTest().getSize() / 2)) {
+                System.out.println(100 * (i / Math.pow(2, Main.generator.getGroupTest().getSize())) + "%");
                 int[] H = new int[Main.generator.getGroupTest().getSize()];
                 for (int j = 0; j < bin.length(); j++) {
                     H[H.length - 1 - j] = Integer.parseInt(String.valueOf(bin.charAt(bin.length() - 1 - j)));
                 }
                 int[] prod = matrixProduct(transpose(this.occurences), H);
-                printMatrix(prod);
                 int penalty = 0;
                 for (int j = 0; j < NavigateXML.getNbOfCategories(); j++) {
                     if (prod[j] <= this.observation[j]) {
                         penalty++;
                     }
                 }
-                System.out.println(penalty);
                 Double result = this.alpha - this.beta * Math.pow(penalty, this.power);
                 for (int k = 0; k < Main.generator.getGroupTest().getSize(); k++) {
                     result += this.risk[k] * H[k];
                 }
-                System.out.println(result);
                 if (result > 0) {
                     this.selection.put(i, result);
                 }
@@ -167,11 +163,11 @@ public class AlgoGenetic {
 
         ArrayList<Integer> out = new ArrayList<>();
         Collection<Double> list = this.selection.values();
-        
+
         Double maximum = Collections.max(list);
         Set<Integer> set = this.selection.keySet();
-        for(int i1:set){
-            if(maximum-this.selection.get(i1)>500){
+        for (int i1 : set) {
+            if (maximum - this.selection.get(i1) > 500) {
                 out.add(i1);
             }
         }
@@ -217,15 +213,17 @@ public class AlgoGenetic {
         }
     }
 
-    public void printChanges() {
+    public void printChanges(boolean b) {
         String out = "Individual changed :\n";
         for (int ind : this.changedIndividuals) {
             out += ind + "\n";
         }
-        out += "Categories Changed :\n";
-        Set<Integer> set = this.changedCategories.keySet();
-        for (int c : set) {
-            out += "Cat ID : " + c + " -> " + this.changedCategories.get(c) + "\n";
+        if (b) {
+            out += "Categories Changed :\n";
+            Set<Integer> set = this.changedCategories.keySet();
+            for (int c : set) {
+                out += "Cat ID : " + c + " -> " + this.changedCategories.get(c) + "\n";
+            }
         }
         System.out.println(out + "\n");
     }
