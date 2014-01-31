@@ -19,10 +19,16 @@ public class Main {
         generator.sort();
         
         algo = new AlgoGenetic();
-        algo.printAlgoInput();
+        //algo.printAlgoInput();
+        algo.createObservation();
         algo.addAtypicBehavior();
         algo.printChanges();
-        algo.printAlgoInput();
+        //algo.printAlgoInput();
+        
+        algo.computeSelectionFunction();
+        algo.printResults();
+        algo.sortSelection();
+        algo.printResults();
         
         
         
