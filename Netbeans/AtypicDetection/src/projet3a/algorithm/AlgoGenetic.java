@@ -7,6 +7,7 @@ package projet3a.algorithm;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Collections;
+import java.util.GregorianCalendar;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Scanner;
@@ -128,6 +129,11 @@ public class AlgoGenetic {
     }
 
     public void computeSelectionFunction() {
+//        java.util.GregorianCalendar calendar = new GregorianCalendar();
+//        int hour = calendar.get(java.util.Calendar.HOUR_OF_DAY);
+//        int minute = calendar.get(java.util.Calendar.MINUTE);
+        int seconds = (int) ((System.currentTimeMillis() / 1000) % 60);
+        int minutes = (int) ((System.currentTimeMillis() / 1000) / 60);
         for (int i = 0; i < Math.pow(2, Main.generator.getGroupTest().getSize()); i++) {
             String bin = Integer.toBinaryString(i);
             int nb = 0;
@@ -157,6 +163,13 @@ public class AlgoGenetic {
 
             }
         }
+        int seconds2 = (int) ((System.currentTimeMillis() / 1000) % 60) - seconds;
+        int minutes2 = (int) ((System.currentTimeMillis() / 1000) / 60) - minutes;
+        if (seconds2 < 0) {
+            minutes2--;
+            seconds2 = 60 + seconds2;
+        }
+        System.out.println("Algorithm computing time : " + (minutes2) + " minutes et " + (seconds2) + " seconds");
     }
 
     public void sortSelection() {
@@ -193,6 +206,16 @@ public class AlgoGenetic {
         Set<Integer> set = this.selection.keySet();
         for (int i : set) {
             out += Integer.toBinaryString(i) + " -> " + String.valueOf(this.selection.get(i)) + "\n";
+            int[] H = new int[Main.generator.getGroupTest().getSize()];
+            for (int j = 0; j < Integer.toBinaryString(i).length(); j++) {
+                H[H.length - 1 - j] = Integer.parseInt(String.valueOf(Integer.toBinaryString(i).charAt(Integer.toBinaryString(i).length() - 1 - j)));
+            }
+            out+="Atypic Individuals : ";
+            for(int k=0; k<H.length; k++){
+                if(H[k]==1){
+                    out+=k+", ";
+                }
+            }
         }
         System.out.println(out);
     }
@@ -228,26 +251,7 @@ public class AlgoGenetic {
         System.out.println(out + "\n");
     }
 
-    /**
-     * public void computeMarking(int ref) { switch (ref) { case 1: for (int
-     * individual = 0; individual < Main.generator.getGroupTest().getSize();
-     * individual++) { for(int cat=0; cat<NavigateXML.getNbOfCategories(); cat
-     * ++){ this.input[individual][cat] =
-     * ((this.multiplicativeFactors[individual][cat])^
-     * (this.marker.coeficients[cat][0]))* (this.marker.coeficients[cat][1]); }
-     * } break; default: System.out.println("ERROR : This marking system
-     * camputation scheme doesn't exist"); break; }
-     *
-     * }
-     *
-     * public void printInput(){ String out = ""; for(int i=0; i<input.length;
-     * i++){ String line = "Individual N"+(i+1); for(int j=0; j<input[0].length;
-     * j++){ line += " "+input[i][j]+" |"; } line += "\n"; out += line; }
-     * System.out.println(out); }
-     */
-    public void runAlgo() {
 
-    }
 
     public void printMatrix(int[] M) {
         String out = "MATRIX : ";
