@@ -8,6 +8,7 @@
 \usepackage{graphicx}
 \usepackage{amsmath}
 \usepackage{hyperref}
+\usepackage{fancyhdr}
 
 
 \begin{document}
@@ -21,7 +22,10 @@
 \hrulefill\\
 {\LARGE \textbf{RAPPORT DE PROJET 3ème ANNÉE\\ - La statistique des petits nombres -\\}}
 \hrulefill\\
+
 \vspace{1cm}
+
+{\Large Détection de comportement atypique à partir d'historiques de navigation Internet d'un groupe d'individus}
 \vspace{2cm}
 
 \begin{minipage}{5cm}
@@ -42,7 +46,23 @@ BENMOUFEK Dominique
 
 %La table des matieres
 \tableofcontents
-\pagestyle{headings}
+
+
+%====================
+%les entete et pieds de page
+%====================
+
+
+\pagestyle{fancy}
+\fancyhead[L]{\leftmark}
+\fancyhead[C]{}
+\fancyhead[R]{}
+\fancyfoot[L]{\textbf{Rapport de stage 2A - École des Mines de Nancy}}
+\fancyfoot[C]{}
+\fancyfoot[R]{\thepage}
+
+
+
 %INTRODUCTION
 \newpage
 
@@ -258,6 +278,10 @@ Je pense tout d'abord en dehors de l'algorithme lors de la création des différ
 Ensuite dans l'algorithme il faudrait diviser les $2^{N_a}$ cas sur plusieurs threads en choisissant le nombre maximum de cas traité par un même thread.\\
 
 Enfin une manière d'augmenter grandement l'efficacité du calcul serait de le distribuer sur un cluster de machine.
+
+\subsection{Interface graphique}
+
+La saisi des paramètres du problème et l'affichage des résultats se fait pour le moment dans un terminal. L'ajout au projet d'une interface graphique permettrait pour ce qui concerne la saisi des données une plus grande facilité et pour ce qui est de l'affichage des résultats, un affichage sous forme de graphe de l'avancement de l'algorithme et des différents résultats qu'il renvoi permettrait une meilleure interprétation de ces résultats.
 
 
 \subsection{Différences entre les pays ?}

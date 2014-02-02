@@ -26,6 +26,7 @@
 \contentsline {subsection}{\numberline {3.5}Piste explor\IeC {\'e}e sans succ\IeC {\`e}s}{9}{subsection.3.5}
 \contentsline {section}{\numberline {4}Perspectives d'am\IeC {\'e}liorations}{9}{section.4}
 \contentsline {subsection}{\numberline {4.1}Parall\IeC {\'e}lisation pour r\IeC {\'e}duire le temps de calcul}{9}{subsection.4.1}
-\contentsline {subsection}{\numberline {4.2}Diff\IeC {\'e}rences entre les pays ?}{9}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.2}Interface graphique}{9}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Diff\IeC {\'e}rences entre les pays ?}{10}{subsection.4.3}
 \contentsline {section}{Conclusion}{11}{section*.2}
 \contentsline {section}{R\IeC {\'e}f\IeC {\'e}rences}{12}{section*.3}
