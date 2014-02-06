@@ -7,7 +7,7 @@ package projet3a.generator;
 
 import java.util.ArrayList;
 
-
+//this class contains all the information about a website
 public class Site {
     private int rank = 0;
     private String name;
@@ -23,7 +23,7 @@ public class Site {
         this.categories = categories;
     }
     
-    public Site(){
+    public Site(){//constructor for a website which is not in the 500 forst visited websites
         this.rank = 0;
     }
 
@@ -70,7 +70,7 @@ public class Site {
     
 
     @Override
-    public String toString() {
+    public String toString() {//printing function for debug
         String p="";
         String c="";
         for(int i=0; i<10; i++){

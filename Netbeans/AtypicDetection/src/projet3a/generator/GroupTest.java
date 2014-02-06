@@ -14,7 +14,7 @@ public class GroupTest {
 	public GroupTest(int size, int minDepth, int maxDepth, int minRoot, int maxRoot){
 		this.size = size;
 		this.individuals = new Individual[size];
-		for(int i=0; i<this.size; i++){
+		for(int i=0; i<this.size; i++){//creation of each individual in the group test
 			this.individuals[i] = new Individual(i, minDepth, maxDepth, minRoot, maxRoot);
 		}
 	}
@@ -26,7 +26,7 @@ public class GroupTest {
 	public Individual getIndividual(int i){
 		return this.individuals[i];
 	}
-	public String toString(){
+	public String toString(){//printing function for debug
 		String out = "Size = "+this.size+"\n";
 		for(int i=0; i<this.size; i++){
 			out+=this.individuals[i].toString() + "\n";

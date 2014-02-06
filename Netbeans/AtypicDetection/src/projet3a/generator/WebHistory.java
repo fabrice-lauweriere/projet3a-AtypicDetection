@@ -17,7 +17,7 @@ public class WebHistory {
 
     //CONSTRUCTOR
     public WebHistory(int minDepth, int maxDepth, int nbOfRoot) {
-        for (int n = 0; n < nbOfRoot; n++) {
+        for (int n = 0; n < nbOfRoot; n++) {//for each root : recursive add of websites in the navaigation branch
             //System.out.println("\n=== CREATING BROWSING HISTORY FOR ROOT " + (n + 1) + "/" + nbOfRoot + " ===");
             Site root = NavigateXML.getSiteByRank((int) (50 * Math.random()) + 1);
             addToHistory(root.getName());
@@ -38,7 +38,7 @@ public class WebHistory {
         return history;
     }
 
-    public void printHistory() {
+    public void printHistory() {//printing function for debug
         String out = "";
         Set set = history.keySet();
         Iterator it = set.iterator();
@@ -50,15 +50,15 @@ public class WebHistory {
         System.out.println(out);
     }
 
-    public void addToHistory(String site) {
+    public void addToHistory(String site) {//to add a website to the individual's browsing history
         this.history.put(site, this.history.containsKey(site) ? this.history.get(site) + 1 : 1);
     }
 
-    public void addParent(Site site, int level, int depth) {
-        if (level == depth) {
+    public void addParent(Site site, int level, int depth) {//adding all parents in the navigation (recursive)
+        if (level == depth) {//if the requiered depth is reached
             //System.out.println("arret level = " + level + "/" + depth);
             return;
-        } else if (site.getRank() == 0) {
+        } else if (site.getRank() == 0) {//if the last added parentis not in teh 500 sites -> second chance
             if (Math.random() > (level/depth)+0.2) {
                 int alea = (int) (20 * Math.random() + 1);
                 addToHistory(NavigateXML.getSiteByRank(alea).getName());
@@ -68,7 +68,7 @@ public class WebHistory {
                 //System.out.println("arret level = " + level + "/" + depth);
                 return;
             }
-        } else {
+        } else {//if the last added site is one of the 500, we choose an other parent to add
             int chosen = 0;
             double bestOffset = 0;
             for (int i = 0; i < 10; i++) {

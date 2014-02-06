@@ -28,7 +28,7 @@ public class Generator {
 
     }
 
-    public void readEntry(int entry) {
+    public void readEntry(int entry) {//for reading parameters input from the user
         try {
             Scanner in = new Scanner(System.in);
             switch (entry) {
@@ -102,7 +102,7 @@ public class Generator {
         this.algoInput = algoInput;
     }
 
-    public void generate() {
+    public void generate() {//launching the generation of the individuals and their browsing history
         try {
             this.groupTest = new GroupTest(this.groupTestSize, this.historyMinDepth, this.historyMaxDepth, this.minRoot, this.maxRoot);
         } catch (Exception e) {
@@ -111,7 +111,7 @@ public class Generator {
         }
     }
 
-    public void sort() {
+    public void sort() {//sorting each browsing history into categories
         int[][] out = new int[this.getGroupTest().getSize()][NavigateXML.getNbOfCategories()];
         try {
             for (int i = 0; i < this.getGroupTest().getSize(); i++) {

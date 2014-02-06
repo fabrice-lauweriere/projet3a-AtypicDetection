@@ -14,30 +14,27 @@ public class Main {
     
     public static void main(String[] args){
         generator = new Generator();
+        //generating individuals and their browsing history
         generator.generate();
-        //generator.getGroupTest().getIndividual(0).getHistory().printHistory();
+        //sorting histories into categories
         generator.sort();
         
         algo = new AlgoGenetic();
-        //algo.printAlgoInput();
+        //creation of the reference matrix
         algo.createObservation();
+        //insertion of atypic individuals
         algo.addAtypicBehavior();
         algo.printChanges(false);
-        //algo.printAlgoInput();
-        
+        //searching for atypic individuals
         algo.computeSelectionFunction();
+        //printing all detection combinaison
         algo.printResults();
+        //finding the best combinaison
         algo.sortSelection();
+        //printing best combinaison
         algo.printResults();
         
-        
-        
-        
-        
-        
-        //algo.marker.printMarker();
-        //algo.printInput();
-//        algo.runAlgo();
+
     }
     
 }

@@ -15,7 +15,8 @@ public class Individual {
     public Individual(int id, int minDepth, int maxDepth, int minRoot, int maxRoot) {
         this.id = id;
         this.nbOfRoot = minRoot + (int) ((maxRoot - minRoot) * Math.random());
-        this.history = new WebHistory(minDepth, maxDepth, this.nbOfRoot);//get he number from the window
+        //creation of the browsing history
+        this.history = new WebHistory(minDepth, maxDepth, this.nbOfRoot);
     }
 
     //FUNCTIONS
@@ -27,7 +28,7 @@ public class Individual {
         return this.history;
     }
 
-    public String toString() {
+    public String toString() {//printing function for debug
         return "Individual id = " + this.id + "\nHistory = " + this.history.toString();
     }
 
