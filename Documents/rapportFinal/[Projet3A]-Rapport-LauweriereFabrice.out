@@ -1,0 +1,31 @@
+\BOOKMARK [1][-]{section.1}{Introduction : \311tude bibliographique et d\351finition du sujet de recherche}{}% 1
+\BOOKMARK [2][-]{subsection.1.1}{Travaux sur l'utilisation des donn\351es de navigation}{section.1}% 2
+\BOOKMARK [2][-]{subsection.1.2}{La d\351tection de comportement atypique : parall\350le avec la g\351n\351tique}{section.1}% 3
+\BOOKMARK [1][-]{section.2}{G\351n\351ration des donn\351es de travail}{}% 4
+\BOOKMARK [2][-]{subsection.2.1}{Impossibilit\351 de r\351cup\351rer de vraies donn\351es}{section.2}% 5
+\BOOKMARK [2][-]{subsection.2.2}{R\351cup\351ration en ligne de donn\351es par un robot}{section.2}% 6
+\BOOKMARK [2][-]{subsection.2.3}{Cr\351ation d'historique pour un groupe d'individus}{section.2}% 7
+\BOOKMARK [3][-]{subsubsection.2.3.1}{Les racines pour des branches de navigation}{subsection.2.3}% 8
+\BOOKMARK [3][-]{subsubsection.2.3.2}{La profondeur des branches}{subsection.2.3}% 9
+\BOOKMARK [3][-]{subsubsection.2.3.3}{Le rep\352chage en cas de manque d'informations}{subsection.2.3}% 10
+\BOOKMARK [2][-]{subsection.2.4}{Classement des donn\351es par cat\351gories}{section.2}% 11
+\BOOKMARK [3][-]{subsubsection.2.4.1}{\311tablissement et indexation d'une liste des cat\351gories}{subsection.2.4}% 12
+\BOOKMARK [3][-]{subsubsection.2.4.2}{Pertinence du classement et des cat\351gories retenues}{subsection.2.4}% 13
+\BOOKMARK [2][-]{subsection.2.5}{L'insertion des cas atypiques}{section.2}% 14
+\BOOKMARK [1][-]{section.3}{Utilisation d'un algorithme de g\351n\351tique}{}% 15
+\BOOKMARK [2][-]{subsection.3.1}{Origine : \351volution g\351n\351tique et analyse de fichiers d'audits de s\351curit\351}{section.3}% 16
+\BOOKMARK [2][-]{subsection.3.2}{Fonctionnement de l'algorithme}{section.3}% 17
+\BOOKMARK [3][-]{subsubsection.3.2.1}{Quelques notations}{subsection.3.2}% 18
+\BOOKMARK [3][-]{subsubsection.3.2.2}{L'algorithme}{subsection.3.2}% 19
+\BOOKMARK [3][-]{subsubsection.3.2.3}{La fonction de s\351lection}{subsection.3.2}% 20
+\BOOKMARK [3][-]{subsubsection.3.2.4}{Utilisation de nombres binaires}{subsection.3.2}% 21
+\BOOKMARK [3][-]{subsubsection.3.2.5}{La r\351cup\351ration du\(des\) meilleur\(s\) r\351sultat}{subsection.3.2}% 22
+\BOOKMARK [2][-]{subsection.3.3}{Temps de calcul et complexit\351}{section.3}% 23
+\BOOKMARK [2][-]{subsection.3.4}{Validit\351 des r\351sultats}{section.3}% 24
+\BOOKMARK [2][-]{subsection.3.5}{Piste explor\351e sans succ\350s}{section.3}% 25
+\BOOKMARK [1][-]{section.4}{Perspectives d'am\351liorations}{}% 26
+\BOOKMARK [2][-]{subsection.4.1}{Parall\351lisation pour r\351duire le temps de calcul}{section.4}% 27
+\BOOKMARK [2][-]{subsection.4.2}{Interface graphique}{section.4}% 28
+\BOOKMARK [2][-]{subsection.4.3}{Diff\351rences entre les pays ?}{section.4}% 29
+\BOOKMARK [1][-]{section*.2}{Conclusion}{}% 30
+\BOOKMARK [1][-]{section*.3}{R\351f\351rences}{}% 31

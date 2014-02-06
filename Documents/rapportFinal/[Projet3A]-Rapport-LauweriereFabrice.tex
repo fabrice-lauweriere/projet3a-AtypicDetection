@@ -38,7 +38,7 @@ LAUWERIERE Fabrice
 \begin{minipage}{5cm}
 \begin{center}
 \textbf{Tutrice de projet :}\\
-BENMOUFEK Dominique
+BENMOUFFEK Dominique
 \end{center}
 \end{minipage}
 \end{center}
@@ -71,22 +71,22 @@ BENMOUFEK Dominique
 \subsection{Travaux sur l'utilisation des données de navigation}
 Une des particularités du début de ce projet a été le besoin de choisir et de définir l'objet de recherche du projet. En effet les seules directions données étaient qu'il devait se baser sur l'analyse de traces récupérer sur Internet ou bien sur des algorithme de recommandation pour de faible population.
 
-La première phase de ce projet a donc été une étude bibliographique afin de mieux cerner et de mieux comprendre les enjeux de ces domaines. L'élément déclencheur qui m'a fait choisir de travailler sur la détection de comportement atypique à partir des données de navigation internet d'un groupe d'individus a été la lecture d'une publication de Eugene A\textsc{gichtein} : \href{http://www.cse.lehigh.edu/academics/graduate-programs/graduate-computer-engineering/2-uncategorised/235-agichtein}{Mining Online User Behavior: from Improving Search to Detecting Cognitive Impairment}. Ce papier décrit l'idée d'utiliser et d'analyser le comportement d'individus sur internet pour tenter de repérer chez eux des signes de maladies cognitive comme la maladie d'Alzheimer.
+La première phase de ce projet a donc été une étude bibliographique afin de mieux cerner et de mieux comprendre les enjeux de ces domaines. L'élément déclencheur qui m'a fait choisir de travailler sur la détection de comportement atypique à partir des données de navigation internet d'un groupe d'individus a été la lecture d'une publication de Eugene A\textsc{gichtein} : \href{http://www.cse.lehigh.edu/academics/graduate-programs/graduate-computer-engineering/2-uncategorised/235-agichtein}{Mining Online User Behavior: from Improving Search to Detecting Cognitive Impairment}. Ce papier décrit l'idée d'utiliser et d'analyser le comportement d'individus sur internet pour tenter de repérer chez eux des signes de maladies cognitives comme la maladie d'Alzheimer.
 
 \subsection{La détection de comportement atypique : parallèle avec la génétique}
 
-Ayant déjà utiliser des algorithmes de génétique pour d'autres projet, j'ai pensé essayer d'adapter et d'identifier mon problème à un problème de génétique. Les avantages apportés par l'utilisation d'un algorithme de génétique sont tout d'abord la documentation par rapport à ces algorithmes puisqu'ils sont pour la plupart utilisés depuis assez longtemps. 
+Ayant déjà utilisé des algorithmes de génétique pour d'autres projet, j'ai pensé essayer d'adapter et d'identifier mon problème à un problème de génétique. Les avantages apportés par l'utilisation d'un algorithme de génétique sont tout d'abord la documentation par rapport à ces algorithmes puisqu'ils sont pour la plupart utilisés depuis assez longtemps. 
 
-La détection de mutations et de singularités est aussi un des principaux problèmes de la génétique et j'ai pensé qu'il serait possible de transposer le problème qui m'intéresse à un problème de génétique de ce type.
+La détection de mutations et de singularités est aussi un des principaux problèmes de la génétique et j'ai pensé qu'il serait possible de transposer le problème qui m'intéresse à un problème de génétique de ce type. Nous verrons un peu plus tard comment cette transposition a été faite.
 
 \section{Génération des données de travail}
 
 \subsection{Impossibilité de récupérer de vraies données}
 Pour pouvoir essayer de détecter un comportement atypique d'un individu au milieu d'une population qui elle aurait un comportement qu'on appellera normal, il faut avoir cette référence de la navigation internet classique d'un individu. Pour récupérer des historique de navigation, on peut penser soit les récupérer en les demandant à de vraies personnes mais l'inconvénient principal de cette technique est que l'on obtiendrait pas un nombre suffisant d'historiques pour pouvoir travailler dessus. 
 
-La seconde possibilité rapidement abandonnée était de récupérer ce historiques à l'insu des personnes concernées grâce à du spam. Cette solution sortant du cadre légal et étant assez complexe à tout de suite été écartée.\\
+La seconde possibilité rapidement abandonnée était de récupérer ces historiques à l'insu des personnes concernées grâce à du spam. Cette solution sortant du cadre légal et étant assez complexe à tout de suite été écartée.\\
 
-La solution restante est de générer des individus et leur historiques. Le problème principal devient alors la création d'historique de navigation plausible et le plus proche possible de la navigation qu'aurait un vrai être humain.
+La solution restante est de générer des individus et leurs historiques. Le problème principal devient alors la création d'historique de navigation plausible et le plus proche possible de la navigation qu'aurait un vrai être humain.
 
 \subsection{Récupération en ligne de données par un robot}
 
@@ -95,11 +95,11 @@ Les matières premières pour créer des historiques les plus réalistes possibl
 On a donc créer un robot qui récupère les informations voulues envoyant une requête HTTP et en parsant le code html de la page pour en extraire les information voulues. Ces informations sont ensuite stockées au fur et à mesure dans un fichier XML. Cette récupération se fait en plusieurs étapes comme décrit ci-après : \\
 \begin{itemize}
 \item[•] On récupère en premier le classement des 500 premiers sites les plus visités en France. (Remarque : On a utilisé la France mais il suffit de changer l'adresse de requête pour pouvoir travailler avec des données sur un autre pays)
-\item[•] Une fois que l'on a récupérer les 500 sites les plus visités et qu'ils sont stockés dans un XML par rang, on parcours ce fichier XML et pour chacun des sites on effectue une requête HTTP vers la page des informations détaillés sur ce site. On récupère alors dans le code html de la page les 10 parents dans la navigation qui sont les plus probables ainsi que leur pourcentage. Un parent dans la navigation est un site qu'un internaute a visité juste avant de visité le site en question. Le pourcentage cité est le pourcentage de gens arrivant sur ce site depuis le parent en question. On stocke chacun de ces parents dans le fichier XML
-\item[•] Sur la même page d'information détaillées sur chacun des 500 sites, on récupère aussi les principales catégories auxquelles le site appartient. Ces principales catégories sont également stockés dans le fichier XML à la suite des parents de navigation.
+\item[•] Une fois que l'on a récupéré les 500 sites les plus visités et qu'ils sont stockés dans un XML par rang, on parcours ce fichier XML et pour chacun des sites on effectue une requête HTTP vers la page des informations détaillés sur ce site. On récupère alors dans le code html de la page les 10 parents dans la navigation qui sont les plus probables ainsi que leur pourcentage. Un parent dans la navigation est un site qu'un internaute a visité juste avant de visiter le site en question. Le pourcentage cité est le pourcentage de gens arrivant sur ce site depuis le parent en question. On stocke chacun de ces parents dans le fichier XML
+\item[•] Sur la même page d'informations détaillées sur chacun des 500 sites, on récupère aussi les principales catégories auxquelles le site appartient. Ces principales catégories sont également stockées dans le fichier XML à la suite des parents de navigation.
 \end{itemize}~\\
 
-Avec une connexion internet d'environ 10 mega, le robot à besoin d'une douzaine de minutes pour récupérer toutes les informations voulues et les stocker. Voici un aperçu des information recueillies dans le XML pour un site internet.
+Avec une connexion internet d'environ 10 mega, le robot à besoin d'une douzaine de minutes pour récupérer toutes les informations voulues et les stocker. Voici un aperçu des informations recueillies dans le XML pour un site internet.
 
 \begin{figure}[h!]
 \center
@@ -123,7 +123,7 @@ Le programme demandera également à l'utilisateur de lui donner une profondeur 
 \item Ensuite il en résulte que si l'on choisi un parent qui ne figure pas dans la liste des 500 premiers sites les plus visités sur lesquels on possède des informations, on ne peux pas choisir un nouveau parent malgré le fait que l'on n'ait pas encore atteint la profondeur atteinte. On imagine alors un système de repêchage décrit ci-après.
 \end{itemize}
 
-\subsubsection{Le repêchage en cas de manque d'information}
+\subsubsection{Le repêchage en cas de manque d'informations}
 
 Si l'on est dans le cas décrit ci-avant où le dernier parent choisi dans la branche de navigation ne fait pas partie de la liste de sites pour lesquels on possède des informations, on défini un système de repêchage qui consiste à donner à la branche en question une chance de repartir sur un des 20 premiers sites les plus visité. Cette chance est proportionnelle à l'avancement dans la profondeur de la branche. Plus on est arrivé loin dans la branche et moins on a de chance d'être repêché.
 
@@ -133,11 +133,11 @@ Si la branche en question ne passe pas le repêchage, elle est arrêtée avant d
 
 \subsubsection{Établissement et indexation d'une liste des catégories}
 
-L'algorithme que l'on va utiliser et qui sera détaillé un peu plus loin dans ce rapport a besoin en entrée du nombre de site de chaque catégories pour tous les individus. Une fois que l'on a les données de navigation pour tous les individus, on créé alors en parcourant le fichier XML des 500 premiers site une liste de toutes les catégories de site possibles et on compte pour chaque utilisateur le nombre de sites de chaque catégories qu'il a visité.
+L'algorithme que l'on va utiliser et qui sera détaillé un peu plus loin dans ce rapport a besoin en entrée du nombre de site de chaque catégorie pour tous les individus. Une fois que l'on a les données de navigation pour tous les individus, on créé alors en parcourant le fichier XML des 500 premiers site une liste de toutes les catégories de site possibles et on compte pour chaque utilisateur le nombre de sites de chaque catégories qu'il a visité.
 
 \subsubsection{Pertinence du classement et des catégories retenues}
 
-On peut s'interroger sur la pertinence d'un tel classement par catégories. En effet les catégories récupérées sur le site \href{http://www.alexa.com/siteinfo}{Alexa.com} sont quelquefois peu commune en particulier lorsqu'il s'agit de site internet étrangers. Certaines catégories ne sont même pas écrite avec des caractères de l'alphabet latin. Cependant ce qui nous intéressera plus tard dans l'algorithme, se sera seulement si pour une ou plusieurs catégories, un ou plusieurs individu ont des comportement qui diffèrent beaucoup des autres. Étant donné cela, des catégories sans noms et simplement numérotées auraient suffis.
+On peut s'interroger sur la pertinence d'un tel classement par catégories. En effet les catégories récupérées sur le site \href{http://www.alexa.com/siteinfo}{Alexa.com} sont quelquefois peu commune en particulier lorsqu'il s'agit de site internet étrangers. Certaines catégories ne sont même pas écrites avec des caractères de l'alphabet latin. Cependant ce qui nous intéressera plus tard dans l'algorithme, se sera seulement si pour une ou plusieurs catégories, un ou plusieurs individu ont des comportement qui diffèrent beaucoup des autres. Étant donné cela, des catégories sans noms et simplement numérotées auraient suffis.
 
 La deuxième chose sur laquelle on peut avoir des doutes quand au classement par catégories, c'est la fait que tous les sites qui sont dans l'historique mais qui ne font pas partie des 500 premiers sur lesquels on a des infos ne seront pas classés. On peut relativiser cela par le fait que l'on ne rencontre ce cas que très rarement.
 
@@ -151,7 +151,7 @@ On a choisi de créer un comportement atypique en ajoutant à un individu sur un
 \section{Utilisation d'un algorithme de génétique}
 \subsection{Origine : évolution génétique et analyse de fichiers d'audits de sécurité}
 
-Comme cela a été mentionné plus haut, l'idée d'utiliser un algorithme de génétique pour détecter les comportement atypiques parait pertinente pour deux raison principale. Tout d'abord le fait qu'en génétique le problème de détection de mutation expliquant l'évolution d'une population peut être transposer à notre problème. La deuxième raison est que les algorithme de génétique sont depuis maintenant assez longtemps connus et ont été optimisés.
+Comme cela a été mentionné plus haut, l'idée d'utiliser un algorithme de génétique pour détecter les comportement atypiques parait pertinente pour deux raison principale. Tout d'abord le fait qu'en génétique le problème de détection de mutation expliquant l'évolution d'une population peut être transposé à notre problème. La deuxième raison est que les algorithmes de génétique sont depuis maintenant assez longtemps connus et ont été optimisés.
 
 Pour ce projet, une publication de Ludovic MÉ, \href{http://www.rennes.supelec.fr/ren/perso/lme/PUBLI/raid98.pdf}{\emph{GasSATA, a Genetic Algorithm as an Alternative Tool for Security Audit Trails Analysis}} a beaucoup aidé à comprendre l'algorithme et surtout à le transposer au problème traité puisque dans ce papier, l'algorithme génétique qui nous intéresse  a été transposer pour la résolution du problème de l'audit e fichiers de sécurité sur un système informatique. En résumé, on cherche dans ce problème la combinaison d'attaque la plus probable pour expliquer les fichiers d'audits.
 
@@ -188,7 +188,7 @@ Le but de l'algorithme est de maximisé le produit entre les matrices R et H tou
 
 Afin de rechercher la meilleure combinaison possible, on va définir une fonction dite de sélection pour chaque combinaison possible du vecteur H. Le but sera alors de trouver le maximum de cette fonction. Vu que ce que l'on cherche à maximiser est le produit R.H, le calcul de la fonction contiendra ce produit. 
 
-On va ensuite définir des pénalité qui vont faire diminuer la valeur prise par cette fonction dans les cas où certaines des catégories ne respectent pas l'inégalité. On aura une fonction de sélection de la forme suivante : \\
+On va ensuite définir des pénalités qui vont faire diminuer la valeur prise par cette fonction dans les cas où certaines des catégories ne respectent pas l'inégalité. On aura une fonction de sélection de la forme suivante : \\
 
 \begin{figure}[h!]
 \center
@@ -196,25 +196,25 @@ On va ensuite définir des pénalité qui vont faire diminuer la valeur prise pa
 \caption{Forme de la fonction de sélection}
 \end{figure}
 
-Ici la matrice I représente une des combinaison possible de la matrice H recherchée. $T_e$ représente le nombre de catégories qui ne respectent pas l'inégalité et qui entraîneront donc une pénalité. Cette pénalité est représenté par le produit $\beta T_e^2$. Le coefficient $\alpha$ sert à faire en sorte qu'à partir d'un certain nombre de catégorie pénalisées, la fonction renvoi une valeur négative et la solution I sera alors écartée. 
+Ici la matrice I représente une des combinaisons possibles de la matrice H recherchée. $T_e$ représente le nombre de catégories qui ne respectent pas l'inégalité et qui entraîneront donc une pénalité. Cette pénalité est représentée par le produit $\beta T_e^2$. Le coefficient $\alpha$ sert à faire en sorte qu'à partir d'un certain nombre de catégories pénalisées, la fonction renvoi une valeur négative et la solution I sera alors écartée. 
 
 \subsubsection{Utilisation de nombres binaires}
 
 Comme cela a déjà été dit précédemment, on ne testera pas tous les cas possible mais seulement les cas avec au plus 50\% d'individus atypique parmi le groupe.
 
-Toutes les combinaisons possible pour le vecteur H sont les représentation binaire des nombre allant de 0 à $2^{N_a}$. Parmi toutes ces possibilités, on ne teste donc que celles qui ont au plus $\frac{N_a}{2}$ 1 et le reste de 0.
+Toutes les combinaisons possible pour le vecteur H sont les représentation binaire des nombres allant de 0 à $2^{N_a}$. Parmi toutes ces possibilités, on ne teste donc que celles qui ont au plus $\frac{N_a}{2}$ 1 et le reste de 0.
 
 \subsubsection{La récupération du(des) meilleur(s) résultat}
 
 On récupère donc en sortie de l'algorithme toutes les combinaisons pour lesquelles la fonction de sélection est positive. Cela correspond à toutes les solutions où au moins un individu atypique a été détecté. 
 
-Dans la formule de la fonction de sélection, la puissance de $T_e$ sert justement à séparer les groupes de résultats en fonction du nombre d'individus atypiques détectés. Plus on détecte d'individus atypiques et plus la valeur prise par la fonction sera grande mais les valeurs prise par la fonction pour des cas où l'on détecte le même nombre d'atypiques seront proche.
+Dans la formule de la fonction de sélection, la puissance de $T_e$ sert justement à séparer les groupes de résultats en fonction du nombre d'individus atypiques détectés. Plus on détecte d'individus atypiques et plus la valeur prise par la fonction sera grande mais les valeurs prisent par la fonction pour des cas où l'on détecte le même nombre d'atypiques seront proche.
 
 On récupère donc le paquet de résultat le plus grand qui correspond aux combinaison ayant détecté le plus d'individus atypiques. Ensuite parmi ces différentes possibilités, il faut choisir la meilleure, c'est à dire celle qui ne considère pas en plus comme atypique des individus qui ne le sont pas. Ce sera donc la combinaison qui possède le moins de 1 possible parmi le groupe déjà présélectionné. Cela se traduit par la valeur la plus basse de la fonction de sélection dans ce groupe.
 
 \subsection{Temps de calcul et complexité}
 
-La complexité de cet algorithme est exponentielle.En effet le temps de calcul de cet algorithme dépend principalement du nombre d'individus dans le groupe que l'on souhaite tester. En effet, à chaque fois que l'on rajoute 1 individu supplémentaire, on multiplie le temps de calcul par 2 environ.
+La complexité de cet algorithme est exponentielle. En effet le temps de calcul de cet algorithme dépend principalement du nombre d'individus dans le groupe que l'on souhaite tester. En effet, à chaque fois que l'on rajoute 1 individu supplémentaire, on multiplie le temps de calcul par 2 environ.
 
 Ainsi compte tenu du fait que l'on à ici 410 catégories différentes, avec un processeur de 2,9 GHz et un mémoire de 8 Go, on obtient les temps de calcul suivants :
 
@@ -238,7 +238,7 @@ $N_a$ & Temps\\
 \caption{Tableau des temps de calcul en fonction du nombre d'individus}
 \end{figure}
 
-On peut donc à partir de là faire des estimations de ce temps de calcul si l'on considère de plus grand groupe d'individu.
+On peut donc à partir de là faire des estimations de ce temps de calcul si l'on considère des plus grands groupes d'individus.
 
 \begin{figure}[h!]
 \center
@@ -264,7 +264,7 @@ Par contre si on considère le cas plus réaliste d'une matrice de référence c
 
 \subsection{Piste explorée sans succès}
 
-Avant l'utilisation de l'algorithme ci-avant, il a été tenté de réalisé la détection à l'aide de fonctions de notations qui permettraient de noté le risque que représente chaque catégorie pour le comportement recherché en fonction du nombre de visite sur des sites de cette catégorie.
+Avant l'utilisation de l'algorithme ci-avant, il a été tenté de réaliser la détection à l'aide de fonctions de notations qui permettraient de noté le risque que représente chaque catégorie pour le comportement recherché en fonction du nombre de visite sur des sites de cette catégorie.
 
 L'avantage d'une telle approche est qu'il serait alors possible de faire la distinction entre différents types de comportement atypiques. Je ne suis pas parvenu à obtenir des résultats avec cette méthode et l'ai donc mise de côté mais je reste persuadé qu'il serait possible d'arriver à des détections plus précises.
 
@@ -294,7 +294,7 @@ Une piste intéressante pour l'utilisation d'un tel algorithme serait de faire l
 \vspace{1cm}
 
 
-Une des principale caractéristique de ce projet a été le choix au départ du sujet de recherche. Même si c'est un peu perturbant au départ, c'est une liberté non négligeable qui permet de concentrer ses recherches sur un sujet attrayant. Le principal apport a été l'apprentissage de l'adaptation d'une solution déjà existante pour un problème similaire à mon problème. La transposition du problème de détection de comportement atypique au problème de détection de mutation génétique persistante a été avec le codage de l'algorithme au c\oe ur du projet.
+Une des principales caractéristiques de ce projet a été le choix au départ du sujet de recherche. Même si c'est un peu perturbant au départ, c'est une liberté non négligeable qui permet de concentrer ses recherches sur un sujet attrayant. Le principal apport a été l'apprentissage de l'adaptation d'une solution déjà existante pour un problème similaire à mon problème. La transposition du problème de détection de comportement atypique au problème de détection de mutation génétique persistante a été avec le codage de l'algorithme au c\oe ur du projet.
 
 Ce projet m'a également beaucoup apporté en ce qui concerne l'amélioration de mes compétences techniques en java principalement mais aussi bien sûr en algorithmique. Ce sujet reste ouvert à beaucoup d'amélioration dont par exemple celles citées précédemment qui concernent principalement la diminution du temps de calcul ou encore l'amélioration de la précision de la détection.
 

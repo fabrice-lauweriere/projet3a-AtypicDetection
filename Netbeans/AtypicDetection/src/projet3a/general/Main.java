@@ -26,6 +26,7 @@ public class Main {
         //algo.printAlgoInput();
         
         algo.computeSelectionFunction();
+        algo.printResults();
         algo.sortSelection();
         algo.printResults();
         

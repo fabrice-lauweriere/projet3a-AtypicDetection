@@ -216,6 +216,7 @@ public class AlgoGenetic {
                     out+=k+", ";
                 }
             }
+            out+="\n";
         }
         System.out.println(out);
     }

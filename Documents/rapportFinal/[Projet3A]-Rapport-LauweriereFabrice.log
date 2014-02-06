@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  2 FEB 2014 23:38
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  3 FEB 2014 18:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1157,7 +1157,7 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 323.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 323.
 Package rerunfilecheck Info: File `[Projet3A]-Rapport-LauweriereFabrice.out' ha
 s not changed.
-(rerunfilecheck)             Checksum: 3570C490ABC92B54D112DE0E7631FB1C;2835.
+(rerunfilecheck)             Checksum: FF437FACC9DDB9B64B9C5F44F4596576;2836.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 323.
  ) 
 Here is how much of TeX's memory you used:
@@ -1167,7 +1167,7 @@ Here is how much of TeX's memory you used:
  11687 multiletter control sequences out of 15000+200000
  17208 words of font info for 46 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
- 30i,10n,43p,842b,405s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 30i,10n,43p,843b,405s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/local/texlive/2012/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
 </usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
 /usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></u
@@ -1183,7 +1183,7 @@ ve/2012/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/texlive
 012/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/201
 2/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2012/
 texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb>
-Output written on [Projet3A]-Rapport-LauweriereFabrice.pdf (13 pages, 307125 by
+Output written on [Projet3A]-Rapport-LauweriereFabrice.pdf (13 pages, 307183 by
 tes).
 PDF statistics:
  314 PDF objects out of 1000 (max. 8388607)
